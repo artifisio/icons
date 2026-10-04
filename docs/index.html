@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Artifisio Icons Registry</title>
 <style>
-  :root { --bg: #0b0d12; --fg: #e7e9ee; --muted: #98a2b3; --card: #151922; --ink: #e7e9ee; }
+  :root { --bg: #0b0d12; --fg: #e7e9ee; --muted: #98a2b3; --card: #151922; }
   * { box-sizing: border-box; }
   body { margin: 0; padding: 2rem 1.5rem 4rem; background: var(--bg); color: var(--fg);
          font: 15px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
@@ -24,10 +24,11 @@
   .set .meta { font-size: .82rem; margin-top: .2rem; }
   .set code { display: inline-block; margin-top: .6rem; padding: .3rem .55rem; border-radius: .4rem;
               background: var(--card); color: #9ecbff; font-size: .8rem; }
+  .palette { display: flex; gap: .75rem; flex-wrap: wrap; margin-top: .6rem; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: .5rem; }
   .icon { margin: 0; padding: .7rem .4rem .5rem; border-radius: .6rem; background: var(--card);
           text-align: center; overflow: hidden; }
-  .icon img { width: 28px; height: 28px; color: var(--ink); }
+  .icon img, .icon svg { width: 28px; height: 28px; }
   .icon figcaption { margin-top: .45rem; font-size: .68rem; color: var(--muted);
                      white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .set[hidden] { display: none; }
@@ -36,10 +37,9 @@
 <body>
 <header class="page">
   <h1>Artifisio Icons Registry</h1>
-  <p>9 sets · 692 icons · CC BY 4.0 · <a href="https://github.com/artifisio/icons" style="color:#9ecbff">source</a></p>
+  <p>10 sets · 726 icons · CC BY 4.0 · <a href="https://github.com/artifisio/icons" style="color:#9ecbff">source</a></p>
   <div class="controls">
     <input type="search" id="q" placeholder="Search sets by name or tag…" />
-    <label>Ink <input type="color" id="ink" value="#e7e9ee" /></label>
   </div>
 </header>
     <section class="set" data-name="bitmap bitmap-3 pixel retro lo-fi solid">
@@ -48,6 +48,9 @@
         <p>The core UI set rendered on a coarse pixel lattice — whole square pixels only, staircase diagonals, not one curve in the family.</p>
         <p class="meta">34 icons · 24px grid · 2px stroke</p>
         <code>npx artifisio add bitmap-3 --kind icon</code>
+        <div class="palette">
+          <label>Ink <input type="color" data-slot="ink" value="#000000" /></label>
+        </div>
       </header>
       <div class="grid">
         <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/home.svg" alt="home" loading="lazy" /><figcaption>home</figcaption></figure>
@@ -92,6 +95,11 @@
         <p>Every icon torn from tape and pressed down by hand — straight strips at crooked angles, ragged ends and honest overlaps.</p>
         <p class="meta">33 icons · 24px grid · 2px stroke</p>
         <code>npx artifisio add gaffer-2 --kind icon</code>
+        <div class="palette">
+          <label>Ink <input type="color" data-slot="ink" value="#0d0401" /></label>
+          <label>Accent 1 <input type="color" data-slot="accent-1" value="#43311d" /></label>
+          <label>Accent 2 <input type="color" data-slot="accent-2" value="#dda45a" /></label>
+        </div>
       </header>
       <div class="grid">
         <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/home.svg" alt="home" loading="lazy" /><figcaption>home</figcaption></figure>
@@ -135,6 +143,9 @@
         <p>The core UI set rendered on a coarse pixel lattice — whole square pixels only, staircase diagonals, not one curve in the family.</p>
         <p class="meta">34 icons · 24px grid · 2px stroke</p>
         <code>npx artifisio add bitmap-2 --kind icon</code>
+        <div class="palette">
+          <label>Ink <input type="color" data-slot="ink" value="#000000" /></label>
+        </div>
       </header>
       <div class="grid">
         <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/home.svg" alt="home" loading="lazy" /><figcaption>home</figcaption></figure>
@@ -179,6 +190,9 @@
         <p>A calm rounded outline family for health products — anatomy, clinics, diagnostics, fitness and everyday wellbeing.</p>
         <p class="meta">142 icons · 24px grid · 2px stroke</p>
         <code>npx artifisio add pulse --kind icon</code>
+        <div class="palette">
+          <label>Ink <input type="color" data-slot="ink" value="#020202" /></label>
+        </div>
       </header>
       <div class="grid">
         <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/heart.svg" alt="heart" loading="lazy" /><figcaption>heart</figcaption></figure>
@@ -331,6 +345,9 @@
         <p>A night-atlas icon family charted rather than drawn — every glyph is a constellation of bright star-dots joined by thin chart lines, for astronomy, sleep and wonder products.</p>
         <p class="meta">142 icons · 24px grid · 2px stroke</p>
         <code>npx artifisio add constellation --kind icon</code>
+        <div class="palette">
+          <label>Ink <input type="color" data-slot="ink" value="#030303" /></label>
+        </div>
       </header>
       <div class="grid">
         <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/whale.svg" alt="whale" loading="lazy" /><figcaption>whale</figcaption></figure>
@@ -483,6 +500,9 @@
         <p>An engineered outline icon family for developer, cloud and data products — code, infrastructure, networking, pipelines, devops and hardware.</p>
         <p class="meta">141 icons · 24px grid · 2px stroke</p>
         <code>npx artifisio add stack --kind icon</code>
+        <div class="palette">
+          <label>Ink <input type="color" data-slot="ink" value="#020202" /></label>
+        </div>
       </header>
       <div class="grid">
         <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/brackets.svg" alt="brackets" loading="lazy" /><figcaption>brackets</figcaption></figure>
@@ -628,12 +648,62 @@
         <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/speaker.svg" alt="speaker" loading="lazy" /><figcaption>speaker</figcaption></figure>
       </div>
     </section>
+    <section class="set" data-name="whiskers whiskers cat pets playful outline gpt2">
+      <header>
+        <h2>Whiskers</h2>
+        <p>A pet-app icon family where every single glyph has quietly grown a cat part — ears, a tail, a paw or whiskers.</p>
+        <p class="meta">34 icons · 24px grid · 2px stroke</p>
+        <code>npx artifisio add whiskers --kind icon</code>
+        <div class="palette">
+          <label>Ink <input type="color" data-slot="ink" value="#080808" /></label>
+        </div>
+      </header>
+      <div class="grid">
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/home.svg" alt="home" loading="lazy" /><figcaption>home</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/food-bowl.svg" alt="food-bowl" loading="lazy" /><figcaption>food-bowl</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/paw.svg" alt="paw" loading="lazy" /><figcaption>paw</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/collar.svg" alt="collar" loading="lazy" /><figcaption>collar</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/leash.svg" alt="leash" loading="lazy" /><figcaption>leash</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/scratching-post.svg" alt="scratching-post" loading="lazy" /><figcaption>scratching-post</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/litter-box.svg" alt="litter-box" loading="lazy" /><figcaption>litter-box</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/yarn-ball.svg" alt="yarn-ball" loading="lazy" /><figcaption>yarn-ball</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/mouse-toy.svg" alt="mouse-toy" loading="lazy" /><figcaption>mouse-toy</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/feather-wand.svg" alt="feather-wand" loading="lazy" /><figcaption>feather-wand</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/fish.svg" alt="fish" loading="lazy" /><figcaption>fish</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/treat-jar.svg" alt="treat-jar" loading="lazy" /><figcaption>treat-jar</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/water-drop.svg" alt="water-drop" loading="lazy" /><figcaption>water-drop</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/brush.svg" alt="brush" loading="lazy" /><figcaption>brush</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/vet-cross.svg" alt="vet-cross" loading="lazy" /><figcaption>vet-cross</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/syringe.svg" alt="syringe" loading="lazy" /><figcaption>syringe</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/pill.svg" alt="pill" loading="lazy" /><figcaption>pill</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/heart-rate.svg" alt="heart-rate" loading="lazy" /><figcaption>heart-rate</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/scale.svg" alt="scale" loading="lazy" /><figcaption>scale</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/calendar.svg" alt="calendar" loading="lazy" /><figcaption>calendar</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/clock.svg" alt="clock" loading="lazy" /><figcaption>clock</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/bell.svg" alt="bell" loading="lazy" /><figcaption>bell</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/camera.svg" alt="camera" loading="lazy" /><figcaption>camera</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/map-pin.svg" alt="map-pin" loading="lazy" /><figcaption>map-pin</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/tracker.svg" alt="tracker" loading="lazy" /><figcaption>tracker</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/message.svg" alt="message" loading="lazy" /><figcaption>message</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/phone.svg" alt="phone" loading="lazy" /><figcaption>phone</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/profile.svg" alt="profile" loading="lazy" /><figcaption>profile</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/shop.svg" alt="shop" loading="lazy" /><figcaption>shop</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/cart.svg" alt="cart" loading="lazy" /><figcaption>cart</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/tag.svg" alt="tag" loading="lazy" /><figcaption>tag</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/gift.svg" alt="gift" loading="lazy" /><figcaption>gift</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/star.svg" alt="star" loading="lazy" /><figcaption>star</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/whiskers/svg/moon.svg" alt="moon" loading="lazy" /><figcaption>moon</figcaption></figure>
+      </div>
+    </section>
     <section class="set" data-name="meltdown · gpt image 2 meltdown-gpt2 melting liquid playful ui gpt2">
       <header>
         <h2>Meltdown · GPT Image 2</h2>
         <p>A UI icon family caught mid-melt — every glyph sags, pools and drips, for festival, summer and heatwave products.</p>
         <p class="meta">34 icons · 24px grid · 2px stroke</p>
         <code>npx artifisio add meltdown-gpt2 --kind icon</code>
+        <div class="palette">
+          <label>Ink <input type="color" data-slot="ink" value="#070707" /></label>
+        </div>
       </header>
       <div class="grid">
         <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/home.svg" alt="home" loading="lazy" /><figcaption>home</figcaption></figure>
@@ -678,6 +748,11 @@
         <p>An engineering icon set drawn as a CAD detail — each part sits inside its own centre lines, extension lines and dimension arrows.</p>
         <p class="meta">34 icons · 24px grid · 2px stroke</p>
         <code>npx artifisio add drafting-table-nb2 --kind icon</code>
+        <div class="palette">
+          <label>Ink <input type="color" data-slot="ink" value="#0a1419" /></label>
+          <label>Accent 1 <input type="color" data-slot="accent-1" value="#4fa4c3" /></label>
+          <label>Accent 2 <input type="color" data-slot="accent-2" value="#b4e0ee" /></label>
+        </div>
       </header>
       <div class="grid">
         <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/bolt.svg" alt="bolt" loading="lazy" /><figcaption>bolt</figcaption></figure>
@@ -722,6 +797,9 @@
         <p>A geometric outline icon family covering the core UI vocabulary — navigation, actions, media, commerce and more.</p>
         <p class="meta">98 icons · 24px grid · 2px stroke</p>
         <code>npx artifisio add ui-essentials --kind icon</code>
+        <div class="palette">
+          <label>Ink <input type="color" data-slot="ink" value="#010101" /></label>
+        </div>
       </header>
       <div class="grid">
         <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/home.svg" alt="home" loading="lazy" /><figcaption>home</figcaption></figure>
@@ -832,10 +910,16 @@
       el.hidden = !!term && !el.dataset.name.includes(term)
     }
   })
-  // Icons ship as fill="var(--artf-ink, currentColor)", so the color property alone re-inks them.
-  document.getElementById('ink').addEventListener('input', (e) => {
-    document.documentElement.style.setProperty('--ink', e.target.value)
-  })
+  // CSS vars never reach inside an <img>, so swap each one for its inline SVG.
+  for (const img of document.querySelectorAll('.icon img')) {
+    fetch(img.src)
+      .then((res) => (res.ok ? res.text() : null))
+      .then((svg) => svg && (img.outerHTML = svg))
+      .catch(() => {})
+  }
+  for (const input of document.querySelectorAll('.palette input')) {
+    input.addEventListener('input', () => input.closest('.set').style.setProperty('--artf-' + input.dataset.slot, input.value))
+  }
 </script>
 </body>
 </html>

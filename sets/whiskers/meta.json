@@ -1,0 +1,518 @@
+{
+  "slug": "whiskers",
+  "name": "Whiskers",
+  "description": "A pet-app icon family where every single glyph has quietly grown a cat part — ears, a tail, a paw or whiskers.",
+  "tags": [
+    "cat",
+    "pets",
+    "playful",
+    "outline",
+    "gpt2"
+  ],
+  "count": 34,
+  "kind": "icon",
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "attributionRequired": true,
+    "attribution": "Icons by Artifisio (https://artifisio.com)",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "provenance": {
+    "source": "generated",
+    "model": "gpt-image-2"
+  },
+  "grid": 24,
+  "stroke": 2,
+  "palette": [
+    {
+      "slot": "ink",
+      "label": "Ink",
+      "hex": "#080808",
+      "role": "themeable"
+    }
+  ],
+  "preview": "preview.svg",
+  "sprite": {
+    "file": "sprite.svg",
+    "sha256": "7b1bfa9b20f425fefd52667e649ebcd7aab1672be9b806b533ebef1a2eea20c8",
+    "bytes": 198500
+  },
+  "icons": [
+    {
+      "slug": "home",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/home.svg",
+          "sha256": "1467730c9a7c6bf950ed997ac81341b866885727128fbb5147f9dc7473017a88",
+          "bytes": 5413,
+          "width": 24,
+          "cssVarSha256": "564ae66e80b93d7e0e2003f41786da4f3d11fbb6b1c5ebb3e0cc9fe0a7af2725"
+        }
+      }
+    },
+    {
+      "slug": "food-bowl",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/food-bowl.svg",
+          "sha256": "a487f683436dc0cca101ed0bce4b3a60ce11bddb6ec22dec92823b5aef57005c",
+          "bytes": 5691,
+          "width": 24,
+          "cssVarSha256": "2aa72b5ca76dbe13b58549a2bc1bd356fffb731657db52fdca43d9ceae3c7564"
+        }
+      }
+    },
+    {
+      "slug": "paw",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/paw.svg",
+          "sha256": "34395e38d289ed65023b83f9a0c525a0a7d49e02a59f0fe813b59d3523debdc0",
+          "bytes": 5064,
+          "width": 24,
+          "cssVarSha256": "19a2b6e83a18ab578fc55dd16b238f8e675ea00fe0cdf04f01c814814801508e"
+        }
+      }
+    },
+    {
+      "slug": "collar",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/collar.svg",
+          "sha256": "3367bec973ebaee2526d02f2c8f9416441f47d9af8ba1266f9d16872db57cba8",
+          "bytes": 6480,
+          "width": 24,
+          "cssVarSha256": "1cbda940ff8784858a3ae91c48f5d197da18a048f960491defb0070d93956f41"
+        }
+      }
+    },
+    {
+      "slug": "leash",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/leash.svg",
+          "sha256": "f1c8336da1bcef6b7370a3bc71edb7c00f5c44533853e724d9f3ac3e8473f1c1",
+          "bytes": 8640,
+          "width": 24,
+          "cssVarSha256": "c5d3d9522f3bc8b786df9fb1fcb55ce18367260503a4529ddcc1c38070a1f42f"
+        }
+      }
+    },
+    {
+      "slug": "scratching-post",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/scratching-post.svg",
+          "sha256": "685d3ef8a8db7cdf6d40db0e11b2bb2d30d188db1523885603eddb7442d07a1d",
+          "bytes": 8700,
+          "width": 24,
+          "cssVarSha256": "9e7255ce6875c05cffb683c9e0f3dd9b7fcdfd5c965769b0089979eed8672e6b"
+        }
+      }
+    },
+    {
+      "slug": "litter-box",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/litter-box.svg",
+          "sha256": "db86f5e6f71f28ff0e5286051b804f16f9e7193d02c202dbebdf6b9daea84838",
+          "bytes": 7854,
+          "width": 24,
+          "cssVarSha256": "df4aee64def6c6601493d0e5a11a2544436cda4451ee4b85376f5cc1ca248e77"
+        }
+      }
+    },
+    {
+      "slug": "yarn-ball",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/yarn-ball.svg",
+          "sha256": "684130f4e7171294dc5d9c4d1caa3b1bf7cdacf21d8e3e1ead15c6836f5c824e",
+          "bytes": 10553,
+          "width": 24,
+          "cssVarSha256": "d26ffb8313f4db833091d153c3b7ed469dafb0b15736de39c8faa427458f5cf7"
+        }
+      }
+    },
+    {
+      "slug": "mouse-toy",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/mouse-toy.svg",
+          "sha256": "d5e80a4d384b357da3e2e76d39ad22f7b69f809ceda2f5aba9b87764db29d8cb",
+          "bytes": 3766,
+          "width": 24,
+          "cssVarSha256": "eee7c8e0708cc6cf823fa272be58130ac95ad9f82e62655ee9580be266b3638b"
+        }
+      }
+    },
+    {
+      "slug": "feather-wand",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/feather-wand.svg",
+          "sha256": "4c9be9b2cd9a29e8907455323789034ccf07334cae17c759d5362c7fe6accd03",
+          "bytes": 7031,
+          "width": 24,
+          "cssVarSha256": "b5a50fca2ddfc9df4f956bf9507a894ac481b0b8f388c02abdd428a585ae5c33"
+        }
+      }
+    },
+    {
+      "slug": "fish",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/fish.svg",
+          "sha256": "ce21a3d6213ef292d5b9e5ffd183c253fc4a2e8330df69326328249a40842b25",
+          "bytes": 5480,
+          "width": 24,
+          "cssVarSha256": "49b696dcdfd724ddfd678bd539ff82dd96cd8b70c6ce76186346a0b14b2d524a"
+        }
+      }
+    },
+    {
+      "slug": "treat-jar",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/treat-jar.svg",
+          "sha256": "d5a36aea1bc9029452735aec6b5ed6ac9b38df76179c8852f6cf60cbc4f21808",
+          "bytes": 9262,
+          "width": 24,
+          "cssVarSha256": "8258bd00e9a51d1cb03bd4bfa56bfb0d9c1443422b7588077ee8bcd8280ff2b1"
+        }
+      }
+    },
+    {
+      "slug": "water-drop",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/water-drop.svg",
+          "sha256": "dc5a352b9059919585c73b85ac552b8ec3daa1fe7939273719092b39b03ce550",
+          "bytes": 3417,
+          "width": 24,
+          "cssVarSha256": "355c9d67fc77cbe783ec8a409abe131fd6c35c82d40dfc61f080e6c618e3a603"
+        }
+      }
+    },
+    {
+      "slug": "brush",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/brush.svg",
+          "sha256": "af70de1b4f081bb25d78b04b1819fd86e3ec210594afcbe6d69d9dad37fae1cf",
+          "bytes": 7482,
+          "width": 24,
+          "cssVarSha256": "9ca62ce5c812858d42d3833d1ffb44d65ddac03cfec9fa59bb36c953bb794f77"
+        }
+      }
+    },
+    {
+      "slug": "vet-cross",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/vet-cross.svg",
+          "sha256": "81a9119b23bc97b98dcf922f0eddcaecff211a51f72f852838ae35c12c6ff31c",
+          "bytes": 6728,
+          "width": 24,
+          "cssVarSha256": "2bb3bc9282691bf65a03f8d47df45fd1a877c8749c796b0847de12af14799d14"
+        }
+      }
+    },
+    {
+      "slug": "syringe",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/syringe.svg",
+          "sha256": "3507bdd6c344754065b7650e7d50c52d7c0d3d6320ea6da7839ce561ed251b40",
+          "bytes": 6275,
+          "width": 24,
+          "cssVarSha256": "dbdd7b757cea2055e7e1eb26f68bb7b430fdc99c87735ac611acd0e13ee102bb"
+        }
+      }
+    },
+    {
+      "slug": "pill",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/pill.svg",
+          "sha256": "b45b67847e4acf88c0b334b55abfaf935f2151c4e97d4646ebd78a9997d970d3",
+          "bytes": 4594,
+          "width": 24,
+          "cssVarSha256": "b0aa9a90ced642ede8bd598914d42b9a550e03c5dabd3663fd991a61d88fb8c0"
+        }
+      }
+    },
+    {
+      "slug": "heart-rate",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/heart-rate.svg",
+          "sha256": "87e1811cdbc812e8fd51ad028ca66d56148ce2ef98a631b95543c465882f4e4e",
+          "bytes": 5868,
+          "width": 24,
+          "cssVarSha256": "fae6b6fafc5500545926567eb73dec1655fcdd94d4d0c18145e85568d7b4cebc"
+        }
+      }
+    },
+    {
+      "slug": "scale",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/scale.svg",
+          "sha256": "2b554aa5350074558db23ac46f3b2240c06e92b9c433156f9c9b36b055d4ea40",
+          "bytes": 4460,
+          "width": 24,
+          "cssVarSha256": "2d4182323925532fe701295660cfc098942193487158212f5222656668083ea8"
+        }
+      }
+    },
+    {
+      "slug": "calendar",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/calendar.svg",
+          "sha256": "13eb1487afbe2c9b4e5624761a055983a76d8d7e8c915eacb2969a631e7ec9f0",
+          "bytes": 4538,
+          "width": 24,
+          "cssVarSha256": "26625e499ed2eb60dd964e584965bfc6f66dd1c614e059242e876d288712977f"
+        }
+      }
+    },
+    {
+      "slug": "clock",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/clock.svg",
+          "sha256": "2d6b9df68136e3eaec1d2d58fe9554831b8fa04fd172cce4c95e27ae2ed2efac",
+          "bytes": 5075,
+          "width": 24,
+          "cssVarSha256": "aaca215134f82ce2e14386d4913ead49dc65688191da1032f77f52a43ce068e8"
+        }
+      }
+    },
+    {
+      "slug": "bell",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/bell.svg",
+          "sha256": "db98038844104b95878e1c18915b41b1b072fabe9a33e3df31030a998abaf4b4",
+          "bytes": 5073,
+          "width": 24,
+          "cssVarSha256": "f862b10045375876bad06754b9298701606e5581a20eb70ebca4ce6eda3363b0"
+        }
+      }
+    },
+    {
+      "slug": "camera",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/camera.svg",
+          "sha256": "f31709d1790986179036d14212835ef5c132220dab2caed858973674acd64691",
+          "bytes": 5022,
+          "width": 24,
+          "cssVarSha256": "5a4befab117a208c86554b0f795fe3683f0346860a8df2f23807cbba2891820f"
+        }
+      }
+    },
+    {
+      "slug": "map-pin",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/map-pin.svg",
+          "sha256": "debf71f20fcf17f8beee5b44d99cd4b0c159509734295502cabfb104555dd542",
+          "bytes": 4639,
+          "width": 24,
+          "cssVarSha256": "2e957f70f5671e8e648e20aea57fcc59fccf640032f4a402cd517926e318a6da"
+        }
+      }
+    },
+    {
+      "slug": "tracker",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/tracker.svg",
+          "sha256": "fcd046eb45cea8a2c0ad164ead965c8095cc24e889f866a96c75fc776b5790ef",
+          "bytes": 7162,
+          "width": 24,
+          "cssVarSha256": "eb99822e3529943ad536583d0eb582e633da27dd3c96604116dacb420480368d"
+        }
+      }
+    },
+    {
+      "slug": "message",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/message.svg",
+          "sha256": "14e6cc001a22ffdd652101123b48eacb594e0efd213dc80697e122465405c331",
+          "bytes": 3435,
+          "width": 24,
+          "cssVarSha256": "aebd3e18fdd169d907ae1617a7d740f03bd47d795eaef81145ccdf622bbe9565"
+        }
+      }
+    },
+    {
+      "slug": "phone",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/phone.svg",
+          "sha256": "f1db862386a84429ac4ab06c1eec81bdb340acca472cab2125c06730128aa4fa",
+          "bytes": 3909,
+          "width": 24,
+          "cssVarSha256": "480f38860f105afe28129e900568a133f203d2c149654be50b7d793381c89f7f"
+        }
+      }
+    },
+    {
+      "slug": "profile",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/profile.svg",
+          "sha256": "62177426f798d2e57ff4f707a0da1dd448ffe86c7554cab696b2b0f5d2c20fec",
+          "bytes": 5101,
+          "width": 24,
+          "cssVarSha256": "7d52d75b9a931a9d6a7d94183d4ddea7a513eb267f400d9009a3b4df407ab9ad"
+        }
+      }
+    },
+    {
+      "slug": "shop",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/shop.svg",
+          "sha256": "d807c59be4fdf07e268ebf75f07e63bbea866a1e5f7c9d93306b2ed11a09f3cd",
+          "bytes": 6273,
+          "width": 24,
+          "cssVarSha256": "1ba047a4939cc3bc432b6c8ca13686ba7f157f957aa11c3d99659a67308370f1"
+        }
+      }
+    },
+    {
+      "slug": "cart",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/cart.svg",
+          "sha256": "77e6415b1f06d0b0fdb8cd50285820ef15f2699f025a90620440cda74d68c0b4",
+          "bytes": 6315,
+          "width": 24,
+          "cssVarSha256": "211831eef4f0117002b6ab6d88e8ba52b72a4a213aaaea22a22811c4260a2679"
+        }
+      }
+    },
+    {
+      "slug": "tag",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/tag.svg",
+          "sha256": "b20aa9aeab50f7e9eaa9efe8133dbb3e50a590de6a3c5cc69ec1f23ca25403b5",
+          "bytes": 5788,
+          "width": 24,
+          "cssVarSha256": "daac91e714896c4466da9891e599551a5068116b3b5be5afc2790ea6954af4c7"
+        }
+      }
+    },
+    {
+      "slug": "gift",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/gift.svg",
+          "sha256": "18ca50f903bfab2f12da95f02b15c3cf9ca827ba0963fbe55acf41bbad6122ac",
+          "bytes": 6080,
+          "width": 24,
+          "cssVarSha256": "8b5bdd69ed0ace1906449d732ca1dfed8ec406a883e623bfc6d4960577a232da"
+        }
+      }
+    },
+    {
+      "slug": "star",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/star.svg",
+          "sha256": "1c95484ab34d43a67ee1821fd602c3489f7288329b6156f5333c36b3e88649f2",
+          "bytes": 6085,
+          "width": 24,
+          "cssVarSha256": "54fd7c1a49c4a84d860fafd996164fd64db074a1cbbd5c8f9055943bc29ddf61"
+        }
+      }
+    },
+    {
+      "slug": "moon",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/moon.svg",
+          "sha256": "7023ded03135c65f44423c83967710a797e74b6b1dbc041d5d95e0acfb3e04f9",
+          "bytes": 3574,
+          "width": 24,
+          "cssVarSha256": "f1958211c4e66dcbb12f1933590ac9a15418b8d649f1ee307f7ddcae0eb4e6a6"
+        }
+      }
+    }
+  ]
+}

@@ -6,36 +6,6 @@ This repository is the **open-source icon registry** for [Artifisio](https://art
 
 ---
 
-## ✨ Featured sets
-
-Every icon is a themeable SVG on a consistent grid — click any set to browse the full collection.
-
-<p align="center">
-<a href="sets/bitmap-3"><img src="sets/bitmap-3/preview.svg" width="640" alt="Bitmap" /></a>
-<br />
-<strong><a href="sets/bitmap-3">Bitmap</a></strong><br />
-<sub>34 icons · 24px grid · pixel · retro · lo-fi · solid</sub><br /><br />
-<code>npx artifisio add bitmap-3 --kind icon</code>
-</p>
-
-<p align="center">
-<a href="sets/gaffer-2"><img src="sets/gaffer-2/preview.svg" width="640" alt="Gaffer" /></a>
-<br />
-<strong><a href="sets/gaffer-2">Gaffer</a></strong><br />
-<sub>33 icons · 24px grid · tape · collage · handmade · duotone</sub><br /><br />
-<code>npx artifisio add gaffer-2 --kind icon</code>
-</p>
-
-<p align="center">
-<a href="sets/bitmap-2"><img src="sets/bitmap-2/preview.svg" width="640" alt="Bitmap" /></a>
-<br />
-<strong><a href="sets/bitmap-2">Bitmap</a></strong><br />
-<sub>34 icons · 24px grid · pixel · retro · lo-fi · solid</sub><br /><br />
-<code>npx artifisio add bitmap-2 --kind icon</code>
-</p>
-
----
-
 ## Install via CLI
 
 ```bash
@@ -59,7 +29,7 @@ Icons land in `./public/icons/<set-slug>/`. The CLI writes a `.artifisiorc.json`
 <img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/<set-slug>/svg/<icon>.svg" width="24" />
 ```
 
-Pin to a registry release for reproducible builds: `https://cdn.jsdelivr.net/gh/artifisio/icons@v2026.10.04-1403-0aa34af/sets/<set-slug>/svg/<icon>.svg`.
+Pin to a registry release for reproducible builds: `https://cdn.jsdelivr.net/gh/artifisio/icons@v2026.10.04-1740-3f7e2e4/sets/<set-slug>/svg/<icon>.svg`.
 
 ---
 
@@ -76,7 +46,7 @@ Duotone sets expose `ink` plus measured `accent-*` slots; every slot is listed i
 
 ---
 
-## Available sets (9 sets · 692 icons)
+## Available sets (10 sets · 726 icons)
 
 | Name | Slug | Icons | Grid | Stroke | Themeable slots | Tags |
 | ---- | ---- | ----- | ---- | ------ | --------------- | ---- |
@@ -86,6 +56,7 @@ Duotone sets expose `ink` plus measured `accent-*` slots; every slot is listed i
 | [Pulse](sets/pulse) | `pulse` | 142 | 24px | 2 | ink | health, medical, wellness, outline |
 | [Constellation](sets/constellation) | `constellation` | 142 | 24px | 2 | ink | stars, night, celestial, outline |
 | [Stack](sets/stack) | `stack` | 141 | 24px | 2 | ink | developer, cloud, data, outline |
+| [Whiskers](sets/whiskers) | `whiskers` | 34 | 24px | 2 | ink | cat, pets, playful, outline, gpt2 |
 | [Meltdown · GPT Image 2](sets/meltdown-gpt2) | `meltdown-gpt2` | 34 | 24px | 2 | ink | melting, liquid, playful, ui, gpt2 |
 | [Drafting Table · Nano Banana 2 (Flash)](sets/drafting-table-nb2) | `drafting-table-nb2` | 34 | 24px | 2 | ink, accent-1, accent-2 | blueprint, technical, engineering, duotone, nb2 |
 | [UI Essentials](sets/ui-essentials) | `ui-essentials` | 98 | 24px | 2 | ink | ui, outline, essentials |
@@ -104,7 +75,7 @@ All icons here are licensed under [CC BY 4.0](LICENSE): use them commercially, m
 
 | Field | Value |
 | --- | --- |
-| Registry version | `2026.10.04-1403-0aa34af` |
+| Registry version | `2026.10.04-1740-3f7e2e4` |
 | CLI | [`artifisio`](https://www.npmjs.com/package/artifisio) |
 | License | [CC BY 4.0](LICENSE) |
 | Other kinds | [`index.json`](index.json) lists every per-kind registry (illustrations, fonts) |
