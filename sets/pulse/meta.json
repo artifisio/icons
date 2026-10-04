@@ -1,0 +1,2029 @@
+{
+  "slug": "pulse",
+  "name": "Pulse",
+  "description": "A calm rounded outline family for health products — anatomy, clinics, diagnostics, fitness and everyday wellbeing.",
+  "tags": [
+    "health",
+    "medical",
+    "wellness",
+    "outline"
+  ],
+  "count": 142,
+  "kind": "icon",
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "attributionRequired": true,
+    "attribution": "Icons by Artifisio (https://artifisio.com)",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "provenance": {
+    "source": "generated",
+    "model": "gemini-3.1-flash-image-preview"
+  },
+  "grid": 24,
+  "stroke": 2,
+  "palette": [
+    {
+      "slot": "ink",
+      "label": "Ink",
+      "hex": "#020202",
+      "role": "themeable"
+    }
+  ],
+  "preview": "preview.svg",
+  "sprite": {
+    "file": "sprite.svg",
+    "sha256": "ea57292ad11009da9dec2282ffd495726b54fb68148cfa2ae686c37161d37bf1",
+    "bytes": 806956
+  },
+  "icons": [
+    {
+      "slug": "heart",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/heart.svg",
+          "sha256": "9dbec36eb3cce161d019f15bb212c50c9cf9158bf7aaa82578b4c5d42aa720b7",
+          "bytes": 6558,
+          "width": 24,
+          "cssVarSha256": "a7084f6c4e10b58cf6e489bd1538be11707d17caba824c3e660d9dc33912b268"
+        }
+      }
+    },
+    {
+      "slug": "lungs",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/lungs.svg",
+          "sha256": "9dc09049aefb7aef4184d525d69f48e3e1819a089e22da2f405b873b226fb0a4",
+          "bytes": 6719,
+          "width": 24,
+          "cssVarSha256": "d68041d3cf1021abfb7098143052ca306638ced2744fe06f3206b6ffef26ee0b"
+        }
+      }
+    },
+    {
+      "slug": "brain",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/brain.svg",
+          "sha256": "db4f49be807515e3415a4931b46c675c433ab30cf3e5f8842e0779be86d9af8f",
+          "bytes": 10850,
+          "width": 24,
+          "cssVarSha256": "5ef45ab0f30e33b44e50acdbd283bc3a1bf793ee5edf361c548f3e794e3568c3"
+        }
+      }
+    },
+    {
+      "slug": "stomach",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/stomach.svg",
+          "sha256": "58f4b45b1d9101b4948aeaebe400637630128805d1469baf9584e482dbe52edf",
+          "bytes": 4117,
+          "width": 24,
+          "cssVarSha256": "9449446ce6802ce3d326b8dc30d76385301da50bd689c412ff6bf026404011c0"
+        }
+      }
+    },
+    {
+      "slug": "kidney",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/kidney.svg",
+          "sha256": "7595278d827a0392f7e689c3223ea64ccc385f0421bef11634a0de61261c0d99",
+          "bytes": 4765,
+          "width": 24,
+          "cssVarSha256": "145c7461af36f86e252d85c3e9010a3dc8dedf878a464719c7576f622b8d8342"
+        }
+      }
+    },
+    {
+      "slug": "liver",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/liver.svg",
+          "sha256": "bbae04e653497b4392ce145bfa79b5341761f143ff7ba4e191ef5a2994ac092e",
+          "bytes": 3374,
+          "width": 24,
+          "cssVarSha256": "3f9c598f320ffcb3565527f7f63d20b3e14ac8a90b2c12f6383a05acca4417e7"
+        }
+      }
+    },
+    {
+      "slug": "intestine",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/intestine.svg",
+          "sha256": "4c5d333ba4bd34ac2b1e641a3b669c89d7eea198b59b66f08b34a2e8e2eef09c",
+          "bytes": 10928,
+          "width": 24,
+          "cssVarSha256": "a0c7da47291c054b035d020f2f565b30e50a7d2306bd1782a80f9a9b3e029696"
+        }
+      }
+    },
+    {
+      "slug": "bone",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/bone.svg",
+          "sha256": "e1a3f2d9cf8f1b9058d020a8b8696b248722c864bea1162a4be425e2b1f11e15",
+          "bytes": 2488,
+          "width": 24,
+          "cssVarSha256": "9d630e3c123d4ad40e11e6a28145ee26e471a8d19a506845d50164d14f3cb220"
+        }
+      }
+    },
+    {
+      "slug": "knee-joint",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/knee-joint.svg",
+          "sha256": "b3a0679b5256ed8b4f59c499864b1c658fbd5371b0da73cdb27d20e8ff434c7e",
+          "bytes": 4059,
+          "width": 24,
+          "cssVarSha256": "03ba45dd44a4c9bbf53898d4dd763e3515a2bfdd8afd4d9480e0bb5b50b806ef"
+        }
+      }
+    },
+    {
+      "slug": "tooth",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/tooth.svg",
+          "sha256": "67319512c5ab7c98ca19a88e3e586104ebd6ef5846cb8f6a5d1059fb54bf9e8a",
+          "bytes": 4550,
+          "width": 24,
+          "cssVarSha256": "6ef67881fc509b184fa61ab9affa52e2fab685ca7b122dcf372e28ba9909cf9e"
+        }
+      }
+    },
+    {
+      "slug": "eye",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/eye.svg",
+          "sha256": "4613ffbc4042d5072623e726138c715cbb11e97a2050d2a1ea8a2b348e3be269",
+          "bytes": 4373,
+          "width": 24,
+          "cssVarSha256": "2c599a3a2cf2f220b6448c11c8d8203e79b06db792f0178ee52a31848fc5d783"
+        }
+      }
+    },
+    {
+      "slug": "ear",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/ear.svg",
+          "sha256": "ffb3069a737cc224b52edcf9764fb40fa5131873713d4ab539e401404998832e",
+          "bytes": 4269,
+          "width": 24,
+          "cssVarSha256": "8e3f0b2c95bdac45c3f5e96e7ddf3854f602bd7f596b8535781131ef5135171e"
+        }
+      }
+    },
+    {
+      "slug": "spine",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/spine.svg",
+          "sha256": "147416f1b2dc379628e7698b98cd4c6c4c5a0f4b4c44ab01533f290f7fddf82e",
+          "bytes": 7043,
+          "width": 24,
+          "cssVarSha256": "b37652164203a13690e1d69b17d98e2a9cb017001572f37d9a442f778cf1ef25"
+        }
+      }
+    },
+    {
+      "slug": "muscle",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/muscle.svg",
+          "sha256": "4cce34f618ea22aff977010dc05c7d3d3ffe92c04b998ac690a29aab2743e5c2",
+          "bytes": 4821,
+          "width": 24,
+          "cssVarSha256": "ef60e09a246d318b13f802bed6d92d40a5873e69810b598539077c4972b715f1"
+        }
+      }
+    },
+    {
+      "slug": "dna",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/dna.svg",
+          "sha256": "a89540fdf72bb8fc3eb83fdcee2ec069b70257a4d58683d55971117af964427c",
+          "bytes": 6832,
+          "width": 24,
+          "cssVarSha256": "d011b97f112c9e634111ccd9016e8c5f0b8ef2f93c184ab08e6cf42a35b1bee0"
+        }
+      }
+    },
+    {
+      "slug": "cell",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/cell.svg",
+          "sha256": "60008a5e186a765fec25fa28b5a8a88bfbeb7178d47b9dfbb937878547a9d966",
+          "bytes": 8432,
+          "width": 24,
+          "cssVarSha256": "23001108043b0417f979445cf51bd7dae3a04ae4c4d243bf3a7a0762ba56893c"
+        }
+      }
+    },
+    {
+      "slug": "virus",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/virus.svg",
+          "sha256": "2093507ce351d673eb8fac45ea18da2737e5377678dcbbe57ff65f10b5516fd2",
+          "bytes": 8840,
+          "width": 24,
+          "cssVarSha256": "b087f9b76a08b997750039c0f85f55667f5c399ef520a19ff73c2ea28b2bc847"
+        }
+      }
+    },
+    {
+      "slug": "bacteria",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/bacteria.svg",
+          "sha256": "258f1035bae41a0c046a9066a563c0bf75b69ff4cd09c3b2e52bc794e017c0c4",
+          "bytes": 8266,
+          "width": 24,
+          "cssVarSha256": "e0caf716a6a90194531b176840b0d448acc3f6f21fe79ec5708cf78ab8191f05"
+        }
+      }
+    },
+    {
+      "slug": "blood-cells",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/blood-cells.svg",
+          "sha256": "6b44fdcf4053f69aec639ae05ab4f341f45a031e254a2ba1852b1c0b2a2bd46a",
+          "bytes": 6318,
+          "width": 24,
+          "cssVarSha256": "d2e3b6c2b849b0227ff0062499e4a423bda5e0d429b718c7483c27c9e7007873"
+        }
+      }
+    },
+    {
+      "slug": "pregnancy",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/pregnancy.svg",
+          "sha256": "c89c96aa220d0a5f8322dd188c645db7f7ff3c71c771c78fc636f3e73cdd6129",
+          "bytes": 4654,
+          "width": 24,
+          "cssVarSha256": "4b2fe24f8917fac77929a3c4e35dcc00321dae5a7a068a615c5cb20c44ff44a4"
+        }
+      }
+    },
+    {
+      "slug": "rib-cage",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/rib-cage.svg",
+          "sha256": "5683f449151dee69182b4285cfd74934e512d94932312ed62cd3ba9dfc24acb8",
+          "bytes": 15156,
+          "width": 24,
+          "cssVarSha256": "08a2f4e356f3e6bbcdd842cccfb5092688e89460d922eb56331dc91ecae6569b"
+        }
+      }
+    },
+    {
+      "slug": "skull",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/skull.svg",
+          "sha256": "3c68d24a571e3c9e4dc3ae08e66797710efacaaa280e2eccbe4e39b7a41ed902",
+          "bytes": 5698,
+          "width": 24,
+          "cssVarSha256": "7f67b5c59b4749c33a81a9772c902ee93c1f4f169a12d9afdda9767fc269e962"
+        }
+      }
+    },
+    {
+      "slug": "blood-vessel",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/blood-vessel.svg",
+          "sha256": "592777e3483769862b70d9e8a35101649185750c49066338e9d84403114f4eb6",
+          "bytes": 7101,
+          "width": 24,
+          "cssVarSha256": "498fc3b0ed1491018cde018e67c6d42fb0a06783efdba66c4a534cba02d9e438"
+        }
+      }
+    },
+    {
+      "slug": "neuron",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/neuron.svg",
+          "sha256": "f512cfa46b60abc296d9df8f93dc85e64a534f319b628fb8188a85a2c5f59e8f",
+          "bytes": 7808,
+          "width": 24,
+          "cssVarSha256": "2f5341651c9bdf7fb4274a6ee1b54288b5ac39975f404b135511be1bedabd045"
+        }
+      }
+    },
+    {
+      "slug": "chromosome",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/chromosome.svg",
+          "sha256": "07797f8a2fde5b2f9bcb3578cbb5f09e326d7f023e4065c80eecb96a270ceee5",
+          "bytes": 5379,
+          "width": 24,
+          "cssVarSha256": "0829e3f8726b82b7f5e7ef133030a5cc14bc4b48ece7b5fccfde60d1ddc184a7"
+        }
+      }
+    },
+    {
+      "slug": "stethoscope",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/stethoscope.svg",
+          "sha256": "16feeb44d0b9dade1c3612ef7f708acfcc7b4f3fd7a825ca7ee95b701c542364",
+          "bytes": 4797,
+          "width": 24,
+          "cssVarSha256": "f0ee139ebda5aa851afa37b06456eb69a4b40a05e78335980825941cb5cf5340"
+        }
+      }
+    },
+    {
+      "slug": "syringe",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/syringe.svg",
+          "sha256": "dd98a70251f769259f63ada041c973667d874af1c11d327a52087e1ff35b98d8",
+          "bytes": 3797,
+          "width": 24,
+          "cssVarSha256": "7dafebda1890c75a81e66faca6fa1c29340483ae64d6ce984dceffddbbdd8dd7"
+        }
+      }
+    },
+    {
+      "slug": "thermometer",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/thermometer.svg",
+          "sha256": "25674f3e92f97f32f5374c817b8b7f308f83d9e9f1ec082abab5359f6ff2006b",
+          "bytes": 3683,
+          "width": 24,
+          "cssVarSha256": "d9885e25b7de72365dfd985e33d1722235184f7a196478ff80199effef3ffa0f"
+        }
+      }
+    },
+    {
+      "slug": "bandage",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/bandage.svg",
+          "sha256": "b53b436d71e6679311b6969385d600868ef9d2397a51c5fe1eee406ce93e5701",
+          "bytes": 5331,
+          "width": 24,
+          "cssVarSha256": "1007c5941a2965c8700d7fbeb118061d3ca6d040f54a3dccb767d2eeb26d2265"
+        }
+      }
+    },
+    {
+      "slug": "gauze",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/gauze.svg",
+          "sha256": "24e517538fa6a4b25f945ade20d6a838d26de01c2eb8f1cbb826a4d35db9a73f",
+          "bytes": 5282,
+          "width": 24,
+          "cssVarSha256": "9b0409679967f57eb02ff043714961f90bb7c02a560a7993bb593b0bc25ba462"
+        }
+      }
+    },
+    {
+      "slug": "pill",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/pill.svg",
+          "sha256": "711a4c136c4323472d8ca7888772c13dacc7dc712aaf0cab391470c9c2253acc",
+          "bytes": 4622,
+          "width": 24,
+          "cssVarSha256": "c54254cfb362ed128168ac2d3ec0272c702b0518806294b10a87791cdcad0e68"
+        }
+      }
+    },
+    {
+      "slug": "capsule",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/capsule.svg",
+          "sha256": "097cec716d8c4b15e7d9754fd516b040a63b7b8ae47d209806af2acf81b00164",
+          "bytes": 2451,
+          "width": 24,
+          "cssVarSha256": "006482c753dc63d5037d155fdc1adc4a159ad9e02f5f6c11d6cd25b13d735fcc"
+        }
+      }
+    },
+    {
+      "slug": "blister-pack",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/blister-pack.svg",
+          "sha256": "cb2cb47392cd8573587aa2fdc8244aa56418ef6214a13e4dd69fb200bedbf205",
+          "bytes": 7105,
+          "width": 24,
+          "cssVarSha256": "883b5fb4318df207f8a9f01084675ce0335e31ab4a42fdf6d8814f2e1419569d"
+        }
+      }
+    },
+    {
+      "slug": "iv-drip",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/iv-drip.svg",
+          "sha256": "894c46f0f2834e664ea97e0d15246fb6a1b6fe8159c93199d494b5fb46e94794",
+          "bytes": 4245,
+          "width": 24,
+          "cssVarSha256": "380f49350811babc390411d23eda1ef8eebd53057ebdae6398e961b99be66367"
+        }
+      }
+    },
+    {
+      "slug": "wheelchair",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/wheelchair.svg",
+          "sha256": "2850dba50ad598537488bc86137f23ea7db2963925570ff6af95e18834f04e1c",
+          "bytes": 7709,
+          "width": 24,
+          "cssVarSha256": "4d687887d2ff65db44db7a2d67dede3ebce072466e32150fddce5924423aaca9"
+        }
+      }
+    },
+    {
+      "slug": "crutch",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/crutch.svg",
+          "sha256": "a0f8b2ef4d7fba3ea67cc6f3bfd9d21d9b94b6856da3425128143269059194cb",
+          "bytes": 4963,
+          "width": 24,
+          "cssVarSha256": "f91eb1585c29963a6a8d0990b9ec8fb91ffbc7bb4fcb7425282ab94d7a5816d3"
+        }
+      }
+    },
+    {
+      "slug": "cast",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/cast.svg",
+          "sha256": "9cad5edfb1bc9371939b4dcad7ccc8346f684d36fd55210279f7a467b79e66ea",
+          "bytes": 8618,
+          "width": 24,
+          "cssVarSha256": "1e22b03569d8ae5d8c1dd8ef028444a96d42b480592d8b2cf32521c2bc68bc46"
+        }
+      }
+    },
+    {
+      "slug": "defibrillator",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/defibrillator.svg",
+          "sha256": "1793abd29c1f7b4d0ae58ea24d7099ec2cc241f43da502ac368be8f14f7239da",
+          "bytes": 6829,
+          "width": 24,
+          "cssVarSha256": "96c2c2808b23f94e73b5f1e72f0c08f25e449ff3eecb1afcc4243dcf2108ab89"
+        }
+      }
+    },
+    {
+      "slug": "oxygen-mask",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/oxygen-mask.svg",
+          "sha256": "51026eb15bd7fc0c8b98fbb142a584547f4f0dcc2a3fd0b392b818c2bf6ced75",
+          "bytes": 6267,
+          "width": 24,
+          "cssVarSha256": "212e209fc58fa22e74b47e77f108c170f666eebe18448b7665e994ad1f492de9"
+        }
+      }
+    },
+    {
+      "slug": "inhaler",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/inhaler.svg",
+          "sha256": "6ae0b9302f823d6ab92454976674f8dbeba52805c6e6f752de73cce25cec2c27",
+          "bytes": 6067,
+          "width": 24,
+          "cssVarSha256": "05b53275beefd1d993beed26402f3ee35e62bf328c11c6c5f2c631b29602cb51"
+        }
+      }
+    },
+    {
+      "slug": "hearing-aid",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/hearing-aid.svg",
+          "sha256": "1c34da42a1e6ff462d793f96575a9e9e746a67ff8c2d664ba821714cc90311c2",
+          "bytes": 6848,
+          "width": 24,
+          "cssVarSha256": "24f4efd46cb146bc0905df71590ca2090f5c7e1f05f36b065b4efccaf32d6385"
+        }
+      }
+    },
+    {
+      "slug": "glasses",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/glasses.svg",
+          "sha256": "4a2ca5bd15c7a85986f8f8cba4d6d67bdd9e31201bcd2833194972f115be485a",
+          "bytes": 5652,
+          "width": 24,
+          "cssVarSha256": "4a0c1b94060f2a0779ea0693c6da63006f2f7fe4ef61783f0543e4d0b52ee904"
+        }
+      }
+    },
+    {
+      "slug": "eye-drops",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/eye-drops.svg",
+          "sha256": "29426c7c3f4b2af87141520ed0b27f56f8943c91be7e55907562cf6b8040a640",
+          "bytes": 3694,
+          "width": 24,
+          "cssVarSha256": "b7edd9e7c5bb4cd84eba9b10e5d3b366cc10cd3b787ec2d7654d50cecee7ec63"
+        }
+      }
+    },
+    {
+      "slug": "medical-chart",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/medical-chart.svg",
+          "sha256": "788acd6f4510fe3f012a47b5f17f6ed31f86367eec2a26c4d5cda44ab6a32435",
+          "bytes": 4659,
+          "width": 24,
+          "cssVarSha256": "58aed3c0cdb288738f636cfef7d3549a8015b5065086a37e5d590ddc5703839c"
+        }
+      }
+    },
+    {
+      "slug": "prescription",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/prescription.svg",
+          "sha256": "0202d8be9d69f3fb81af514bb04fcbb055d492222734179e5066c2acb91d4d3e",
+          "bytes": 4350,
+          "width": 24,
+          "cssVarSha256": "b3d67b15c1edcfeb1179f464a9031e6f9f9022a7020827476a3edec33a21a135"
+        }
+      }
+    },
+    {
+      "slug": "pill-organizer",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/pill-organizer.svg",
+          "sha256": "35ab83c401dad1d805d289414315dbe283356f87ed70da1533113737cc4e1cdb",
+          "bytes": 7144,
+          "width": 24,
+          "cssVarSha256": "7fedc77ecf9c86525f5b9af1a7f96a2f9c7bd5dad57c73b10afcf7a0eb7b2e99"
+        }
+      }
+    },
+    {
+      "slug": "tweezers",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/tweezers.svg",
+          "sha256": "23617eefad9fd5380dcbef6246da23fb9759f4017603b038ae570594535c5ddc",
+          "bytes": 3649,
+          "width": 24,
+          "cssVarSha256": "82c99836310800931da62b4dbc00554bbb53d99453a9098c3c762ec6aaffcd60"
+        }
+      }
+    },
+    {
+      "slug": "hot-water-bottle",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/hot-water-bottle.svg",
+          "sha256": "fed59676cd7dc22cf76b44fd2efeff5f8edbd4a1527c54686771fedad1d4f24b",
+          "bytes": 3721,
+          "width": 24,
+          "cssVarSha256": "d60d2d0816c9bf5e3414c2151949ab2613f1b4d7e3436c532f6bc7967f9ed08d"
+        }
+      }
+    },
+    {
+      "slug": "scalpel",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/scalpel.svg",
+          "sha256": "bc13d07f788b28904bc97995d63c993751a7aeb29d4e6d7db67563e72f55a671",
+          "bytes": 2734,
+          "width": 24,
+          "cssVarSha256": "4d56dbd3e09dccec1770fd04147b79d93fc8046867cc91d6666e7f9437ab9434"
+        }
+      }
+    },
+    {
+      "slug": "syrup",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/syrup.svg",
+          "sha256": "3f75d12c23f54d95e4559cae2b27d169bd7bc6e83c4f3282de884d6e9dde99b8",
+          "bytes": 4009,
+          "width": 24,
+          "cssVarSha256": "b9c5e8cb0b8c23f427eec14b4bc4e923155582faab32bbea752eea9c164ddb6c"
+        }
+      }
+    },
+    {
+      "slug": "eye-chart",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/eye-chart.svg",
+          "sha256": "9b2eb3d8c94ec565b67cbef87530b7e7e7e29204bc36e8623a6bced6146d4260",
+          "bytes": 6585,
+          "width": 24,
+          "cssVarSha256": "d8e6d76c5b2253dee12e93ac20d1c11649da1220c400734a29a9dbb391bf2360"
+        }
+      }
+    },
+    {
+      "slug": "pacemaker",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/pacemaker.svg",
+          "sha256": "a7eaf7c10adf21229e1ad7107d86b6fa762a7556f2987ec9014fd5b6c7d381a4",
+          "bytes": 4088,
+          "width": 24,
+          "cssVarSha256": "1b543c503ed66f46e0567bc8ed32f21826c081af01bf0aedfb204513880cb05d"
+        }
+      }
+    },
+    {
+      "slug": "sutures",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/sutures.svg",
+          "sha256": "a37b69871091a73eba642db17f4710e3f528123565ca754a6bf2123bf0d50aed",
+          "bytes": 5010,
+          "width": 24,
+          "cssVarSha256": "1f7a8aeba06b2a0c96e22a10edfa1db8ffdc456e11bfabb120ed5cdaeac22eb6"
+        }
+      }
+    },
+    {
+      "slug": "hospital",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/hospital.svg",
+          "sha256": "349112197645f0de36252a1f19d58f002c93eef1b2671707dabfd8fbb96a1799",
+          "bytes": 5697,
+          "width": 24,
+          "cssVarSha256": "ac42f35fc8ac053c5b7e4bdeab8e0a4b224af27fb0ffb0394babb8a5486f55ef"
+        }
+      }
+    },
+    {
+      "slug": "ambulance",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/ambulance.svg",
+          "sha256": "12a2c4df428881f60110c292fd22b8a95c7a9ae8687d78d672c48ca40b0b252c",
+          "bytes": 6520,
+          "width": 24,
+          "cssVarSha256": "a0fa5b7e46c91748e3a979d2f3b125b3016e6b825d4818642c72f1507d44ff1d"
+        }
+      }
+    },
+    {
+      "slug": "clinic-bed",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/clinic-bed.svg",
+          "sha256": "36a3ac3f7103716db4ea9d259f9882c0b9f780eba191bdf4883c104b98d7fee7",
+          "bytes": 5784,
+          "width": 24,
+          "cssVarSha256": "959eb8b394634c500dc2e5dc8c5702f5bfb493038f6bb115da2a3c328c1cf05d"
+        }
+      }
+    },
+    {
+      "slug": "pharmacy",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/pharmacy.svg",
+          "sha256": "8dfcbf83a2a19b735f0c7fad97dc8873fecdcf1fb1d9b5cd016dfc08887523b4",
+          "bytes": 7740,
+          "width": 24,
+          "cssVarSha256": "f1c9d217c99f27012280174c92756f70b269333c39dcadde1214ea1a8971424f"
+        }
+      }
+    },
+    {
+      "slug": "first-aid-kit",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/first-aid-kit.svg",
+          "sha256": "62eace9654c4f95394eae7fee5dae1b479bac1d8570199fd40d7850b2bab5a8a",
+          "bytes": 3030,
+          "width": 24,
+          "cssVarSha256": "d3c654233ef3913fcc1a1a7c9459d924dd4660044bcadc3fbcdd379893ac9251"
+        }
+      }
+    },
+    {
+      "slug": "doctor",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/doctor.svg",
+          "sha256": "c4961f406834e954a65f8a7d8e4dcc4f5a7c7abd657c5c9625a12946378a3056",
+          "bytes": 6499,
+          "width": 24,
+          "cssVarSha256": "5cf27d61fcffffc0c206bdb232195babc2757189181702977917053684eaa492"
+        }
+      }
+    },
+    {
+      "slug": "emergency-call",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/emergency-call.svg",
+          "sha256": "186106000e3e9f237ce5633989f0dc3bdc74507b9a17c3eaa90ab224fccf7db7",
+          "bytes": 5227,
+          "width": 24,
+          "cssVarSha256": "962dd897b83155f0a5a8b46adfef9d609997ac45d7140282671a935ea035c383"
+        }
+      }
+    },
+    {
+      "slug": "stretcher",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/stretcher.svg",
+          "sha256": "3527e49de7e2eb73acfe4168b7e4660eac4f06667d100f1db0aab672e0192131",
+          "bytes": 5587,
+          "width": 24,
+          "cssVarSha256": "141f2e587b32f6bb44d0bf536b377c4e3719322b448c34df751cac32ea0f6717"
+        }
+      }
+    },
+    {
+      "slug": "caduceus",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/caduceus.svg",
+          "sha256": "221d42aff8809c76a1bcc0c47131575239499da642cb5721c011d61edb8addfa",
+          "bytes": 7268,
+          "width": 24,
+          "cssVarSha256": "0eeb3b115000d050698ea3001849aa0dde2693262b6b590fa9274cd31ed2863c"
+        }
+      }
+    },
+    {
+      "slug": "care",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/care.svg",
+          "sha256": "b0f5bf42365020958c7ff9e1059998774fa9cd08705869883915c09062cfedc9",
+          "bytes": 5636,
+          "width": 24,
+          "cssVarSha256": "b0c188772b291c6fdaad0faa95f35acfe45005e78c634c941ff9fa4e86d5b1f2"
+        }
+      }
+    },
+    {
+      "slug": "blood-bag",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/blood-bag.svg",
+          "sha256": "0f7a6ff9e2102d0cf8baac1a8f918d99e25bb7c06d8d8e5c296a7c93ab10bd02",
+          "bytes": 4854,
+          "width": 24,
+          "cssVarSha256": "5ce12925fe3fc43aefe66927bc8dd14962c061a3146517d20bce7a4322eb6a08"
+        }
+      }
+    },
+    {
+      "slug": "vaccine",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/vaccine.svg",
+          "sha256": "a006861c383dc24a5d3340a91f311f1a85daf1ac7b340ef5569aa41110597a3a",
+          "bytes": 5469,
+          "width": 24,
+          "cssVarSha256": "3453c32a7cd6e5f1b7d81f6e647009f63319812c4c9b82993d6c216f148b501c"
+        }
+      }
+    },
+    {
+      "slug": "appointment",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/appointment.svg",
+          "sha256": "ca677ee1727a425fce2a018a9ba34167517e6a1da8f58755f8d94465e0bc1d3c",
+          "bytes": 4441,
+          "width": 24,
+          "cssVarSha256": "d24d04ae6295b521d67f6db1a943f61cdb75958070191450c357b06682171e53"
+        }
+      }
+    },
+    {
+      "slug": "telemedicine",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/telemedicine.svg",
+          "sha256": "eba3922fc92811d74cbbcaef841f1545a7ea615bc9500a825fa445f878a2524f",
+          "bytes": 3804,
+          "width": 24,
+          "cssVarSha256": "c5d95003d1756075d347211f9c286f3dd9adf925260ddbd88d78e78657f3c4ab"
+        }
+      }
+    },
+    {
+      "slug": "health-shield",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/health-shield.svg",
+          "sha256": "81555aac36e1012a1ac9d310d5b34299c8b9b107f36f575e142823b68cc4fad4",
+          "bytes": 4799,
+          "width": 24,
+          "cssVarSha256": "04ca7f9b8a97daabfaa1da7380fcafe9a814c91f8d5736eee535681a30ca4a10"
+        }
+      }
+    },
+    {
+      "slug": "x-ray",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/x-ray.svg",
+          "sha256": "1fc578ebb56bd52322d7c6a214cfdcfe233206eb2c61fa87e7a92d638edc2285",
+          "bytes": 11253,
+          "width": 24,
+          "cssVarSha256": "0fa70063b39137b589208d601c8d0344d84c18e1fa237150487e69bad1005ae8"
+        }
+      }
+    },
+    {
+      "slug": "microscope",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/microscope.svg",
+          "sha256": "d707e468ae0610cd20ab0a36a770b8f8a82e84537646464f2c3d04014785eaf9",
+          "bytes": 5706,
+          "width": 24,
+          "cssVarSha256": "13c59169cc7521370fb65f292c36664676161889e0dcbedc100ce54cebabd47f"
+        }
+      }
+    },
+    {
+      "slug": "test-tube",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/test-tube.svg",
+          "sha256": "140a37ad6a7584d8046acea55d75f4375cfe725636a8dd026258aa98037d490c",
+          "bytes": 2375,
+          "width": 24,
+          "cssVarSha256": "f4f419afee4b5b38af62b096e5356449518fd374ea918360d300abdc147dc91c"
+        }
+      }
+    },
+    {
+      "slug": "sample-rack",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/sample-rack.svg",
+          "sha256": "42393f5d4c3fa5519e4840504f62c2f6cbdc96961935763f28771d3b18879102",
+          "bytes": 5588,
+          "width": 24,
+          "cssVarSha256": "9f695b6a6dbf4f6319d0fbf1e63cbc01f15e122797783d2e262a307bcfa06808"
+        }
+      }
+    },
+    {
+      "slug": "petri-dish",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/petri-dish.svg",
+          "sha256": "3d0607bb679102b2c0a1309876ff77dd799bac23b519255adf428c13954780b3",
+          "bytes": 9336,
+          "width": 24,
+          "cssVarSha256": "6dd0f72dd30f5663d93e93c2c95664598ad72fcb9da7b13500e418b892b68508"
+        }
+      }
+    },
+    {
+      "slug": "blood-drop",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/blood-drop.svg",
+          "sha256": "7120e32392cf7e6d1002c060289e39bcdfa58af02e8aa6f9375cd2c50d52abe2",
+          "bytes": 3110,
+          "width": 24,
+          "cssVarSha256": "854bbc9fdeb041c21c96408ee9d5adb12b052535933c1a649c99994370391854"
+        }
+      }
+    },
+    {
+      "slug": "blood-pressure",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/blood-pressure.svg",
+          "sha256": "3582e908b719edad94204aa43fbceaa22605e7012e085afc086fc25609ad68ef",
+          "bytes": 7505,
+          "width": 24,
+          "cssVarSha256": "1bf179647b12b39928253becbeb97f131b0c87d3aca654813332cb3687b202b8"
+        }
+      }
+    },
+    {
+      "slug": "ecg-wave",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/ecg-wave.svg",
+          "sha256": "c164f590fb22505ea0a26ea80b7e62406f4d85373ecb03eabd1894ed0d8ff87a",
+          "bytes": 4638,
+          "width": 24,
+          "cssVarSha256": "cb86acd07ab007b6f5caabac749b6f34afd2d347414dc15c11d92b49af1120ea"
+        }
+      }
+    },
+    {
+      "slug": "scale",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/scale.svg",
+          "sha256": "c466c8be4c19ef96743aa318c37ee931f0bc109862387eae30b33615e82ff038",
+          "bytes": 4333,
+          "width": 24,
+          "cssVarSha256": "7514c4d8e74cd8c59178e532796469986700b4d286a1d3435dac384a9a956dd6"
+        }
+      }
+    },
+    {
+      "slug": "mri-scanner",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/mri-scanner.svg",
+          "sha256": "c978da96a50d15944ae0aa97ca6e1be3a53f9ac5099638115cc986e7e0dbed55",
+          "bytes": 7011,
+          "width": 24,
+          "cssVarSha256": "b8def54ed27f5d9820c812aad131c215661adf8fddfb1d51a16055d2d39cc398"
+        }
+      }
+    },
+    {
+      "slug": "ultrasound",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/ultrasound.svg",
+          "sha256": "2389e3e4b7f6b86de6949193c22368d3b31b0a9b7d8ba0deb9bb2b4cd6dbe02b",
+          "bytes": 4556,
+          "width": 24,
+          "cssVarSha256": "0cb6147916ef543f149fb5d332d7e6a77dcba57bf03d5a4ed690844158879de2"
+        }
+      }
+    },
+    {
+      "slug": "lab-flask",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/lab-flask.svg",
+          "sha256": "1bfd84a94655f740e884e5b620c4dabc26bdbe468a80608cf9cad8a3ec4114d9",
+          "bytes": 3589,
+          "width": 24,
+          "cssVarSha256": "05524aeb23f419a3eb62cb2c98a5a43d373793b1d734d64ffd2c4b35f26f4b9b"
+        }
+      }
+    },
+    {
+      "slug": "swab-test",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/swab-test.svg",
+          "sha256": "4339609c316eeba8ba7150019b415ece0f5224d3e792d6c153deed375fe3dabc",
+          "bytes": 5494,
+          "width": 24,
+          "cssVarSha256": "0a52f030e0581b2ea893140ba2dff8e5101541e0b8ec2d5566c29e4367011e11"
+        }
+      }
+    },
+    {
+      "slug": "glucose-meter",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/glucose-meter.svg",
+          "sha256": "c30d2e5e47f76615f225223cbfe2a325b59bf3ad3008503310a38dbde45e2dea",
+          "bytes": 5937,
+          "width": 24,
+          "cssVarSha256": "b0560d2168e8fd8c699f7e56d8214495135008637371f821c95a160ab0c5b1cd"
+        }
+      }
+    },
+    {
+      "slug": "sample-cup",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/sample-cup.svg",
+          "sha256": "10c0a55ed32ca0571267d11198867cfe15358c420152b71a9bcdf7ce8576d0bb",
+          "bytes": 3916,
+          "width": 24,
+          "cssVarSha256": "fb89e79264805fda4b8f869a0e2ed9a7b54a299b3e1f0f5dd0a9e6bf55e644d7"
+        }
+      }
+    },
+    {
+      "slug": "oximeter",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/oximeter.svg",
+          "sha256": "ca5a510861e221b4dabf26e916fdbfa809be87d17ed5c26274e6e0b3f67debd4",
+          "bytes": 5225,
+          "width": 24,
+          "cssVarSha256": "12e1350372055c19da5cea2b9f047c43ee9d5c8c682b1b9b1942c7971685ba75"
+        }
+      }
+    },
+    {
+      "slug": "dumbbell",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/dumbbell.svg",
+          "sha256": "8988d339217cb72d515e412acfb617d0db2217073da6cac57252e369f35727f5",
+          "bytes": 3829,
+          "width": 24,
+          "cssVarSha256": "29cc5e065a8407acc947d95dd5db3cd4fb3480c6dbbdf072e339eb45a9b2bd1c"
+        }
+      }
+    },
+    {
+      "slug": "kettlebell",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/kettlebell.svg",
+          "sha256": "dcf102b60c0c4722c65a61dc245b6b3185d7cac93b9abee287b0569d4377056c",
+          "bytes": 5002,
+          "width": 24,
+          "cssVarSha256": "99f8474ee80680e4c647864ba357ff0520d6ac58f4683a7a59f85513daa422b0"
+        }
+      }
+    },
+    {
+      "slug": "barbell",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/barbell.svg",
+          "sha256": "929e72d2c94b15fd51a63705f9406eca14c534586ad50ddde05f9352d679ae85",
+          "bytes": 3850,
+          "width": 24,
+          "cssVarSha256": "28d27f023cbe17106fcf1ed5cf0af5ca314c6be51491f08d1fc24070be845939"
+        }
+      }
+    },
+    {
+      "slug": "yoga-mat",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/yoga-mat.svg",
+          "sha256": "31cfed4bd24a82d38d00525675cb4b2fa1bb8b1eaa3df3d298222485e21bff22",
+          "bytes": 7070,
+          "width": 24,
+          "cssVarSha256": "fe53574960657d337fb99809d1f5b0fa440f17e871d028b2f3be2b530a8bf621"
+        }
+      }
+    },
+    {
+      "slug": "stretching",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/stretching.svg",
+          "sha256": "c2971b6cec39e9159ce3878baccaf9cd7313b070b00b2050b031a8bea51440fe",
+          "bytes": 6757,
+          "width": 24,
+          "cssVarSha256": "2e2414367a6f8817a11bb55816a330246b871a7458676bf8a0be49fcebf90708"
+        }
+      }
+    },
+    {
+      "slug": "running-shoe",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/running-shoe.svg",
+          "sha256": "3de7166e4870e29b1707c2f02e52f8ef2ade9d64380177a1eaa46781d4244093",
+          "bytes": 5292,
+          "width": 24,
+          "cssVarSha256": "a3d0ca1ce58289e4e85587c6eb5f4c8eba780031ba2ab97d02efa5b325c6620c"
+        }
+      }
+    },
+    {
+      "slug": "jump-rope",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/jump-rope.svg",
+          "sha256": "e59b70416b350ac58a1d3b49da924ff8b8a93ab64340da50c70df301f9775ed9",
+          "bytes": 4910,
+          "width": 24,
+          "cssVarSha256": "3f46894d0cdbb6e019e657c4c323abd1415f6ded7c2b5bb9261dc319862d7911"
+        }
+      }
+    },
+    {
+      "slug": "treadmill",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/treadmill.svg",
+          "sha256": "40647e8354528c3a9a1d07b9624d7ef7952d32cc1bc2e34d5de5d791c22b0c0b",
+          "bytes": 6247,
+          "width": 24,
+          "cssVarSha256": "bf0937d1414e465228edd97a7b8027e752a79d0108cefcc53ea6caa286dc25e1"
+        }
+      }
+    },
+    {
+      "slug": "exercise-bike",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/exercise-bike.svg",
+          "sha256": "32d985bb432a2ddd9d8391460f28e3065c1e7ce7874cfc0656aa5db4beb71f4e",
+          "bytes": 8688,
+          "width": 24,
+          "cssVarSha256": "4f2fae48216eae4203af0c7bdeb11965761ebd9f8313a86bd0e3bf3cfa2af642"
+        }
+      }
+    },
+    {
+      "slug": "heart-rate-monitor",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/heart-rate-monitor.svg",
+          "sha256": "79b04c5e7ce9aacbae7a73545f58483d8733834d4d6311e541dac3dd877202e1",
+          "bytes": 5454,
+          "width": 24,
+          "cssVarSha256": "256b8c6e41a0fb52d3abe35d81bab33f66c03fe5814edca930d701377a90b805"
+        }
+      }
+    },
+    {
+      "slug": "step-counter",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/step-counter.svg",
+          "sha256": "d1baa673f06c6004ae85b2b461b1f409d964adeabcc4bdedb529195cad7cebc2",
+          "bytes": 9333,
+          "width": 24,
+          "cssVarSha256": "a751a032313e4696ac9112fe565a6c9e875824bda409b35f9229e54f89e89f44"
+        }
+      }
+    },
+    {
+      "slug": "resistance-band",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/resistance-band.svg",
+          "sha256": "c62d1a3c23357f52f96913c7ccd532d0fd8ee2e83a03b6f1a52eae171f0573de",
+          "bytes": 6228,
+          "width": 24,
+          "cssVarSha256": "1fa9c551a0dd3dc99132387612cd09d2d9c19c104578a785474f1b4245c7b82d"
+        }
+      }
+    },
+    {
+      "slug": "medal",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/medal.svg",
+          "sha256": "561c2718be93c35150a32d82f60d7b7a52626fb73f13709a533e1e2b898afcda",
+          "bytes": 5148,
+          "width": 24,
+          "cssVarSha256": "4d22b7d572ad054b12f6d4fa97c4864e86e981b7a9c8be89ed6ec8ddb03e96eb"
+        }
+      }
+    },
+    {
+      "slug": "goal",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/goal.svg",
+          "sha256": "5312077a67f8f975c5b9b92311049be1e11f9628358d47fd4defc7a8e7dca556",
+          "bytes": 5473,
+          "width": 24,
+          "cssVarSha256": "5a42dc1d6e02f34a9542833b863eefb5ff2368a511c76c33d86e59ff34751442"
+        }
+      }
+    },
+    {
+      "slug": "swimming",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/swimming.svg",
+          "sha256": "5354c021fba0b18ef715e7f1dc187e94a35ff2ebd60150671bff6b2d1a2f4e3f",
+          "bytes": 5580,
+          "width": 24,
+          "cssVarSha256": "299a76fd61fd335c5ab6c58f2c3d8715ef3145db0edc636478f3a1597e993dbb"
+        }
+      }
+    },
+    {
+      "slug": "stopwatch",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/stopwatch.svg",
+          "sha256": "1e1c1788dfa09f15a3bd86de123106e964739e65531275cae954dfd10c174234",
+          "bytes": 6593,
+          "width": 24,
+          "cssVarSha256": "ac0e02408f18c45f31a9b64c5e680dc6fbfbe23119f3d6992c04648794cb1d28"
+        }
+      }
+    },
+    {
+      "slug": "foam-roller",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/foam-roller.svg",
+          "sha256": "7f03f2179915f6454ea4e454a6248b52b0f3aa83a790639b011484ca850b3672",
+          "bytes": 7144,
+          "width": 24,
+          "cssVarSha256": "902d553279d36f728fba051e8ec6930c7766ce8fd637527ae27b9fe9cbd3fb40"
+        }
+      }
+    },
+    {
+      "slug": "boxing-glove",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/boxing-glove.svg",
+          "sha256": "3c058f3a13403cb0be89757536d888b392108325f2684ea5bab69d13cc5030c1",
+          "bytes": 3584,
+          "width": 24,
+          "cssVarSha256": "183533d86a7c83a46b4fb7bc3656e3bd58f86593ac0a007f456625c0b22db579"
+        }
+      }
+    },
+    {
+      "slug": "sports-bottle",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/sports-bottle.svg",
+          "sha256": "379f90fffe0d03356831f0267f9d31ddbec8d433af1561c56bd4a14ca8ffa372",
+          "bytes": 3112,
+          "width": 24,
+          "cssVarSha256": "e5e05fa5c1def4169e9d562f3269d70354b18d8f26d0184fb8dbe185711fd6c9"
+        }
+      }
+    },
+    {
+      "slug": "meditation",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/meditation.svg",
+          "sha256": "532b85ba36a12196136c1bd9ee855f57269f22b74fdd0e8f3bf6ff2cc72cdd52",
+          "bytes": 7100,
+          "width": 24,
+          "cssVarSha256": "c436cff1a1818c6375923deb9e43ffd064ca7c059fcb6e70d1d30129d5fd4c8a"
+        }
+      }
+    },
+    {
+      "slug": "breathing",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/breathing.svg",
+          "sha256": "7911bd9ad052f68279c37cd1f0fbf19f95ba90078011e77a717df4a724e536e3",
+          "bytes": 4220,
+          "width": 24,
+          "cssVarSha256": "016106d080eeb21c0639c1dd5a6aa2f1555d1c422e53461124c77e5b41a27a63"
+        }
+      }
+    },
+    {
+      "slug": "sleep-mask",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/sleep-mask.svg",
+          "sha256": "e8cbc4a5df9e80b2bcf1d481ba39a3631b1f94dc3d0b5c1460a6e7c15cdd00ef",
+          "bytes": 4354,
+          "width": 24,
+          "cssVarSha256": "e6c13dbf4034e496cb4dd8d71e305a490ef05a69c6d8aec48f373ff4b985007a"
+        }
+      }
+    },
+    {
+      "slug": "sleep",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/sleep.svg",
+          "sha256": "48a0da804532191bc5d205ae72a2d76c68113162656764a7a8e38abc9eb7a8c2",
+          "bytes": 4359,
+          "width": 24,
+          "cssVarSha256": "a1c5c68bb1c1b4d0c98c9892f0dca1c80125fc810b466fa76b03e20a4153de68"
+        }
+      }
+    },
+    {
+      "slug": "journal",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/journal.svg",
+          "sha256": "7ca91ad70b1c725db738c51841db6b03665599bf01794a3793d6a73c8b34f264",
+          "bytes": 5713,
+          "width": 24,
+          "cssVarSha256": "902c39fdee4fd92d3f160fca562342b95a5e0ba6f910ede0d46e504a9f337fe9"
+        }
+      }
+    },
+    {
+      "slug": "lotus",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/lotus.svg",
+          "sha256": "da2074c521df2c2323b23b1ddc1d667b1324169275d7320d9aca93fcb6047eb8",
+          "bytes": 4844,
+          "width": 24,
+          "cssVarSha256": "3ad5e95332157d113f8d39b60bbaec755ed99683324c197a5ce492d21b22d5f1"
+        }
+      }
+    },
+    {
+      "slug": "diffuser",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/diffuser.svg",
+          "sha256": "1714858b4d3d51825a82e964c8cb3966846d5bc74810c5a5342b1d9c88034522",
+          "bytes": 4076,
+          "width": 24,
+          "cssVarSha256": "19364d38d790f823e08b240130727d91da08dde22fb98de10e6300c93e82af4f"
+        }
+      }
+    },
+    {
+      "slug": "therapy",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/therapy.svg",
+          "sha256": "362cfb3461fb9e3a1eb77473fece68d847c174571944acd75e7b04b05fdc449d",
+          "bytes": 4542,
+          "width": 24,
+          "cssVarSha256": "f365b66ad736a9a1de9f1fbc2a28e923098b2a76124dca88f3eb5b80fe19330f"
+        }
+      }
+    },
+    {
+      "slug": "alarm-clock",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/alarm-clock.svg",
+          "sha256": "226aa1a0b63cc0a9f012cb03265a92bdc9f16c29e295ad5ed20626a929c84cf6",
+          "bytes": 8865,
+          "width": 24,
+          "cssVarSha256": "ca5fcf5d68548d280a5fe60956e674358a6c4b5d77d789aac645ec28a2d0ce33"
+        }
+      }
+    },
+    {
+      "slug": "bed",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/bed.svg",
+          "sha256": "34146b13b48c1667518314afad4e2d0f6fbf45abb4cb22cb5682b3f052840edc",
+          "bytes": 4102,
+          "width": 24,
+          "cssVarSha256": "606e25e960da844df0fd1281c603cde695b8a2ca0c92733747cabe62ec991005"
+        }
+      }
+    },
+    {
+      "slug": "earplugs",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/earplugs.svg",
+          "sha256": "2443107762187ae59098004338100ec01cabf362366c41652d3e845e1e50a80b",
+          "bytes": 6849,
+          "width": 24,
+          "cssVarSha256": "ad85e6295e0cf406541feb67500588ab2089b1098ec2ce978cf0ef677b05154d"
+        }
+      }
+    },
+    {
+      "slug": "apple",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/apple.svg",
+          "sha256": "c3d01b31387f9e88fa41eea3423e64c41f3026d293e3656c1e55f4484cca5bea",
+          "bytes": 4476,
+          "width": 24,
+          "cssVarSha256": "92c99b91a199289ca1b95f8bb8981dfe399726aad4272a7533e158e60ee9f41e"
+        }
+      }
+    },
+    {
+      "slug": "water-glass",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/water-glass.svg",
+          "sha256": "86a2fe8c62a8a20dbfccb8989b8ecc4797f490243d053179672408ce48a35273",
+          "bytes": 3501,
+          "width": 24,
+          "cssVarSha256": "baa3dc422dc952bffd2fbac56dfadce340ad7abb9ce6589ee44db7df4b2d0c9b"
+        }
+      }
+    },
+    {
+      "slug": "salad-bowl",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/salad-bowl.svg",
+          "sha256": "8b19dffb94aa2418e1c780c84674bd6b641036fb6e9bc846f5b71081e9a026b3",
+          "bytes": 7775,
+          "width": 24,
+          "cssVarSha256": "93de18b2160b99a57129c9f72091dbeb84fae48e12de91dfc3de7b6f988b9830"
+        }
+      }
+    },
+    {
+      "slug": "vitamins",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/vitamins.svg",
+          "sha256": "ba8754e5ee4e2afdd49a345e2e3163efb2b8521f8c5f47f25c36e45518735a8b",
+          "bytes": 4747,
+          "width": 24,
+          "cssVarSha256": "7d345261d4a743eb2de3370305bf46b30948645efd97f5836e4debe3a496deae"
+        }
+      }
+    },
+    {
+      "slug": "avocado",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/avocado.svg",
+          "sha256": "de016dc1bfa3b560bbb20b5b082382c5d706452053489985e45b9497b2e09c2a",
+          "bytes": 6842,
+          "width": 24,
+          "cssVarSha256": "20eb6d54f4b12e497cf51699d54d00781278ce9df13b4223467845dfd6b7db05"
+        }
+      }
+    },
+    {
+      "slug": "carrot",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/carrot.svg",
+          "sha256": "5a18b7c9c7287e7a6b525970e2a2f22951bd9bbbad222d2e117cdbafa72a5dd4",
+          "bytes": 6111,
+          "width": 24,
+          "cssVarSha256": "0c067467a8f8de5aca6b36692dbeba4cbc56c3040bbcce5352cfb423280e2b0d"
+        }
+      }
+    },
+    {
+      "slug": "smoothie",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/smoothie.svg",
+          "sha256": "8b37596f3414e53f38d9f46ec4493801de30359421749f72b661c8c8e7c6546e",
+          "bytes": 7983,
+          "width": 24,
+          "cssVarSha256": "af13a48057ccb746ea74ec8358f1121649490455c2e0afc916ce8a91064766c7"
+        }
+      }
+    },
+    {
+      "slug": "meal",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/meal.svg",
+          "sha256": "89aa8ecfd5c742464df1e9b1fc474e6ec46d195db7e7f10b3abe805956c61980",
+          "bytes": 5948,
+          "width": 24,
+          "cssVarSha256": "4a1dca4d93f00df72727e54373dd00a146a4bc3bd59e1c216dbb8d90682761a1"
+        }
+      }
+    },
+    {
+      "slug": "broccoli",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/broccoli.svg",
+          "sha256": "bfa3efe07ccc273ec23aaf796efa76e694660dcbf8972c9582acc6756f6c006f",
+          "bytes": 5092,
+          "width": 24,
+          "cssVarSha256": "269518e97dde59ce730d2d0b54bf7fe1933a46909a58f21db4b2820b33f7bd09"
+        }
+      }
+    },
+    {
+      "slug": "egg",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/egg.svg",
+          "sha256": "c7a80fd65be6d1add53c64f89033d6b2ba6bf54271c46be9288dc9910c087078",
+          "bytes": 3313,
+          "width": 24,
+          "cssVarSha256": "f0c252a3fb15456c285cf1e16e093f8e3e2e91ee4c2cdb6cd845d9cdb54e889c"
+        }
+      }
+    },
+    {
+      "slug": "fish",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/fish.svg",
+          "sha256": "7e888965388db0835eb16022381bb7ca572def3ee0a8ac6b71cd6850fb0dce6f",
+          "bytes": 4859,
+          "width": 24,
+          "cssVarSha256": "e3f9ac1876efb88be5104f70a78566f22fb95537c8f59bdac46467de2289432b"
+        }
+      }
+    },
+    {
+      "slug": "soap",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/soap.svg",
+          "sha256": "ffbeb7b43333e7b311277b99d5fbc571561d9be8608ac202c8dc1cbdc34f821a",
+          "bytes": 7100,
+          "width": 24,
+          "cssVarSha256": "0ff514bbfdda3b50cf4e5b6a0f44b84285a412ed9e555cc7be32349e36c95bb4"
+        }
+      }
+    },
+    {
+      "slug": "toothbrush",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/toothbrush.svg",
+          "sha256": "ece043b8d18695fc4a4f562a46be1254ae5e86f26cc2db55b919c7fb7f681880",
+          "bytes": 3641,
+          "width": 24,
+          "cssVarSha256": "566846ea846c7318df8d1aa0caaa8f6eb4a4634789ea8e3671203bbd43bdb2b2"
+        }
+      }
+    },
+    {
+      "slug": "toothpaste",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/toothpaste.svg",
+          "sha256": "59f88423ad017c3a8be89f2eff9b2e3809bd0413523e8b81e46a54371d1a91ae",
+          "bytes": 4983,
+          "width": 24,
+          "cssVarSha256": "b281c2e135335fe596c0c0ad1496afada1de21099481db5b093c9b2fa12c74b0"
+        }
+      }
+    },
+    {
+      "slug": "hand-wash",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/hand-wash.svg",
+          "sha256": "1cd91fe2f5e0070f030c5f31788d88ef6db9af5067f3c92e5ac317d63e1714be",
+          "bytes": 7732,
+          "width": 24,
+          "cssVarSha256": "b0b0f32cf78bdcff60087b6d63d97ece1ce0c3e2c5caecb4d1e5c2269a62609c"
+        }
+      }
+    },
+    {
+      "slug": "sanitizer",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/sanitizer.svg",
+          "sha256": "20c0b44fc385bcada86700a2dd7c1a76bc875bd8ec1e6896f986633aa8ca3e9e",
+          "bytes": 4050,
+          "width": 24,
+          "cssVarSha256": "cedeaf9b9a219871d397d11cf3f12cb84acbcc6a5c4ebd03b9350f16ec581a43"
+        }
+      }
+    },
+    {
+      "slug": "face-mask",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/face-mask.svg",
+          "sha256": "1bae493072fed96085091e1e1eda7935258218abbff202a584044ad24f13ed85",
+          "bytes": 5870,
+          "width": 24,
+          "cssVarSha256": "28555473254fdf240feaba24f679e97d829b428f619105236a11f356c927e767"
+        }
+      }
+    },
+    {
+      "slug": "shower",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/shower.svg",
+          "sha256": "3f57e7593d361f52f0b5aa06a6a85bc44d8c5b12fd8ff9633762399d4bc8f7e0",
+          "bytes": 5800,
+          "width": 24,
+          "cssVarSha256": "cdddf27bb94eacbeba75eb5e42959e611aaa77c6792932f534a4797616b03fb0"
+        }
+      }
+    },
+    {
+      "slug": "towel",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/towel.svg",
+          "sha256": "52a3856703bd342d9dc3cf029bf8d4178db0e4698bd9f90f31c2d529cb68704a",
+          "bytes": 2800,
+          "width": 24,
+          "cssVarSha256": "fb163e2fa5495370e77b21413c92aa44d89fefe33d31a672116832427dcd89e5"
+        }
+      }
+    },
+    {
+      "slug": "no-smoking",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/no-smoking.svg",
+          "sha256": "2f26c68df894ad6ed0869d4c83b8da1b37445dfcc31ff60f71a3351becbdc217",
+          "bytes": 5849,
+          "width": 24,
+          "cssVarSha256": "28c22025abcd258f4471ec7a0634d1739e9b3b4af907e27e1935db5aad8d679a"
+        }
+      }
+    },
+    {
+      "slug": "baby-bottle",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/baby-bottle.svg",
+          "sha256": "d2c80a70f9d507aacaa7340b3c560a3c31204b223c3b6eb1b3e9e2e7df16883c",
+          "bytes": 3643,
+          "width": 24,
+          "cssVarSha256": "aff6a3afed31dea7a1bea060c8ee6d577dbc036771405ae85d3d821e1dee154e"
+        }
+      }
+    },
+    {
+      "slug": "pacifier",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/pacifier.svg",
+          "sha256": "af3961d1f00a0556f8ad62efdd0ecf2d461ce4000523348954b86c5f755f3917",
+          "bytes": 5266,
+          "width": 24,
+          "cssVarSha256": "6c49ab203c71ea851b26646dd0c64959698186db9df8ee9c19cf6c5ab9d45c27"
+        }
+      }
+    },
+    {
+      "slug": "tissue-box",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/tissue-box.svg",
+          "sha256": "6bbf4fa6551fa237463c204a4620f810116f0bc5f42aeb91dd3ac8b2ef9512b1",
+          "bytes": 4969,
+          "width": 24,
+          "cssVarSha256": "f8febffda0632b7c731c60a6f29881fb477359c7c617308ee471036373985f8e"
+        }
+      }
+    },
+    {
+      "slug": "walker",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/walker.svg",
+          "sha256": "d4820d8730dc6882cc227a8396f0ea61f0e22505918fb6945372fe6e8c0a4772",
+          "bytes": 15753,
+          "width": 24,
+          "cssVarSha256": "93a9f9af35010adffd8c0117349f3a45fd59d0f49b0dee6f723ecec050129d9a"
+        }
+      }
+    },
+    {
+      "slug": "massage",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/massage.svg",
+          "sha256": "e697748bd097feda0c11f48bf354ffcbf6f260ad1982325f0be861896c9f024e",
+          "bytes": 9170,
+          "width": 24,
+          "cssVarSha256": "8deffca0147785b1eff9093c11dc751dcafecfbbcfe53c9218c54f888de9c50f"
+        }
+      }
+    },
+    {
+      "slug": "spa-stones",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/spa-stones.svg",
+          "sha256": "3a5bd07b926e091a81d0fa258c556d494d77ef1657dfa43fa2ab70a79ba9ceb5",
+          "bytes": 5971,
+          "width": 24,
+          "cssVarSha256": "bb1d8bc76344e2e9bb6ef70f98e27e0236b9396adb1f010f627fceada1276ff7"
+        }
+      }
+    },
+    {
+      "slug": "bathtub",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/bathtub.svg",
+          "sha256": "af9e575aaf78df0165d91027b61a5bc5e97aade7c23ceda7ebbe41a7d37e4246",
+          "bytes": 4001,
+          "width": 24,
+          "cssVarSha256": "c92f39a8bc2fed94281b51fa30c40b242dee56cef2a3e01f037e4fd18e1f920c"
+        }
+      }
+    },
+    {
+      "slug": "sauna",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/sauna.svg",
+          "sha256": "013239cf419918f538246f3cc8e7e93050be49e8278377e7af55595e1dcfd3f1",
+          "bytes": 11839,
+          "width": 24,
+          "cssVarSha256": "1d40748eafff72829b775aec6c1d87d633ce007be5f687ae3b35280ce223207a"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "slug": "drafting-table-nb2",
+  "name": "Drafting Table · Nano Banana 2 (Flash)",
+  "description": "An engineering icon set drawn as a CAD detail — each part sits inside its own centre lines, extension lines and dimension arrows.",
+  "tags": [
+    "blueprint",
+    "technical",
+    "engineering",
+    "duotone",
+    "nb2"
+  ],
+  "count": 34,
+  "kind": "icon",
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "attributionRequired": true,
+    "attribution": "Icons by Artifisio (https://artifisio.com)",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "provenance": {
+    "source": "generated",
+    "model": "gemini-3.1-flash-image-preview"
+  },
+  "grid": 24,
+  "stroke": 2,
+  "palette": [
+    {
+      "slot": "ink",
+      "label": "Ink",
+      "hex": "#0a1419",
+      "role": "themeable"
+    },
+    {
+      "slot": "accent-1",
+      "label": "Accent 1",
+      "hex": "#4fa4c3",
+      "role": "themeable"
+    },
+    {
+      "slot": "accent-2",
+      "label": "Accent 2",
+      "hex": "#b4e0ee",
+      "role": "themeable"
+    }
+  ],
+  "preview": "preview.svg",
+  "sprite": {
+    "file": "sprite.svg",
+    "sha256": "eeb03be0978ce51fa13200b29ec6cb40e0ecd4e721e92c946f85b51b881b7b14",
+    "bytes": 887473
+  },
+  "icons": [
+    {
+      "slug": "bolt",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/bolt.svg",
+          "sha256": "a4e0a46a3d2fdb78a9a227fa9173ca0f5dc6afabc0a06f77d6a8cad934344b4b",
+          "bytes": 22120,
+          "width": 24,
+          "cssVarSha256": "16cab76ead6f486e9869733a79fef69809e1b3eff1dd2515d5df048e8c7e6651"
+        }
+      }
+    },
+    {
+      "slug": "nut",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/nut.svg",
+          "sha256": "2ef7507d8b44e1fbf4f67141b67677180698c7e89c8e0ef97bbc6cdc58c97537",
+          "bytes": 43437,
+          "width": 24,
+          "cssVarSha256": "07f195cac1548ce0927ca011527cc6cdbcd43496844a4223bd998ba70f537fc5"
+        }
+      }
+    },
+    {
+      "slug": "screw",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/screw.svg",
+          "sha256": "5efc1b5429ef116370a54ed9600d618f594a0a6f0ad5cd9ae840a5c9b899c455",
+          "bytes": 24742,
+          "width": 24,
+          "cssVarSha256": "03c3bec05bdbbe32f3de0c661136e7a05e3c341183e157fdf6e8543df64948d4"
+        }
+      }
+    },
+    {
+      "slug": "wrench",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/wrench.svg",
+          "sha256": "71ad05146faa00476eb36318dd5c5d72257e914fa1f631230b0676bd383818cf",
+          "bytes": 20881,
+          "width": 24,
+          "cssVarSha256": "8724af20263389e52d5cd2b2bf6fb90388b31ccb04e7ea845c5234f68d80dfb2"
+        }
+      }
+    },
+    {
+      "slug": "gear",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/gear.svg",
+          "sha256": "8abe1066031ef29b23cb643b5b8a3beac5376bc59b5f88238f3790c0c2c3c503",
+          "bytes": 29686,
+          "width": 24,
+          "cssVarSha256": "4b09ed07c5658901b6cd9d2e337c7c448a1608675aead0c59fd0590342dfb562"
+        }
+      }
+    },
+    {
+      "slug": "bearing",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/bearing.svg",
+          "sha256": "bd4b1f887714535ffb487fa2d9fe4e8b5392fe2b96dabda866b6d76ab95a58d8",
+          "bytes": 43921,
+          "width": 24,
+          "cssVarSha256": "fcd3ea35586886f782d7280b9b24e15f2b2f511c31affcf52ed6a26fe9a19fd8"
+        }
+      }
+    },
+    {
+      "slug": "spring",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/spring.svg",
+          "sha256": "d692f96ec92d0219d9d4b81ba9ffc5c8b569a5131199e21b82d7baa1c254b7b7",
+          "bytes": 27587,
+          "width": 24,
+          "cssVarSha256": "7da0ae8ba40858e66799e153b936afef61227423b152434e1df132b3ff62b572"
+        }
+      }
+    },
+    {
+      "slug": "piston",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/piston.svg",
+          "sha256": "091c6e05262c5a7489d8a1dbcbddffe80a5f518072284c0e9ee0e37b4ba1385e",
+          "bytes": 24256,
+          "width": 24,
+          "cssVarSha256": "6b7c83974c3ecdf3a83c20aa1ec0a36c11c94dac2eceff32c5b4d2adec7491a1"
+        }
+      }
+    },
+    {
+      "slug": "valve",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/valve.svg",
+          "sha256": "e42609642589cbc916866297f0ae02ac1b1e6ea1da936d39dfffa3e716183303",
+          "bytes": 18101,
+          "width": 24,
+          "cssVarSha256": "5f4d1e1b4de20856b2f1ce5947568efbc0181c7684f89fc7f6bb65cf1fe3b186"
+        }
+      }
+    },
+    {
+      "slug": "pipe",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/pipe.svg",
+          "sha256": "7aeccdfb80b947777f5f97c110b262643df57af92e050233b3181c5abe28b103",
+          "bytes": 25615,
+          "width": 24,
+          "cssVarSha256": "67bd16f40b671a6310b53fad7ce97e14882f63778677edbf9f20c9969a0249de"
+        }
+      }
+    },
+    {
+      "slug": "flange",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/flange.svg",
+          "sha256": "eb5d20d8fbb78969a7e8c28ca29b86eeb4ede7c52a6142cd2ac52aaaad98591d",
+          "bytes": 47883,
+          "width": 24,
+          "cssVarSha256": "82e09ffadeeecba2e183a90f4100de85df5886aadf6106cd070ca7cbee8ead80"
+        }
+      }
+    },
+    {
+      "slug": "rivet",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/rivet.svg",
+          "sha256": "f36a5f7b66ba7e0b8b0628b31d22424342ae4705b5358570567c5daf709ade6b",
+          "bytes": 30095,
+          "width": 24,
+          "cssVarSha256": "b561627deb3f455eeee65d7bae50839f6eca36da4963a577712c0a4b4f3f4b7d"
+        }
+      }
+    },
+    {
+      "slug": "caliper",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/caliper.svg",
+          "sha256": "94c2f673830abcdeefe660072663a0f377819568082f63531081d73147057935",
+          "bytes": 23663,
+          "width": 24,
+          "cssVarSha256": "d043153a9c5c30efd2b666a03316d78db129b9c6a27a9971eaad8f053f402535"
+        }
+      }
+    },
+    {
+      "slug": "micrometer",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/micrometer.svg",
+          "sha256": "b70b7c09a704c8674e399b7f094fa6b97e342b37e278bc45c8eca07aa103427c",
+          "bytes": 24653,
+          "width": 24,
+          "cssVarSha256": "b76842f2a02e597c45783c2ec80b0ea4cdbeb169c9b3be7c8f299cb3e13ed8d9"
+        }
+      }
+    },
+    {
+      "slug": "ruler",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/ruler.svg",
+          "sha256": "2571921c3e767d23b64fc6430783800dfff4f0729d1cf5a6b1498b23bd68de5d",
+          "bytes": 15393,
+          "width": 24,
+          "cssVarSha256": "9cde48c487b8a48cc49efe9e70ac79bc496fbd0644e61d31504204f447734e26"
+        }
+      }
+    },
+    {
+      "slug": "protractor",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/protractor.svg",
+          "sha256": "a657a7ae8b34c0504f2830cf90b15a9e08217a7b48e8e29cc85ae0bad9600b3a",
+          "bytes": 35488,
+          "width": 24,
+          "cssVarSha256": "6090cef6662a6c334e1e4f41f544c937f04dce5a5658e2b8ab049dbf75aa1d8c"
+        }
+      }
+    },
+    {
+      "slug": "compass",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/compass.svg",
+          "sha256": "a57ba571b4d4c5518956550e9807daba7cc13d29fe636528379eaef9b919e172",
+          "bytes": 24990,
+          "width": 24,
+          "cssVarSha256": "c65f0960cbaec5a40b8f417e15b8baa6b787fa5373c6a0f5d247cbf215bc9ac6"
+        }
+      }
+    },
+    {
+      "slug": "drill-bit",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/drill-bit.svg",
+          "sha256": "dc1901dcfc063c69ed4454836cebc625f19289f4615ffac9e4c82fffda778091",
+          "bytes": 21101,
+          "width": 24,
+          "cssVarSha256": "21e9a5ea00bf838361c569f16f2808bbcd3e9a315796101c878369ff3160d4f7"
+        }
+      }
+    },
+    {
+      "slug": "lathe-chuck",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/lathe-chuck.svg",
+          "sha256": "855e73c189b906a15d6b3bc089ea78905cfc7fae87333f6c9547101d7435b524",
+          "bytes": 35719,
+          "width": 24,
+          "cssVarSha256": "7905ce43bd1daae6961e1268a01d5f062451b4a5ec93b509af855770df35e956"
+        }
+      }
+    },
+    {
+      "slug": "motor",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/motor.svg",
+          "sha256": "82356f942b56529ee7be668a451223353893af15f0fdbed37f4303a1b0c40cf9",
+          "bytes": 13455,
+          "width": 24,
+          "cssVarSha256": "af99d67017550e55695a74c311b5bbd93ad37c5728f7466e4b81587da4243590"
+        }
+      }
+    },
+    {
+      "slug": "pump",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/pump.svg",
+          "sha256": "53c609e4fcd63da8499ce765f62a1ac8647b0dbe716ed06777406e9b4c521a60",
+          "bytes": 37323,
+          "width": 24,
+          "cssVarSha256": "d7d3dfee570ed03103cd7de71dc41cff038953a2ac70233f55a8034f5f085897"
+        }
+      }
+    },
+    {
+      "slug": "fan",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/fan.svg",
+          "sha256": "0b4571f4f6edb000578f9450d99810a3406e04c78b8cd7a776a8312989dbc77c",
+          "bytes": 36370,
+          "width": 24,
+          "cssVarSha256": "89894e5551413ad1a1f38e52355d0a72dfbcfbdbd454c5bf367e50367e2ffa21"
+        }
+      }
+    },
+    {
+      "slug": "radiator",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/radiator.svg",
+          "sha256": "1f76653d65282ac3cb4ab903eb232a5c8ec58d456db4297707fb034523eea1b6",
+          "bytes": 19120,
+          "width": 24,
+          "cssVarSha256": "449a0d113d690fb6845b496d27074cb05960340c9d1f947e79d06007b19bffc2"
+        }
+      }
+    },
+    {
+      "slug": "circuit-board",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/circuit-board.svg",
+          "sha256": "7af7b6f8d64cf031dc79adba700eebc60c2ff5962eafd50655bf35c83dbe1e41",
+          "bytes": 48304,
+          "width": 24,
+          "cssVarSha256": "fe3469db7d80c1d3db35363ef3c098c0744289b623a22a097884e60e000ae25b"
+        }
+      }
+    },
+    {
+      "slug": "resistor",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/resistor.svg",
+          "sha256": "07b41ef3294f0b48dc12a2d2d8b63af56b7adc38b53169b279e7e112e2d5d768",
+          "bytes": 9323,
+          "width": 24,
+          "cssVarSha256": "57c8f1ee74e486ea9c363e60449328be767574c48c149b6409a035f99f4937d7"
+        }
+      }
+    },
+    {
+      "slug": "capacitor",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/capacitor.svg",
+          "sha256": "d039552d21c02799854f60c2423db9ab052fc6afe5c0306b18d6a52e4d7801cf",
+          "bytes": 23951,
+          "width": 24,
+          "cssVarSha256": "2eaceba5cf9cfeea129c67bb3ff65bd9ad0def630c26dc5e54a7d9e236ae6884"
+        }
+      }
+    },
+    {
+      "slug": "transistor",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/transistor.svg",
+          "sha256": "11f15c4a18e1ff6657b253ade4e27b46c5c44c75f1c46e92e5bce9164a46ac23",
+          "bytes": 18373,
+          "width": 24,
+          "cssVarSha256": "d56616b9d4c35230e25de65c050f185bda3716357e174d58fabc460f8e1ae30e"
+        }
+      }
+    },
+    {
+      "slug": "battery-cell",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/battery-cell.svg",
+          "sha256": "960c69d0e80023e06bd393932da7a41194cbb6b1a1aaf037d626c8abb076adc3",
+          "bytes": 14456,
+          "width": 24,
+          "cssVarSha256": "a8ce8f806e1bb6925ca0e40ba3b47a604ff7d90c3f110d760f4faec8129c9f66"
+        }
+      }
+    },
+    {
+      "slug": "toggle-switch",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/toggle-switch.svg",
+          "sha256": "1a542f395065c9ae5e6fedb3be4c9bafafe1e08675c996d6aadba723237c79e4",
+          "bytes": 21376,
+          "width": 24,
+          "cssVarSha256": "4c8edf16f949b97334aa3cc28dd9a610df0630a8d5445bf231385955e7f091f7"
+        }
+      }
+    },
+    {
+      "slug": "sensor",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/sensor.svg",
+          "sha256": "b94479275f7655071baad425e0c59369a228923a3142d76e4e3ae00e13f1505c",
+          "bytes": 22286,
+          "width": 24,
+          "cssVarSha256": "ba655cd65dacf6451dd129691ebdce49209398d5b285460a9831f7088ed34be2"
+        }
+      }
+    },
+    {
+      "slug": "robot-arm",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/robot-arm.svg",
+          "sha256": "640a4a671ce4387b73ad595066146b6ec2f12a9e134c99ca2dfe2db8764d841e",
+          "bytes": 26941,
+          "width": 24,
+          "cssVarSha256": "87f600aded76bf7a70ebc7b21167e5929379dcc67e930cc98971b02e378ff1b6"
+        }
+      }
+    },
+    {
+      "slug": "conveyor",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/conveyor.svg",
+          "sha256": "207510f14bd6efa5cbf2c58629e221f09124189aae191d4a5edf031dd9a1fae4",
+          "bytes": 20655,
+          "width": 24,
+          "cssVarSha256": "c2f43a1928ea104c8be0d4893192bc31629b320646c0e2214bed29dd4aae4f67"
+        }
+      }
+    },
+    {
+      "slug": "hard-hat",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/hard-hat.svg",
+          "sha256": "f486b657d94bc141711d3f471e860313e293ebb4488ad328bca2a9330d48e6fd",
+          "bytes": 15270,
+          "width": 24,
+          "cssVarSha256": "47c7da709f0eee4fbb3957cde89545f6ae5f7b16406cae1b907f4ec7af11a709"
+        }
+      }
+    },
+    {
+      "slug": "blueprint-roll",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/blueprint-roll.svg",
+          "sha256": "2b1f2f6a74139d27d3e5cd7f38563e5040e4935d3327c405a977657a6d8ce0ab",
+          "bytes": 21982,
+          "width": 24,
+          "cssVarSha256": "4bc7b5fcc72999c264faaf2014bce0e37d58d35c641c6d4c7dfbf089da6893b9"
+        }
+      }
+    }
+  ]
+}

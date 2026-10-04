@@ -1,0 +1,22 @@
+name: Asset request
+description: Request a new icon set
+labels: ["enhancement"]
+body:
+  - type: input
+    id: set-name
+    attributes:
+      label: Set name or theme
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What would you like to see?
+      placeholder: Describe the style, subject matter, palette, or use case
+    validations:
+      required: true
+  - type: input
+    id: use-case
+    attributes:
+      label: Project / use case
+      description: What are you building with these icons?

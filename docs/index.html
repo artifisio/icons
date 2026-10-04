@@ -1,0 +1,841 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Artifisio Icons Registry</title>
+<style>
+  :root { --bg: #0b0d12; --fg: #e7e9ee; --muted: #98a2b3; --card: #151922; --ink: #e7e9ee; }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 2rem 1.5rem 4rem; background: var(--bg); color: var(--fg);
+         font: 15px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header.page { max-width: 1100px; margin: 0 auto 2rem; }
+  h1 { font-size: 1.6rem; margin: 0 0 .35rem; }
+  .controls { display: flex; gap: .75rem; flex-wrap: wrap; align-items: center; margin-top: 1.25rem; }
+  input[type=search] { flex: 1 1 260px; padding: .55rem .8rem; border-radius: .5rem;
+                       border: 1px solid #262c39; background: var(--card); color: var(--fg); }
+  label { display: inline-flex; align-items: center; gap: .5rem; color: var(--muted); font-size: .85rem; }
+  input[type=color] { width: 34px; height: 34px; padding: 0; border: 1px solid #262c39;
+                      border-radius: .4rem; background: var(--card); }
+  .set { max-width: 1100px; margin: 0 auto 2.5rem; }
+  .set header { margin-bottom: 1rem; }
+  .set h2 { font-size: 1.15rem; margin: 0 0 .2rem; }
+  .set p { margin: 0; color: var(--muted); }
+  .set .meta { font-size: .82rem; margin-top: .2rem; }
+  .set code { display: inline-block; margin-top: .6rem; padding: .3rem .55rem; border-radius: .4rem;
+              background: var(--card); color: #9ecbff; font-size: .8rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: .5rem; }
+  .icon { margin: 0; padding: .7rem .4rem .5rem; border-radius: .6rem; background: var(--card);
+          text-align: center; overflow: hidden; }
+  .icon img { width: 28px; height: 28px; color: var(--ink); }
+  .icon figcaption { margin-top: .45rem; font-size: .68rem; color: var(--muted);
+                     white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .set[hidden] { display: none; }
+</style>
+</head>
+<body>
+<header class="page">
+  <h1>Artifisio Icons Registry</h1>
+  <p>9 sets · 692 icons · CC BY 4.0 · <a href="https://github.com/artifisio/icons" style="color:#9ecbff">source</a></p>
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search sets by name or tag…" />
+    <label>Ink <input type="color" id="ink" value="#e7e9ee" /></label>
+  </div>
+</header>
+    <section class="set" data-name="bitmap bitmap-3 pixel retro lo-fi solid">
+      <header>
+        <h2>Bitmap</h2>
+        <p>The core UI set rendered on a coarse pixel lattice — whole square pixels only, staircase diagonals, not one curve in the family.</p>
+        <p class="meta">34 icons · 24px grid · 2px stroke</p>
+        <code>npx artifisio add bitmap-3 --kind icon</code>
+      </header>
+      <div class="grid">
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/home.svg" alt="home" loading="lazy" /><figcaption>home</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/search.svg" alt="search" loading="lazy" /><figcaption>search</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/settings.svg" alt="settings" loading="lazy" /><figcaption>settings</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/user.svg" alt="user" loading="lazy" /><figcaption>user</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/users.svg" alt="users" loading="lazy" /><figcaption>users</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/bell.svg" alt="bell" loading="lazy" /><figcaption>bell</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/heart.svg" alt="heart" loading="lazy" /><figcaption>heart</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/star.svg" alt="star" loading="lazy" /><figcaption>star</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/trash.svg" alt="trash" loading="lazy" /><figcaption>trash</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/edit.svg" alt="edit" loading="lazy" /><figcaption>edit</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/calendar.svg" alt="calendar" loading="lazy" /><figcaption>calendar</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/clock.svg" alt="clock" loading="lazy" /><figcaption>clock</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/camera.svg" alt="camera" loading="lazy" /><figcaption>camera</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/image.svg" alt="image" loading="lazy" /><figcaption>image</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/folder.svg" alt="folder" loading="lazy" /><figcaption>folder</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/file.svg" alt="file" loading="lazy" /><figcaption>file</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/lock.svg" alt="lock" loading="lazy" /><figcaption>lock</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/key.svg" alt="key" loading="lazy" /><figcaption>key</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/mail.svg" alt="mail" loading="lazy" /><figcaption>mail</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/phone.svg" alt="phone" loading="lazy" /><figcaption>phone</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/message.svg" alt="message" loading="lazy" /><figcaption>message</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/send.svg" alt="send" loading="lazy" /><figcaption>send</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/eye.svg" alt="eye" loading="lazy" /><figcaption>eye</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/play.svg" alt="play" loading="lazy" /><figcaption>play</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/volume.svg" alt="volume" loading="lazy" /><figcaption>volume</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/mic.svg" alt="mic" loading="lazy" /><figcaption>mic</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/wifi.svg" alt="wifi" loading="lazy" /><figcaption>wifi</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/battery.svg" alt="battery" loading="lazy" /><figcaption>battery</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/map-pin.svg" alt="map-pin" loading="lazy" /><figcaption>map-pin</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/globe.svg" alt="globe" loading="lazy" /><figcaption>globe</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/flag.svg" alt="flag" loading="lazy" /><figcaption>flag</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/shopping-cart.svg" alt="shopping-cart" loading="lazy" /><figcaption>shopping-cart</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/gift.svg" alt="gift" loading="lazy" /><figcaption>gift</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/svg/coffee.svg" alt="coffee" loading="lazy" /><figcaption>coffee</figcaption></figure>
+      </div>
+    </section>
+    <section class="set" data-name="gaffer gaffer-2 tape collage handmade duotone">
+      <header>
+        <h2>Gaffer</h2>
+        <p>Every icon torn from tape and pressed down by hand — straight strips at crooked angles, ragged ends and honest overlaps.</p>
+        <p class="meta">33 icons · 24px grid · 2px stroke</p>
+        <code>npx artifisio add gaffer-2 --kind icon</code>
+      </header>
+      <div class="grid">
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/home.svg" alt="home" loading="lazy" /><figcaption>home</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/search.svg" alt="search" loading="lazy" /><figcaption>search</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/settings.svg" alt="settings" loading="lazy" /><figcaption>settings</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/user.svg" alt="user" loading="lazy" /><figcaption>user</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/users.svg" alt="users" loading="lazy" /><figcaption>users</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/bell.svg" alt="bell" loading="lazy" /><figcaption>bell</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/heart.svg" alt="heart" loading="lazy" /><figcaption>heart</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/star.svg" alt="star" loading="lazy" /><figcaption>star</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/trash.svg" alt="trash" loading="lazy" /><figcaption>trash</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/edit.svg" alt="edit" loading="lazy" /><figcaption>edit</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/calendar.svg" alt="calendar" loading="lazy" /><figcaption>calendar</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/clock.svg" alt="clock" loading="lazy" /><figcaption>clock</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/camera.svg" alt="camera" loading="lazy" /><figcaption>camera</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/image.svg" alt="image" loading="lazy" /><figcaption>image</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/folder.svg" alt="folder" loading="lazy" /><figcaption>folder</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/file.svg" alt="file" loading="lazy" /><figcaption>file</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/lock.svg" alt="lock" loading="lazy" /><figcaption>lock</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/key.svg" alt="key" loading="lazy" /><figcaption>key</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/mail.svg" alt="mail" loading="lazy" /><figcaption>mail</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/phone.svg" alt="phone" loading="lazy" /><figcaption>phone</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/message.svg" alt="message" loading="lazy" /><figcaption>message</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/eye.svg" alt="eye" loading="lazy" /><figcaption>eye</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/play.svg" alt="play" loading="lazy" /><figcaption>play</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/volume.svg" alt="volume" loading="lazy" /><figcaption>volume</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/mic.svg" alt="mic" loading="lazy" /><figcaption>mic</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/wifi.svg" alt="wifi" loading="lazy" /><figcaption>wifi</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/battery.svg" alt="battery" loading="lazy" /><figcaption>battery</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/map-pin.svg" alt="map-pin" loading="lazy" /><figcaption>map-pin</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/globe.svg" alt="globe" loading="lazy" /><figcaption>globe</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/flag.svg" alt="flag" loading="lazy" /><figcaption>flag</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/shopping-cart.svg" alt="shopping-cart" loading="lazy" /><figcaption>shopping-cart</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/gift.svg" alt="gift" loading="lazy" /><figcaption>gift</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/svg/coffee.svg" alt="coffee" loading="lazy" /><figcaption>coffee</figcaption></figure>
+      </div>
+    </section>
+    <section class="set" data-name="bitmap bitmap-2 pixel retro lo-fi solid">
+      <header>
+        <h2>Bitmap</h2>
+        <p>The core UI set rendered on a coarse pixel lattice — whole square pixels only, staircase diagonals, not one curve in the family.</p>
+        <p class="meta">34 icons · 24px grid · 2px stroke</p>
+        <code>npx artifisio add bitmap-2 --kind icon</code>
+      </header>
+      <div class="grid">
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/home.svg" alt="home" loading="lazy" /><figcaption>home</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/search.svg" alt="search" loading="lazy" /><figcaption>search</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/settings.svg" alt="settings" loading="lazy" /><figcaption>settings</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/user.svg" alt="user" loading="lazy" /><figcaption>user</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/users.svg" alt="users" loading="lazy" /><figcaption>users</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/bell.svg" alt="bell" loading="lazy" /><figcaption>bell</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/heart.svg" alt="heart" loading="lazy" /><figcaption>heart</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/star.svg" alt="star" loading="lazy" /><figcaption>star</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/trash.svg" alt="trash" loading="lazy" /><figcaption>trash</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/edit.svg" alt="edit" loading="lazy" /><figcaption>edit</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/calendar.svg" alt="calendar" loading="lazy" /><figcaption>calendar</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/clock.svg" alt="clock" loading="lazy" /><figcaption>clock</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/camera.svg" alt="camera" loading="lazy" /><figcaption>camera</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/image.svg" alt="image" loading="lazy" /><figcaption>image</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/folder.svg" alt="folder" loading="lazy" /><figcaption>folder</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/file.svg" alt="file" loading="lazy" /><figcaption>file</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/lock.svg" alt="lock" loading="lazy" /><figcaption>lock</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/key.svg" alt="key" loading="lazy" /><figcaption>key</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/mail.svg" alt="mail" loading="lazy" /><figcaption>mail</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/phone.svg" alt="phone" loading="lazy" /><figcaption>phone</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/message.svg" alt="message" loading="lazy" /><figcaption>message</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/send.svg" alt="send" loading="lazy" /><figcaption>send</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/eye.svg" alt="eye" loading="lazy" /><figcaption>eye</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/play.svg" alt="play" loading="lazy" /><figcaption>play</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/volume.svg" alt="volume" loading="lazy" /><figcaption>volume</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/mic.svg" alt="mic" loading="lazy" /><figcaption>mic</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/wifi.svg" alt="wifi" loading="lazy" /><figcaption>wifi</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/battery.svg" alt="battery" loading="lazy" /><figcaption>battery</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/map-pin.svg" alt="map-pin" loading="lazy" /><figcaption>map-pin</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/globe.svg" alt="globe" loading="lazy" /><figcaption>globe</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/flag.svg" alt="flag" loading="lazy" /><figcaption>flag</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/shopping-cart.svg" alt="shopping-cart" loading="lazy" /><figcaption>shopping-cart</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/gift.svg" alt="gift" loading="lazy" /><figcaption>gift</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/svg/coffee.svg" alt="coffee" loading="lazy" /><figcaption>coffee</figcaption></figure>
+      </div>
+    </section>
+    <section class="set" data-name="pulse pulse health medical wellness outline">
+      <header>
+        <h2>Pulse</h2>
+        <p>A calm rounded outline family for health products — anatomy, clinics, diagnostics, fitness and everyday wellbeing.</p>
+        <p class="meta">142 icons · 24px grid · 2px stroke</p>
+        <code>npx artifisio add pulse --kind icon</code>
+      </header>
+      <div class="grid">
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/heart.svg" alt="heart" loading="lazy" /><figcaption>heart</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/lungs.svg" alt="lungs" loading="lazy" /><figcaption>lungs</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/brain.svg" alt="brain" loading="lazy" /><figcaption>brain</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/stomach.svg" alt="stomach" loading="lazy" /><figcaption>stomach</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/kidney.svg" alt="kidney" loading="lazy" /><figcaption>kidney</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/liver.svg" alt="liver" loading="lazy" /><figcaption>liver</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/intestine.svg" alt="intestine" loading="lazy" /><figcaption>intestine</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/bone.svg" alt="bone" loading="lazy" /><figcaption>bone</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/knee-joint.svg" alt="knee-joint" loading="lazy" /><figcaption>knee-joint</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/tooth.svg" alt="tooth" loading="lazy" /><figcaption>tooth</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/eye.svg" alt="eye" loading="lazy" /><figcaption>eye</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/ear.svg" alt="ear" loading="lazy" /><figcaption>ear</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/spine.svg" alt="spine" loading="lazy" /><figcaption>spine</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/muscle.svg" alt="muscle" loading="lazy" /><figcaption>muscle</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/dna.svg" alt="dna" loading="lazy" /><figcaption>dna</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/cell.svg" alt="cell" loading="lazy" /><figcaption>cell</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/virus.svg" alt="virus" loading="lazy" /><figcaption>virus</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/bacteria.svg" alt="bacteria" loading="lazy" /><figcaption>bacteria</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/blood-cells.svg" alt="blood-cells" loading="lazy" /><figcaption>blood-cells</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/pregnancy.svg" alt="pregnancy" loading="lazy" /><figcaption>pregnancy</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/rib-cage.svg" alt="rib-cage" loading="lazy" /><figcaption>rib-cage</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/skull.svg" alt="skull" loading="lazy" /><figcaption>skull</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/blood-vessel.svg" alt="blood-vessel" loading="lazy" /><figcaption>blood-vessel</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/neuron.svg" alt="neuron" loading="lazy" /><figcaption>neuron</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/chromosome.svg" alt="chromosome" loading="lazy" /><figcaption>chromosome</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/stethoscope.svg" alt="stethoscope" loading="lazy" /><figcaption>stethoscope</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/syringe.svg" alt="syringe" loading="lazy" /><figcaption>syringe</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/thermometer.svg" alt="thermometer" loading="lazy" /><figcaption>thermometer</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/bandage.svg" alt="bandage" loading="lazy" /><figcaption>bandage</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/gauze.svg" alt="gauze" loading="lazy" /><figcaption>gauze</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/pill.svg" alt="pill" loading="lazy" /><figcaption>pill</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/capsule.svg" alt="capsule" loading="lazy" /><figcaption>capsule</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/blister-pack.svg" alt="blister-pack" loading="lazy" /><figcaption>blister-pack</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/iv-drip.svg" alt="iv-drip" loading="lazy" /><figcaption>iv-drip</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/wheelchair.svg" alt="wheelchair" loading="lazy" /><figcaption>wheelchair</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/crutch.svg" alt="crutch" loading="lazy" /><figcaption>crutch</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/cast.svg" alt="cast" loading="lazy" /><figcaption>cast</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/defibrillator.svg" alt="defibrillator" loading="lazy" /><figcaption>defibrillator</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/oxygen-mask.svg" alt="oxygen-mask" loading="lazy" /><figcaption>oxygen-mask</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/inhaler.svg" alt="inhaler" loading="lazy" /><figcaption>inhaler</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/hearing-aid.svg" alt="hearing-aid" loading="lazy" /><figcaption>hearing-aid</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/glasses.svg" alt="glasses" loading="lazy" /><figcaption>glasses</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/eye-drops.svg" alt="eye-drops" loading="lazy" /><figcaption>eye-drops</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/medical-chart.svg" alt="medical-chart" loading="lazy" /><figcaption>medical-chart</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/prescription.svg" alt="prescription" loading="lazy" /><figcaption>prescription</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/pill-organizer.svg" alt="pill-organizer" loading="lazy" /><figcaption>pill-organizer</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/tweezers.svg" alt="tweezers" loading="lazy" /><figcaption>tweezers</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/hot-water-bottle.svg" alt="hot-water-bottle" loading="lazy" /><figcaption>hot-water-bottle</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/scalpel.svg" alt="scalpel" loading="lazy" /><figcaption>scalpel</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/syrup.svg" alt="syrup" loading="lazy" /><figcaption>syrup</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/eye-chart.svg" alt="eye-chart" loading="lazy" /><figcaption>eye-chart</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/pacemaker.svg" alt="pacemaker" loading="lazy" /><figcaption>pacemaker</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/sutures.svg" alt="sutures" loading="lazy" /><figcaption>sutures</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/hospital.svg" alt="hospital" loading="lazy" /><figcaption>hospital</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/ambulance.svg" alt="ambulance" loading="lazy" /><figcaption>ambulance</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/clinic-bed.svg" alt="clinic-bed" loading="lazy" /><figcaption>clinic-bed</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/pharmacy.svg" alt="pharmacy" loading="lazy" /><figcaption>pharmacy</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/first-aid-kit.svg" alt="first-aid-kit" loading="lazy" /><figcaption>first-aid-kit</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/doctor.svg" alt="doctor" loading="lazy" /><figcaption>doctor</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/emergency-call.svg" alt="emergency-call" loading="lazy" /><figcaption>emergency-call</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/stretcher.svg" alt="stretcher" loading="lazy" /><figcaption>stretcher</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/caduceus.svg" alt="caduceus" loading="lazy" /><figcaption>caduceus</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/care.svg" alt="care" loading="lazy" /><figcaption>care</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/blood-bag.svg" alt="blood-bag" loading="lazy" /><figcaption>blood-bag</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/vaccine.svg" alt="vaccine" loading="lazy" /><figcaption>vaccine</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/appointment.svg" alt="appointment" loading="lazy" /><figcaption>appointment</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/telemedicine.svg" alt="telemedicine" loading="lazy" /><figcaption>telemedicine</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/health-shield.svg" alt="health-shield" loading="lazy" /><figcaption>health-shield</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/x-ray.svg" alt="x-ray" loading="lazy" /><figcaption>x-ray</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/microscope.svg" alt="microscope" loading="lazy" /><figcaption>microscope</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/test-tube.svg" alt="test-tube" loading="lazy" /><figcaption>test-tube</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/sample-rack.svg" alt="sample-rack" loading="lazy" /><figcaption>sample-rack</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/petri-dish.svg" alt="petri-dish" loading="lazy" /><figcaption>petri-dish</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/blood-drop.svg" alt="blood-drop" loading="lazy" /><figcaption>blood-drop</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/blood-pressure.svg" alt="blood-pressure" loading="lazy" /><figcaption>blood-pressure</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/ecg-wave.svg" alt="ecg-wave" loading="lazy" /><figcaption>ecg-wave</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/scale.svg" alt="scale" loading="lazy" /><figcaption>scale</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/mri-scanner.svg" alt="mri-scanner" loading="lazy" /><figcaption>mri-scanner</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/ultrasound.svg" alt="ultrasound" loading="lazy" /><figcaption>ultrasound</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/lab-flask.svg" alt="lab-flask" loading="lazy" /><figcaption>lab-flask</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/swab-test.svg" alt="swab-test" loading="lazy" /><figcaption>swab-test</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/glucose-meter.svg" alt="glucose-meter" loading="lazy" /><figcaption>glucose-meter</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/sample-cup.svg" alt="sample-cup" loading="lazy" /><figcaption>sample-cup</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/oximeter.svg" alt="oximeter" loading="lazy" /><figcaption>oximeter</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/dumbbell.svg" alt="dumbbell" loading="lazy" /><figcaption>dumbbell</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/kettlebell.svg" alt="kettlebell" loading="lazy" /><figcaption>kettlebell</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/barbell.svg" alt="barbell" loading="lazy" /><figcaption>barbell</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/yoga-mat.svg" alt="yoga-mat" loading="lazy" /><figcaption>yoga-mat</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/stretching.svg" alt="stretching" loading="lazy" /><figcaption>stretching</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/running-shoe.svg" alt="running-shoe" loading="lazy" /><figcaption>running-shoe</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/jump-rope.svg" alt="jump-rope" loading="lazy" /><figcaption>jump-rope</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/treadmill.svg" alt="treadmill" loading="lazy" /><figcaption>treadmill</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/exercise-bike.svg" alt="exercise-bike" loading="lazy" /><figcaption>exercise-bike</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/heart-rate-monitor.svg" alt="heart-rate-monitor" loading="lazy" /><figcaption>heart-rate-monitor</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/step-counter.svg" alt="step-counter" loading="lazy" /><figcaption>step-counter</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/resistance-band.svg" alt="resistance-band" loading="lazy" /><figcaption>resistance-band</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/medal.svg" alt="medal" loading="lazy" /><figcaption>medal</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/goal.svg" alt="goal" loading="lazy" /><figcaption>goal</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/swimming.svg" alt="swimming" loading="lazy" /><figcaption>swimming</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/stopwatch.svg" alt="stopwatch" loading="lazy" /><figcaption>stopwatch</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/foam-roller.svg" alt="foam-roller" loading="lazy" /><figcaption>foam-roller</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/boxing-glove.svg" alt="boxing-glove" loading="lazy" /><figcaption>boxing-glove</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/sports-bottle.svg" alt="sports-bottle" loading="lazy" /><figcaption>sports-bottle</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/meditation.svg" alt="meditation" loading="lazy" /><figcaption>meditation</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/breathing.svg" alt="breathing" loading="lazy" /><figcaption>breathing</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/sleep-mask.svg" alt="sleep-mask" loading="lazy" /><figcaption>sleep-mask</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/sleep.svg" alt="sleep" loading="lazy" /><figcaption>sleep</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/journal.svg" alt="journal" loading="lazy" /><figcaption>journal</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/lotus.svg" alt="lotus" loading="lazy" /><figcaption>lotus</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/diffuser.svg" alt="diffuser" loading="lazy" /><figcaption>diffuser</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/therapy.svg" alt="therapy" loading="lazy" /><figcaption>therapy</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/alarm-clock.svg" alt="alarm-clock" loading="lazy" /><figcaption>alarm-clock</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/bed.svg" alt="bed" loading="lazy" /><figcaption>bed</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/earplugs.svg" alt="earplugs" loading="lazy" /><figcaption>earplugs</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/apple.svg" alt="apple" loading="lazy" /><figcaption>apple</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/water-glass.svg" alt="water-glass" loading="lazy" /><figcaption>water-glass</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/salad-bowl.svg" alt="salad-bowl" loading="lazy" /><figcaption>salad-bowl</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/vitamins.svg" alt="vitamins" loading="lazy" /><figcaption>vitamins</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/avocado.svg" alt="avocado" loading="lazy" /><figcaption>avocado</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/carrot.svg" alt="carrot" loading="lazy" /><figcaption>carrot</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/smoothie.svg" alt="smoothie" loading="lazy" /><figcaption>smoothie</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/meal.svg" alt="meal" loading="lazy" /><figcaption>meal</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/broccoli.svg" alt="broccoli" loading="lazy" /><figcaption>broccoli</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/egg.svg" alt="egg" loading="lazy" /><figcaption>egg</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/fish.svg" alt="fish" loading="lazy" /><figcaption>fish</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/soap.svg" alt="soap" loading="lazy" /><figcaption>soap</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/toothbrush.svg" alt="toothbrush" loading="lazy" /><figcaption>toothbrush</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/toothpaste.svg" alt="toothpaste" loading="lazy" /><figcaption>toothpaste</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/hand-wash.svg" alt="hand-wash" loading="lazy" /><figcaption>hand-wash</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/sanitizer.svg" alt="sanitizer" loading="lazy" /><figcaption>sanitizer</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/face-mask.svg" alt="face-mask" loading="lazy" /><figcaption>face-mask</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/shower.svg" alt="shower" loading="lazy" /><figcaption>shower</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/towel.svg" alt="towel" loading="lazy" /><figcaption>towel</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/no-smoking.svg" alt="no-smoking" loading="lazy" /><figcaption>no-smoking</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/baby-bottle.svg" alt="baby-bottle" loading="lazy" /><figcaption>baby-bottle</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/pacifier.svg" alt="pacifier" loading="lazy" /><figcaption>pacifier</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/tissue-box.svg" alt="tissue-box" loading="lazy" /><figcaption>tissue-box</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/walker.svg" alt="walker" loading="lazy" /><figcaption>walker</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/massage.svg" alt="massage" loading="lazy" /><figcaption>massage</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/spa-stones.svg" alt="spa-stones" loading="lazy" /><figcaption>spa-stones</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/bathtub.svg" alt="bathtub" loading="lazy" /><figcaption>bathtub</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/svg/sauna.svg" alt="sauna" loading="lazy" /><figcaption>sauna</figcaption></figure>
+      </div>
+    </section>
+    <section class="set" data-name="constellation constellation stars night celestial outline">
+      <header>
+        <h2>Constellation</h2>
+        <p>A night-atlas icon family charted rather than drawn — every glyph is a constellation of bright star-dots joined by thin chart lines, for astronomy, sleep and wonder products.</p>
+        <p class="meta">142 icons · 24px grid · 2px stroke</p>
+        <code>npx artifisio add constellation --kind icon</code>
+      </header>
+      <div class="grid">
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/whale.svg" alt="whale" loading="lazy" /><figcaption>whale</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/dolphin.svg" alt="dolphin" loading="lazy" /><figcaption>dolphin</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/fish.svg" alt="fish" loading="lazy" /><figcaption>fish</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/seahorse.svg" alt="seahorse" loading="lazy" /><figcaption>seahorse</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/octopus.svg" alt="octopus" loading="lazy" /><figcaption>octopus</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/crab.svg" alt="crab" loading="lazy" /><figcaption>crab</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/scorpion.svg" alt="scorpion" loading="lazy" /><figcaption>scorpion</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/shell.svg" alt="shell" loading="lazy" /><figcaption>shell</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/swan.svg" alt="swan" loading="lazy" /><figcaption>swan</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/owl.svg" alt="owl" loading="lazy" /><figcaption>owl</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/eagle.svg" alt="eagle" loading="lazy" /><figcaption>eagle</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/dove.svg" alt="dove" loading="lazy" /><figcaption>dove</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/crane.svg" alt="crane" loading="lazy" /><figcaption>crane</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/peacock.svg" alt="peacock" loading="lazy" /><figcaption>peacock</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/rooster.svg" alt="rooster" loading="lazy" /><figcaption>rooster</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/penguin.svg" alt="penguin" loading="lazy" /><figcaption>penguin</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/bat.svg" alt="bat" loading="lazy" /><figcaption>bat</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/butterfly.svg" alt="butterfly" loading="lazy" /><figcaption>butterfly</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/bee.svg" alt="bee" loading="lazy" /><figcaption>bee</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/dragonfly.svg" alt="dragonfly" loading="lazy" /><figcaption>dragonfly</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/spider.svg" alt="spider" loading="lazy" /><figcaption>spider</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/snail.svg" alt="snail" loading="lazy" /><figcaption>snail</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/frog.svg" alt="frog" loading="lazy" /><figcaption>frog</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/turtle.svg" alt="turtle" loading="lazy" /><figcaption>turtle</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/lizard.svg" alt="lizard" loading="lazy" /><figcaption>lizard</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/serpent.svg" alt="serpent" loading="lazy" /><figcaption>serpent</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/dragon.svg" alt="dragon" loading="lazy" /><figcaption>dragon</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/wolf.svg" alt="wolf" loading="lazy" /><figcaption>wolf</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/fox.svg" alt="fox" loading="lazy" /><figcaption>fox</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/bear.svg" alt="bear" loading="lazy" /><figcaption>bear</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/lion.svg" alt="lion" loading="lazy" /><figcaption>lion</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/cat.svg" alt="cat" loading="lazy" /><figcaption>cat</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/dog.svg" alt="dog" loading="lazy" /><figcaption>dog</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/hare.svg" alt="hare" loading="lazy" /><figcaption>hare</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/mouse.svg" alt="mouse" loading="lazy" /><figcaption>mouse</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/squirrel.svg" alt="squirrel" loading="lazy" /><figcaption>squirrel</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/hedgehog.svg" alt="hedgehog" loading="lazy" /><figcaption>hedgehog</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/deer.svg" alt="deer" loading="lazy" /><figcaption>deer</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/horse.svg" alt="horse" loading="lazy" /><figcaption>horse</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/bull.svg" alt="bull" loading="lazy" /><figcaption>bull</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/ram.svg" alt="ram" loading="lazy" /><figcaption>ram</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/elephant.svg" alt="elephant" loading="lazy" /><figcaption>elephant</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/giraffe.svg" alt="giraffe" loading="lazy" /><figcaption>giraffe</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/camel.svg" alt="camel" loading="lazy" /><figcaption>camel</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/twins.svg" alt="twins" loading="lazy" /><figcaption>twins</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/hunter.svg" alt="hunter" loading="lazy" /><figcaption>hunter</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/compass.svg" alt="compass" loading="lazy" /><figcaption>compass</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/telescope.svg" alt="telescope" loading="lazy" /><figcaption>telescope</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/hourglass.svg" alt="hourglass" loading="lazy" /><figcaption>hourglass</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/key.svg" alt="key" loading="lazy" /><figcaption>key</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/crown.svg" alt="crown" loading="lazy" /><figcaption>crown</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/harp.svg" alt="harp" loading="lazy" /><figcaption>harp</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/anchor.svg" alt="anchor" loading="lazy" /><figcaption>anchor</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/ship.svg" alt="ship" loading="lazy" /><figcaption>ship</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/sword.svg" alt="sword" loading="lazy" /><figcaption>sword</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/shield.svg" alt="shield" loading="lazy" /><figcaption>shield</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/arrow.svg" alt="arrow" loading="lazy" /><figcaption>arrow</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/bow.svg" alt="bow" loading="lazy" /><figcaption>bow</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/cup.svg" alt="cup" loading="lazy" /><figcaption>cup</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/ladle.svg" alt="ladle" loading="lazy" /><figcaption>ladle</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/lantern.svg" alt="lantern" loading="lazy" /><figcaption>lantern</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/bell.svg" alt="bell" loading="lazy" /><figcaption>bell</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/balance.svg" alt="balance" loading="lazy" /><figcaption>balance</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/throne.svg" alt="throne" loading="lazy" /><figcaption>throne</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/quill.svg" alt="quill" loading="lazy" /><figcaption>quill</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/scroll.svg" alt="scroll" loading="lazy" /><figcaption>scroll</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/hammer.svg" alt="hammer" loading="lazy" /><figcaption>hammer</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/axe.svg" alt="axe" loading="lazy" /><figcaption>axe</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/torch.svg" alt="torch" loading="lazy" /><figcaption>torch</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/wheel.svg" alt="wheel" loading="lazy" /><figcaption>wheel</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/plough.svg" alt="plough" loading="lazy" /><figcaption>plough</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/sundial.svg" alt="sundial" loading="lazy" /><figcaption>sundial</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/chariot.svg" alt="chariot" loading="lazy" /><figcaption>chariot</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/globe.svg" alt="globe" loading="lazy" /><figcaption>globe</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/mirror.svg" alt="mirror" loading="lazy" /><figcaption>mirror</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/comb.svg" alt="comb" loading="lazy" /><figcaption>comb</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/ring.svg" alt="ring" loading="lazy" /><figcaption>ring</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/gem.svg" alt="gem" loading="lazy" /><figcaption>gem</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/violin.svg" alt="violin" loading="lazy" /><figcaption>violin</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/trumpet.svg" alt="trumpet" loading="lazy" /><figcaption>trumpet</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/drum.svg" alt="drum" loading="lazy" /><figcaption>drum</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/flute.svg" alt="flute" loading="lazy" /><figcaption>flute</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/helmet.svg" alt="helmet" loading="lazy" /><figcaption>helmet</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/flag.svg" alt="flag" loading="lazy" /><figcaption>flag</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/fishing-rod.svg" alt="fishing-rod" loading="lazy" /><figcaption>fishing-rod</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/anvil.svg" alt="anvil" loading="lazy" /><figcaption>anvil</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/bucket.svg" alt="bucket" loading="lazy" /><figcaption>bucket</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/home.svg" alt="home" loading="lazy" /><figcaption>home</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/heart.svg" alt="heart" loading="lazy" /><figcaption>heart</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/star.svg" alt="star" loading="lazy" /><figcaption>star</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/envelope.svg" alt="envelope" loading="lazy" /><figcaption>envelope</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/camera.svg" alt="camera" loading="lazy" /><figcaption>camera</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/book.svg" alt="book" loading="lazy" /><figcaption>book</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/bicycle.svg" alt="bicycle" loading="lazy" /><figcaption>bicycle</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/umbrella.svg" alt="umbrella" loading="lazy" /><figcaption>umbrella</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/kite.svg" alt="kite" loading="lazy" /><figcaption>kite</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/balloon.svg" alt="balloon" loading="lazy" /><figcaption>balloon</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/rocket.svg" alt="rocket" loading="lazy" /><figcaption>rocket</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/plane.svg" alt="plane" loading="lazy" /><figcaption>plane</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/train.svg" alt="train" loading="lazy" /><figcaption>train</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/car.svg" alt="car" loading="lazy" /><figcaption>car</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/clock.svg" alt="clock" loading="lazy" /><figcaption>clock</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/glasses.svg" alt="glasses" loading="lazy" /><figcaption>glasses</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/hat.svg" alt="hat" loading="lazy" /><figcaption>hat</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/boot.svg" alt="boot" loading="lazy" /><figcaption>boot</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/glove.svg" alt="glove" loading="lazy" /><figcaption>glove</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/scissors.svg" alt="scissors" loading="lazy" /><figcaption>scissors</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/needle.svg" alt="needle" loading="lazy" /><figcaption>needle</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/phone.svg" alt="phone" loading="lazy" /><figcaption>phone</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/music.svg" alt="music" loading="lazy" /><figcaption>music</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/candle.svg" alt="candle" loading="lazy" /><figcaption>candle</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/lighthouse.svg" alt="lighthouse" loading="lazy" /><figcaption>lighthouse</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/windmill.svg" alt="windmill" loading="lazy" /><figcaption>windmill</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/castle.svg" alt="castle" loading="lazy" /><figcaption>castle</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/bridge.svg" alt="bridge" loading="lazy" /><figcaption>bridge</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/tent.svg" alt="tent" loading="lazy" /><figcaption>tent</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/campfire.svg" alt="campfire" loading="lazy" /><figcaption>campfire</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/ladder.svg" alt="ladder" loading="lazy" /><figcaption>ladder</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/teapot.svg" alt="teapot" loading="lazy" /><figcaption>teapot</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/apple.svg" alt="apple" loading="lazy" /><figcaption>apple</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/grapes.svg" alt="grapes" loading="lazy" /><figcaption>grapes</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/wheat.svg" alt="wheat" loading="lazy" /><figcaption>wheat</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/mushroom.svg" alt="mushroom" loading="lazy" /><figcaption>mushroom</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/cactus.svg" alt="cactus" loading="lazy" /><figcaption>cactus</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/tree.svg" alt="tree" loading="lazy" /><figcaption>tree</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/pine.svg" alt="pine" loading="lazy" /><figcaption>pine</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/leaf.svg" alt="leaf" loading="lazy" /><figcaption>leaf</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/flower.svg" alt="flower" loading="lazy" /><figcaption>flower</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/clover.svg" alt="clover" loading="lazy" /><figcaption>clover</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/acorn.svg" alt="acorn" loading="lazy" /><figcaption>acorn</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/feather.svg" alt="feather" loading="lazy" /><figcaption>feather</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/mountain.svg" alt="mountain" loading="lazy" /><figcaption>mountain</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/wave.svg" alt="wave" loading="lazy" /><figcaption>wave</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/cloud.svg" alt="cloud" loading="lazy" /><figcaption>cloud</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/raindrop.svg" alt="raindrop" loading="lazy" /><figcaption>raindrop</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/snowflake.svg" alt="snowflake" loading="lazy" /><figcaption>snowflake</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/lightning.svg" alt="lightning" loading="lazy" /><figcaption>lightning</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/rainbow.svg" alt="rainbow" loading="lazy" /><figcaption>rainbow</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/sun.svg" alt="sun" loading="lazy" /><figcaption>sun</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/moon.svg" alt="moon" loading="lazy" /><figcaption>moon</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/comet.svg" alt="comet" loading="lazy" /><figcaption>comet</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/svg/planet.svg" alt="planet" loading="lazy" /><figcaption>planet</figcaption></figure>
+      </div>
+    </section>
+    <section class="set" data-name="stack stack developer cloud data outline">
+      <header>
+        <h2>Stack</h2>
+        <p>An engineered outline icon family for developer, cloud and data products — code, infrastructure, networking, pipelines, devops and hardware.</p>
+        <p class="meta">141 icons · 24px grid · 2px stroke</p>
+        <code>npx artifisio add stack --kind icon</code>
+      </header>
+      <div class="grid">
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/brackets.svg" alt="brackets" loading="lazy" /><figcaption>brackets</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/braces.svg" alt="braces" loading="lazy" /><figcaption>braces</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/code.svg" alt="code" loading="lazy" /><figcaption>code</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/terminal.svg" alt="terminal" loading="lazy" /><figcaption>terminal</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/prompt.svg" alt="prompt" loading="lazy" /><figcaption>prompt</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/code-file.svg" alt="code-file" loading="lazy" /><figcaption>code-file</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/code-editor.svg" alt="code-editor" loading="lazy" /><figcaption>code-editor</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/function.svg" alt="function" loading="lazy" /><figcaption>function</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/variable.svg" alt="variable" loading="lazy" /><figcaption>variable</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/regex.svg" alt="regex" loading="lazy" /><figcaption>regex</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/hash.svg" alt="hash" loading="lazy" /><figcaption>hash</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/diff.svg" alt="diff" loading="lazy" /><figcaption>diff</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/merge.svg" alt="merge" loading="lazy" /><figcaption>merge</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/pull-request.svg" alt="pull-request" loading="lazy" /><figcaption>pull-request</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/commit.svg" alt="commit" loading="lazy" /><figcaption>commit</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/branch.svg" alt="branch" loading="lazy" /><figcaption>branch</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/cherry-pick.svg" alt="cherry-pick" loading="lazy" /><figcaption>cherry-pick</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/repository.svg" alt="repository" loading="lazy" /><figcaption>repository</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/history.svg" alt="history" loading="lazy" /><figcaption>history</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/script.svg" alt="script" loading="lazy" /><figcaption>script</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/code-comment.svg" alt="code-comment" loading="lazy" /><figcaption>code-comment</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/recursion.svg" alt="recursion" loading="lazy" /><figcaption>recursion</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/plugin.svg" alt="plugin" loading="lazy" /><figcaption>plugin</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/layers.svg" alt="layers" loading="lazy" /><figcaption>layers</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/link.svg" alt="link" loading="lazy" /><figcaption>link</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/workflow.svg" alt="workflow" loading="lazy" /><figcaption>workflow</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/server.svg" alt="server" loading="lazy" /><figcaption>server</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/server-rack.svg" alt="server-rack" loading="lazy" /><figcaption>server-rack</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/server-stack.svg" alt="server-stack" loading="lazy" /><figcaption>server-stack</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/database.svg" alt="database" loading="lazy" /><figcaption>database</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/database-replica.svg" alt="database-replica" loading="lazy" /><figcaption>database-replica</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/cloud.svg" alt="cloud" loading="lazy" /><figcaption>cloud</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/cloud-upload.svg" alt="cloud-upload" loading="lazy" /><figcaption>cloud-upload</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/cloud-download.svg" alt="cloud-download" loading="lazy" /><figcaption>cloud-download</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/container.svg" alt="container" loading="lazy" /><figcaption>container</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/pod.svg" alt="pod" loading="lazy" /><figcaption>pod</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/load-balancer.svg" alt="load-balancer" loading="lazy" /><figcaption>load-balancer</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/cdn.svg" alt="cdn" loading="lazy" /><figcaption>cdn</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/edge-node.svg" alt="edge-node" loading="lazy" /><figcaption>edge-node</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/cluster.svg" alt="cluster" loading="lazy" /><figcaption>cluster</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/serverless.svg" alt="serverless" loading="lazy" /><figcaption>serverless</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/bucket.svg" alt="bucket" loading="lazy" /><figcaption>bucket</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/autoscale.svg" alt="autoscale" loading="lazy" /><figcaption>autoscale</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/monolith.svg" alt="monolith" loading="lazy" /><figcaption>monolith</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/data-center.svg" alt="data-center" loading="lazy" /><figcaption>data-center</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/router.svg" alt="router" loading="lazy" /><figcaption>router</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/network-switch.svg" alt="network-switch" loading="lazy" /><figcaption>network-switch</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/ethernet.svg" alt="ethernet" loading="lazy" /><figcaption>ethernet</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/plug.svg" alt="plug" loading="lazy" /><figcaption>plug</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/api.svg" alt="api" loading="lazy" /><figcaption>api</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/antenna.svg" alt="antenna" loading="lazy" /><figcaption>antenna</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/signal-tower.svg" alt="signal-tower" loading="lazy" /><figcaption>signal-tower</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/satellite.svg" alt="satellite" loading="lazy" /><figcaption>satellite</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/wifi.svg" alt="wifi" loading="lazy" /><figcaption>wifi</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/ping.svg" alt="ping" loading="lazy" /><figcaption>ping</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/vpn.svg" alt="vpn" loading="lazy" /><figcaption>vpn</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/firewall.svg" alt="firewall" loading="lazy" /><figcaption>firewall</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/dns.svg" alt="dns" loading="lazy" /><figcaption>dns</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/ip.svg" alt="ip" loading="lazy" /><figcaption>ip</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/gateway.svg" alt="gateway" loading="lazy" /><figcaption>gateway</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/proxy.svg" alt="proxy" loading="lazy" /><figcaption>proxy</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/tunnel.svg" alt="tunnel" loading="lazy" /><figcaption>tunnel</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/packet.svg" alt="packet" loading="lazy" /><figcaption>packet</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/mesh.svg" alt="mesh" loading="lazy" /><figcaption>mesh</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/peer-to-peer.svg" alt="peer-to-peer" loading="lazy" /><figcaption>peer-to-peer</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/bridge.svg" alt="bridge" loading="lazy" /><figcaption>bridge</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/table.svg" alt="table" loading="lazy" /><figcaption>table</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/spreadsheet.svg" alt="spreadsheet" loading="lazy" /><figcaption>spreadsheet</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/json-file.svg" alt="json-file" loading="lazy" /><figcaption>json-file</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/csv-file.svg" alt="csv-file" loading="lazy" /><figcaption>csv-file</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/zip-file.svg" alt="zip-file" loading="lazy" /><figcaption>zip-file</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/pipeline.svg" alt="pipeline" loading="lazy" /><figcaption>pipeline</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/stream.svg" alt="stream" loading="lazy" /><figcaption>stream</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/queue.svg" alt="queue" loading="lazy" /><figcaption>queue</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/cache.svg" alt="cache" loading="lazy" /><figcaption>cache</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/backup.svg" alt="backup" loading="lazy" /><figcaption>backup</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/snapshot.svg" alt="snapshot" loading="lazy" /><figcaption>snapshot</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/migration.svg" alt="migration" loading="lazy" /><figcaption>migration</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/sort.svg" alt="sort" loading="lazy" /><figcaption>sort</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/shard.svg" alt="shard" loading="lazy" /><figcaption>shard</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/archive.svg" alt="archive" loading="lazy" /><figcaption>archive</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/dashboard.svg" alt="dashboard" loading="lazy" /><figcaption>dashboard</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/query.svg" alt="query" loading="lazy" /><figcaption>query</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/ci-cd.svg" alt="ci-cd" loading="lazy" /><figcaption>ci-cd</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/deploy.svg" alt="deploy" loading="lazy" /><figcaption>deploy</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/rollback.svg" alt="rollback" loading="lazy" /><figcaption>rollback</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/canary.svg" alt="canary" loading="lazy" /><figcaption>canary</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/gauge.svg" alt="gauge" loading="lazy" /><figcaption>gauge</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/metrics.svg" alt="metrics" loading="lazy" /><figcaption>metrics</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/logs.svg" alt="logs" loading="lazy" /><figcaption>logs</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/alert.svg" alt="alert" loading="lazy" /><figcaption>alert</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/siren.svg" alt="siren" loading="lazy" /><figcaption>siren</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/warning.svg" alt="warning" loading="lazy" /><figcaption>warning</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/bug.svg" alt="bug" loading="lazy" /><figcaption>bug</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/patch.svg" alt="patch" loading="lazy" /><figcaption>patch</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/test-flask.svg" alt="test-flask" loading="lazy" /><figcaption>test-flask</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/checklist.svg" alt="checklist" loading="lazy" /><figcaption>checklist</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/lock-key.svg" alt="lock-key" loading="lazy" /><figcaption>lock-key</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/token.svg" alt="token" loading="lazy" /><figcaption>token</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/certificate.svg" alt="certificate" loading="lazy" /><figcaption>certificate</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/cron.svg" alt="cron" loading="lazy" /><figcaption>cron</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/webhook.svg" alt="webhook" loading="lazy" /><figcaption>webhook</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/build.svg" alt="build" loading="lazy" /><figcaption>build</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/health-check.svg" alt="health-check" loading="lazy" /><figcaption>health-check</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/feature-flag.svg" alt="feature-flag" loading="lazy" /><figcaption>feature-flag</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/eye.svg" alt="eye" loading="lazy" /><figcaption>eye</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/stopwatch.svg" alt="stopwatch" loading="lazy" /><figcaption>stopwatch</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/sandbox.svg" alt="sandbox" loading="lazy" /><figcaption>sandbox</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/kanban.svg" alt="kanban" loading="lazy" /><figcaption>kanban</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/sliders.svg" alt="sliders" loading="lazy" /><figcaption>sliders</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/gear.svg" alt="gear" loading="lazy" /><figcaption>gear</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/toggle.svg" alt="toggle" loading="lazy" /><figcaption>toggle</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/garbage.svg" alt="garbage" loading="lazy" /><figcaption>garbage</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/bot.svg" alt="bot" loading="lazy" /><figcaption>bot</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/thermometer.svg" alt="thermometer" loading="lazy" /><figcaption>thermometer</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/package.svg" alt="package" loading="lazy" /><figcaption>package</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/chip.svg" alt="chip" loading="lazy" /><figcaption>chip</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/cpu.svg" alt="cpu" loading="lazy" /><figcaption>cpu</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/gpu.svg" alt="gpu" loading="lazy" /><figcaption>gpu</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/ram.svg" alt="ram" loading="lazy" /><figcaption>ram</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/ssd.svg" alt="ssd" loading="lazy" /><figcaption>ssd</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/hdd.svg" alt="hdd" loading="lazy" /><figcaption>hdd</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/floppy.svg" alt="floppy" loading="lazy" /><figcaption>floppy</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/usb.svg" alt="usb" loading="lazy" /><figcaption>usb</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/sd-card.svg" alt="sd-card" loading="lazy" /><figcaption>sd-card</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/keyboard.svg" alt="keyboard" loading="lazy" /><figcaption>keyboard</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/mouse.svg" alt="mouse" loading="lazy" /><figcaption>mouse</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/laptop.svg" alt="laptop" loading="lazy" /><figcaption>laptop</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/monitor.svg" alt="monitor" loading="lazy" /><figcaption>monitor</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/mobile.svg" alt="mobile" loading="lazy" /><figcaption>mobile</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/watch.svg" alt="watch" loading="lazy" /><figcaption>watch</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/bare-board.svg" alt="bare-board" loading="lazy" /><figcaption>bare-board</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/battery.svg" alt="battery" loading="lazy" /><figcaption>battery</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/power.svg" alt="power" loading="lazy" /><figcaption>power</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/power-strip.svg" alt="power-strip" loading="lazy" /><figcaption>power-strip</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/heatsink.svg" alt="heatsink" loading="lazy" /><figcaption>heatsink</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/cooling-fan.svg" alt="cooling-fan" loading="lazy" /><figcaption>cooling-fan</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/webcam.svg" alt="webcam" loading="lazy" /><figcaption>webcam</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/circuit.svg" alt="circuit" loading="lazy" /><figcaption>circuit</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/microphone.svg" alt="microphone" loading="lazy" /><figcaption>microphone</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/svg/speaker.svg" alt="speaker" loading="lazy" /><figcaption>speaker</figcaption></figure>
+      </div>
+    </section>
+    <section class="set" data-name="meltdown · gpt image 2 meltdown-gpt2 melting liquid playful ui gpt2">
+      <header>
+        <h2>Meltdown · GPT Image 2</h2>
+        <p>A UI icon family caught mid-melt — every glyph sags, pools and drips, for festival, summer and heatwave products.</p>
+        <p class="meta">34 icons · 24px grid · 2px stroke</p>
+        <code>npx artifisio add meltdown-gpt2 --kind icon</code>
+      </header>
+      <div class="grid">
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/home.svg" alt="home" loading="lazy" /><figcaption>home</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/search.svg" alt="search" loading="lazy" /><figcaption>search</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/settings.svg" alt="settings" loading="lazy" /><figcaption>settings</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/user.svg" alt="user" loading="lazy" /><figcaption>user</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/bell.svg" alt="bell" loading="lazy" /><figcaption>bell</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/heart.svg" alt="heart" loading="lazy" /><figcaption>heart</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/star.svg" alt="star" loading="lazy" /><figcaption>star</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/trash.svg" alt="trash" loading="lazy" /><figcaption>trash</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/camera.svg" alt="camera" loading="lazy" /><figcaption>camera</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/image.svg" alt="image" loading="lazy" /><figcaption>image</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/folder.svg" alt="folder" loading="lazy" /><figcaption>folder</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/file.svg" alt="file" loading="lazy" /><figcaption>file</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/download.svg" alt="download" loading="lazy" /><figcaption>download</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/upload.svg" alt="upload" loading="lazy" /><figcaption>upload</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/lock.svg" alt="lock" loading="lazy" /><figcaption>lock</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/key.svg" alt="key" loading="lazy" /><figcaption>key</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/mail.svg" alt="mail" loading="lazy" /><figcaption>mail</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/message.svg" alt="message" loading="lazy" /><figcaption>message</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/phone.svg" alt="phone" loading="lazy" /><figcaption>phone</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/calendar.svg" alt="calendar" loading="lazy" /><figcaption>calendar</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/clock.svg" alt="clock" loading="lazy" /><figcaption>clock</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/map-pin.svg" alt="map-pin" loading="lazy" /><figcaption>map-pin</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/play.svg" alt="play" loading="lazy" /><figcaption>play</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/pause.svg" alt="pause" loading="lazy" /><figcaption>pause</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/music.svg" alt="music" loading="lazy" /><figcaption>music</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/volume.svg" alt="volume" loading="lazy" /><figcaption>volume</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/cart.svg" alt="cart" loading="lazy" /><figcaption>cart</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/tag.svg" alt="tag" loading="lazy" /><figcaption>tag</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/gift.svg" alt="gift" loading="lazy" /><figcaption>gift</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/battery.svg" alt="battery" loading="lazy" /><figcaption>battery</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/wifi.svg" alt="wifi" loading="lazy" /><figcaption>wifi</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/cloud.svg" alt="cloud" loading="lazy" /><figcaption>cloud</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/sun.svg" alt="sun" loading="lazy" /><figcaption>sun</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/svg/moon.svg" alt="moon" loading="lazy" /><figcaption>moon</figcaption></figure>
+      </div>
+    </section>
+    <section class="set" data-name="drafting table · nano banana 2 (flash) drafting-table-nb2 blueprint technical engineering duotone nb2">
+      <header>
+        <h2>Drafting Table · Nano Banana 2 (Flash)</h2>
+        <p>An engineering icon set drawn as a CAD detail — each part sits inside its own centre lines, extension lines and dimension arrows.</p>
+        <p class="meta">34 icons · 24px grid · 2px stroke</p>
+        <code>npx artifisio add drafting-table-nb2 --kind icon</code>
+      </header>
+      <div class="grid">
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/bolt.svg" alt="bolt" loading="lazy" /><figcaption>bolt</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/nut.svg" alt="nut" loading="lazy" /><figcaption>nut</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/screw.svg" alt="screw" loading="lazy" /><figcaption>screw</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/wrench.svg" alt="wrench" loading="lazy" /><figcaption>wrench</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/gear.svg" alt="gear" loading="lazy" /><figcaption>gear</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/bearing.svg" alt="bearing" loading="lazy" /><figcaption>bearing</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/spring.svg" alt="spring" loading="lazy" /><figcaption>spring</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/piston.svg" alt="piston" loading="lazy" /><figcaption>piston</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/valve.svg" alt="valve" loading="lazy" /><figcaption>valve</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/pipe.svg" alt="pipe" loading="lazy" /><figcaption>pipe</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/flange.svg" alt="flange" loading="lazy" /><figcaption>flange</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/rivet.svg" alt="rivet" loading="lazy" /><figcaption>rivet</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/caliper.svg" alt="caliper" loading="lazy" /><figcaption>caliper</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/micrometer.svg" alt="micrometer" loading="lazy" /><figcaption>micrometer</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/ruler.svg" alt="ruler" loading="lazy" /><figcaption>ruler</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/protractor.svg" alt="protractor" loading="lazy" /><figcaption>protractor</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/compass.svg" alt="compass" loading="lazy" /><figcaption>compass</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/drill-bit.svg" alt="drill-bit" loading="lazy" /><figcaption>drill-bit</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/lathe-chuck.svg" alt="lathe-chuck" loading="lazy" /><figcaption>lathe-chuck</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/motor.svg" alt="motor" loading="lazy" /><figcaption>motor</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/pump.svg" alt="pump" loading="lazy" /><figcaption>pump</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/fan.svg" alt="fan" loading="lazy" /><figcaption>fan</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/radiator.svg" alt="radiator" loading="lazy" /><figcaption>radiator</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/circuit-board.svg" alt="circuit-board" loading="lazy" /><figcaption>circuit-board</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/resistor.svg" alt="resistor" loading="lazy" /><figcaption>resistor</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/capacitor.svg" alt="capacitor" loading="lazy" /><figcaption>capacitor</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/transistor.svg" alt="transistor" loading="lazy" /><figcaption>transistor</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/battery-cell.svg" alt="battery-cell" loading="lazy" /><figcaption>battery-cell</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/toggle-switch.svg" alt="toggle-switch" loading="lazy" /><figcaption>toggle-switch</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/sensor.svg" alt="sensor" loading="lazy" /><figcaption>sensor</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/robot-arm.svg" alt="robot-arm" loading="lazy" /><figcaption>robot-arm</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/conveyor.svg" alt="conveyor" loading="lazy" /><figcaption>conveyor</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/hard-hat.svg" alt="hard-hat" loading="lazy" /><figcaption>hard-hat</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/svg/blueprint-roll.svg" alt="blueprint-roll" loading="lazy" /><figcaption>blueprint-roll</figcaption></figure>
+      </div>
+    </section>
+    <section class="set" data-name="ui essentials ui-essentials ui outline essentials">
+      <header>
+        <h2>UI Essentials</h2>
+        <p>A geometric outline icon family covering the core UI vocabulary — navigation, actions, media, commerce and more.</p>
+        <p class="meta">98 icons · 24px grid · 2px stroke</p>
+        <code>npx artifisio add ui-essentials --kind icon</code>
+      </header>
+      <div class="grid">
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/home.svg" alt="home" loading="lazy" /><figcaption>home</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/search.svg" alt="search" loading="lazy" /><figcaption>search</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/settings.svg" alt="settings" loading="lazy" /><figcaption>settings</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/user.svg" alt="user" loading="lazy" /><figcaption>user</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/users.svg" alt="users" loading="lazy" /><figcaption>users</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/bell.svg" alt="bell" loading="lazy" /><figcaption>bell</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/heart.svg" alt="heart" loading="lazy" /><figcaption>heart</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/star.svg" alt="star" loading="lazy" /><figcaption>star</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/trash.svg" alt="trash" loading="lazy" /><figcaption>trash</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/edit.svg" alt="edit" loading="lazy" /><figcaption>edit</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/plus.svg" alt="plus" loading="lazy" /><figcaption>plus</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/minus.svg" alt="minus" loading="lazy" /><figcaption>minus</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/check.svg" alt="check" loading="lazy" /><figcaption>check</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/close.svg" alt="close" loading="lazy" /><figcaption>close</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/chevron-left.svg" alt="chevron-left" loading="lazy" /><figcaption>chevron-left</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/chevron-right.svg" alt="chevron-right" loading="lazy" /><figcaption>chevron-right</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/chevron-up.svg" alt="chevron-up" loading="lazy" /><figcaption>chevron-up</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/chevron-down.svg" alt="chevron-down" loading="lazy" /><figcaption>chevron-down</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/arrow-left.svg" alt="arrow-left" loading="lazy" /><figcaption>arrow-left</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/arrow-right.svg" alt="arrow-right" loading="lazy" /><figcaption>arrow-right</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/arrow-up.svg" alt="arrow-up" loading="lazy" /><figcaption>arrow-up</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/arrow-down.svg" alt="arrow-down" loading="lazy" /><figcaption>arrow-down</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/calendar.svg" alt="calendar" loading="lazy" /><figcaption>calendar</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/clock.svg" alt="clock" loading="lazy" /><figcaption>clock</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/camera.svg" alt="camera" loading="lazy" /><figcaption>camera</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/image.svg" alt="image" loading="lazy" /><figcaption>image</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/folder.svg" alt="folder" loading="lazy" /><figcaption>folder</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/file.svg" alt="file" loading="lazy" /><figcaption>file</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/download.svg" alt="download" loading="lazy" /><figcaption>download</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/upload.svg" alt="upload" loading="lazy" /><figcaption>upload</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/lock.svg" alt="lock" loading="lazy" /><figcaption>lock</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/unlock.svg" alt="unlock" loading="lazy" /><figcaption>unlock</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/key.svg" alt="key" loading="lazy" /><figcaption>key</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/mail.svg" alt="mail" loading="lazy" /><figcaption>mail</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/phone.svg" alt="phone" loading="lazy" /><figcaption>phone</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/message.svg" alt="message" loading="lazy" /><figcaption>message</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/send.svg" alt="send" loading="lazy" /><figcaption>send</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/share.svg" alt="share" loading="lazy" /><figcaption>share</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/link.svg" alt="link" loading="lazy" /><figcaption>link</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/filter.svg" alt="filter" loading="lazy" /><figcaption>filter</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/sort.svg" alt="sort" loading="lazy" /><figcaption>sort</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/grid.svg" alt="grid" loading="lazy" /><figcaption>grid</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/list.svg" alt="list" loading="lazy" /><figcaption>list</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/menu.svg" alt="menu" loading="lazy" /><figcaption>menu</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/more-horizontal.svg" alt="more-horizontal" loading="lazy" /><figcaption>more-horizontal</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/eye.svg" alt="eye" loading="lazy" /><figcaption>eye</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/eye-off.svg" alt="eye-off" loading="lazy" /><figcaption>eye-off</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/refresh.svg" alt="refresh" loading="lazy" /><figcaption>refresh</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/play.svg" alt="play" loading="lazy" /><figcaption>play</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/pause.svg" alt="pause" loading="lazy" /><figcaption>pause</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/stop.svg" alt="stop" loading="lazy" /><figcaption>stop</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/volume.svg" alt="volume" loading="lazy" /><figcaption>volume</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/mic.svg" alt="mic" loading="lazy" /><figcaption>mic</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/wifi.svg" alt="wifi" loading="lazy" /><figcaption>wifi</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/battery.svg" alt="battery" loading="lazy" /><figcaption>battery</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/map-pin.svg" alt="map-pin" loading="lazy" /><figcaption>map-pin</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/globe.svg" alt="globe" loading="lazy" /><figcaption>globe</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/flag.svg" alt="flag" loading="lazy" /><figcaption>flag</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/bookmark.svg" alt="bookmark" loading="lazy" /><figcaption>bookmark</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/tag.svg" alt="tag" loading="lazy" /><figcaption>tag</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/shopping-cart.svg" alt="shopping-cart" loading="lazy" /><figcaption>shopping-cart</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/credit-card.svg" alt="credit-card" loading="lazy" /><figcaption>credit-card</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/chart-bar.svg" alt="chart-bar" loading="lazy" /><figcaption>chart-bar</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/chart-line.svg" alt="chart-line" loading="lazy" /><figcaption>chart-line</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/pie-chart.svg" alt="pie-chart" loading="lazy" /><figcaption>pie-chart</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/database.svg" alt="database" loading="lazy" /><figcaption>database</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/server.svg" alt="server" loading="lazy" /><figcaption>server</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/cloud.svg" alt="cloud" loading="lazy" /><figcaption>cloud</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/code.svg" alt="code" loading="lazy" /><figcaption>code</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/terminal.svg" alt="terminal" loading="lazy" /><figcaption>terminal</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/git-branch.svg" alt="git-branch" loading="lazy" /><figcaption>git-branch</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/package.svg" alt="package" loading="lazy" /><figcaption>package</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/truck.svg" alt="truck" loading="lazy" /><figcaption>truck</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/gift.svg" alt="gift" loading="lazy" /><figcaption>gift</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/coffee.svg" alt="coffee" loading="lazy" /><figcaption>coffee</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/sun.svg" alt="sun" loading="lazy" /><figcaption>sun</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/moon.svg" alt="moon" loading="lazy" /><figcaption>moon</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/zap.svg" alt="zap" loading="lazy" /><figcaption>zap</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/shield.svg" alt="shield" loading="lazy" /><figcaption>shield</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/alert-triangle.svg" alt="alert-triangle" loading="lazy" /><figcaption>alert-triangle</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/info.svg" alt="info" loading="lazy" /><figcaption>info</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/help-circle.svg" alt="help-circle" loading="lazy" /><figcaption>help-circle</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/check-circle.svg" alt="check-circle" loading="lazy" /><figcaption>check-circle</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/x-circle.svg" alt="x-circle" loading="lazy" /><figcaption>x-circle</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/thumbs-up.svg" alt="thumbs-up" loading="lazy" /><figcaption>thumbs-up</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/log-out.svg" alt="log-out" loading="lazy" /><figcaption>log-out</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/printer.svg" alt="printer" loading="lazy" /><figcaption>printer</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/save.svg" alt="save" loading="lazy" /><figcaption>save</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/copy.svg" alt="copy" loading="lazy" /><figcaption>copy</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/external-link.svg" alt="external-link" loading="lazy" /><figcaption>external-link</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/bug.svg" alt="bug" loading="lazy" /><figcaption>bug</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/rocket.svg" alt="rocket" loading="lazy" /><figcaption>rocket</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/book.svg" alt="book" loading="lazy" /><figcaption>book</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/briefcase.svg" alt="briefcase" loading="lazy" /><figcaption>briefcase</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/compass.svg" alt="compass" loading="lazy" /><figcaption>compass</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/crop.svg" alt="crop" loading="lazy" /><figcaption>crop</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/layers.svg" alt="layers" loading="lazy" /><figcaption>layers</figcaption></figure>
+        <figure class="icon"><img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/svg/sliders.svg" alt="sliders" loading="lazy" /><figcaption>sliders</figcaption></figure>
+      </div>
+    </section>
+<script>
+  const q = document.getElementById('q')
+  q.addEventListener('input', () => {
+    const term = q.value.trim().toLowerCase()
+    for (const el of document.querySelectorAll('.set')) {
+      el.hidden = !!term && !el.dataset.name.includes(term)
+    }
+  })
+  // Icons ship as fill="var(--artf-ink, currentColor)", so the color property alone re-inks them.
+  document.getElementById('ink').addEventListener('input', (e) => {
+    document.documentElement.style.setProperty('--ink', e.target.value)
+  })
+</script>
+</body>
+</html>

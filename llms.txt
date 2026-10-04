@@ -1,0 +1,34 @@
+# Artifisio icons registry
+
+> Free, open-licensed icons (CC-BY-4.0) as plain files plus a versioned manifest. Install with the `artifisio` CLI or fetch files straight from the CDN. No account, no runtime dependency.
+
+- Manifest: https://raw.githubusercontent.com/artifisio/icons/main/manifest.json (schemaVersion 2, registryVersion 2026.10.04-1403-0aa34af)
+- Registry index across kinds: https://raw.githubusercontent.com/artifisio/icons/main/index.json
+- CDN file pattern: https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/<set>/<file>
+- Install: `npx artifisio add <set> --kind icon` (writes files + ATTRIBUTION.md)
+- Search: `npx artifisio search "<query>" --kind icon --json`
+- License: LICENSE in this repo; attribution string is in every set's `license.attribution`.
+
+## Sets (9)
+
+- [Bitmap](https://github.com/artifisio/icons/tree/main/sets/bitmap-3): The core UI set rendered on a coarse pixel lattice — whole square pixels only, staircase diagonals, not one curve in the family. (34 icons; tags: pixel, retro, lo-fi, solid)
+- [Gaffer](https://github.com/artifisio/icons/tree/main/sets/gaffer-2): Every icon torn from tape and pressed down by hand — straight strips at crooked angles, ragged ends and honest overlaps. (33 icons; tags: tape, collage, handmade, duotone)
+- [Bitmap](https://github.com/artifisio/icons/tree/main/sets/bitmap-2): The core UI set rendered on a coarse pixel lattice — whole square pixels only, staircase diagonals, not one curve in the family. (34 icons; tags: pixel, retro, lo-fi, solid)
+- [Pulse](https://github.com/artifisio/icons/tree/main/sets/pulse): A calm rounded outline family for health products — anatomy, clinics, diagnostics, fitness and everyday wellbeing. (142 icons; tags: health, medical, wellness, outline)
+- [Constellation](https://github.com/artifisio/icons/tree/main/sets/constellation): A night-atlas icon family charted rather than drawn — every glyph is a constellation of bright star-dots joined by thin chart lines, for astronomy, sleep and wonder products. (142 icons; tags: stars, night, celestial, outline)
+- [Stack](https://github.com/artifisio/icons/tree/main/sets/stack): An engineered outline icon family for developer, cloud and data products — code, infrastructure, networking, pipelines, devops and hardware. (141 icons; tags: developer, cloud, data, outline)
+- [Meltdown · GPT Image 2](https://github.com/artifisio/icons/tree/main/sets/meltdown-gpt2): A UI icon family caught mid-melt — every glyph sags, pools and drips, for festival, summer and heatwave products. (34 icons; tags: melting, liquid, playful, ui, gpt2)
+- [Drafting Table · Nano Banana 2 (Flash)](https://github.com/artifisio/icons/tree/main/sets/drafting-table-nb2): An engineering icon set drawn as a CAD detail — each part sits inside its own centre lines, extension lines and dimension arrows. (34 icons; tags: blueprint, technical, engineering, duotone, nb2)
+- [UI Essentials](https://github.com/artifisio/icons/tree/main/sets/ui-essentials): A geometric outline icon family covering the core UI vocabulary — navigation, actions, media, commerce and more. (98 icons; tags: ui, outline, essentials)
+
+## Preview URLs
+
+- bitmap-3: https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/preview.svg
+- gaffer-2: https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/preview.svg
+- bitmap-2: https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/preview.svg
+- pulse: https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/pulse/preview.svg
+- constellation: https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/constellation/preview.svg
+- stack: https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/stack/preview.svg
+- meltdown-gpt2: https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/meltdown-gpt2/preview.svg
+- drafting-table-nb2: https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/drafting-table-nb2/preview.svg
+- ui-essentials: https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/ui-essentials/preview.svg
