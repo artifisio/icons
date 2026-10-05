@@ -1,0 +1,243 @@
+{
+  "slug": "kitchen-alchemy-ii",
+  "name": "Kitchen Alchemy",
+  "description": "Cooking tools drawn as an alchemist's apparatus — a dark line drawing with one warm accent on the liquid, flame or spark.",
+  "tags": [
+    "kitchen",
+    "cooking",
+    "whimsical",
+    "duotone"
+  ],
+  "count": 14,
+  "kind": "icon",
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "attributionRequired": true,
+    "attribution": "Icons by Artifisio (https://artifisio.com)",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "provenance": {
+    "source": "generated",
+    "model": "gemini-3.1-flash-image-preview"
+  },
+  "grid": 24,
+  "stroke": 2,
+  "palette": [
+    {
+      "slot": "ink",
+      "label": "Ink",
+      "hex": "#131313",
+      "role": "themeable"
+    },
+    {
+      "slot": "accent",
+      "label": "Accent",
+      "hex": "#eb862f",
+      "role": "themeable"
+    }
+  ],
+  "preview": "preview.svg",
+  "sprite": {
+    "file": "sprite.svg",
+    "sha256": "bab68c905aea0bb15cc5457da6218b090620897c474171555fa72246464a4480",
+    "bytes": 69479
+  },
+  "icons": [
+    {
+      "slug": "bubbling-pot",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/bubbling-pot.svg",
+          "sha256": "1c995ea070ee9293776200286e0a0f768547598fba8702c1c971f44f98023483",
+          "bytes": 5753,
+          "width": 24,
+          "cssVarSha256": "8822ba3a881a01cd9449036e2d5b040b78d5947353575b4c15a6c799e844fc97"
+        }
+      }
+    },
+    {
+      "slug": "mortar-pestle",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/mortar-pestle.svg",
+          "sha256": "ab7aae1a368ea8e4d32064001cb2d04e33fe1868e938eea3e5c02036ae004ba9",
+          "bytes": 5871,
+          "width": 24,
+          "cssVarSha256": "aee81315770ffe355d20077ec5846f97a90319ea57d4d2b012296dd47013e0e2"
+        }
+      }
+    },
+    {
+      "slug": "spice-flask",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/spice-flask.svg",
+          "sha256": "300799254db4a5cd487af910548294360e792bd18426918a12bab05ca71e89ad",
+          "bytes": 7794,
+          "width": 24,
+          "cssVarSha256": "397bc905c4da82c98baa3f6f126ccabf3332428d3329fb9be8f722727b309977"
+        }
+      }
+    },
+    {
+      "slug": "whisk-spark",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/whisk-spark.svg",
+          "sha256": "4a7ef6a17956e68210ce4318f3fd90c907af27d2beae1dc4efd14898ca8435f1",
+          "bytes": 5695,
+          "width": 24,
+          "cssVarSha256": "1bde237ccb40be3407c044da952217fe919a1472010302de172e0c32228eb13a"
+        }
+      }
+    },
+    {
+      "slug": "kitchen-timer",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/kitchen-timer.svg",
+          "sha256": "acebd73e24e2355eb8fce017424a705d159038231a9028fb026ef9bd8429b6a5",
+          "bytes": 4212,
+          "width": 24,
+          "cssVarSha256": "77cb0d0c20794a674e68ff7898a96305663c08dbc44489290b4ed7401f046238"
+        }
+      }
+    },
+    {
+      "slug": "recipe-scroll",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/recipe-scroll.svg",
+          "sha256": "154501f9a829419a2277fdd904965b03ecac452e89cba573eab3810208638bb8",
+          "bytes": 6105,
+          "width": 24,
+          "cssVarSha256": "702c749467c047276badcf3999e1a7db40693991c09e4d97400ba040724c0cf5"
+        }
+      }
+    },
+    {
+      "slug": "flame-burner",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/flame-burner.svg",
+          "sha256": "0ee854aeb87546df9341a455a2fb09212bef7ab6b069bfb1da7dacaf4f75e8a2",
+          "bytes": 4188,
+          "width": 24,
+          "cssVarSha256": "1f4fefb70801e353310a4f8aed50b54a596bc59adbbc61623a22b1066b73545e"
+        }
+      }
+    },
+    {
+      "slug": "tasting-spoon",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/tasting-spoon.svg",
+          "sha256": "071d262d271ddd63d4b47d31234cfa314b509669e8c09b01c71cdef7a26e7384",
+          "bytes": 4511,
+          "width": 24,
+          "cssVarSha256": "5016394861662b557f7b4713c06e2a8d24161fc15a1d9917102b90d97deddfe6"
+        }
+      }
+    },
+    {
+      "slug": "home",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/home.svg",
+          "sha256": "86de23ab529d106a1ca01770804ec7950706adb3116e7b04fc796e03c7ebaa66",
+          "bytes": 3391,
+          "width": 24,
+          "cssVarSha256": "f6c60326b048307273f0c4ae675dc941b8eb170dd1fd89dfd68b0e3f60dddef5"
+        }
+      }
+    },
+    {
+      "slug": "search",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/search.svg",
+          "sha256": "9656ca01598426d07c98decca831d59b7cd70183ae87b15f4b8553e2e4a74f20",
+          "bytes": 4810,
+          "width": 24,
+          "cssVarSha256": "f60bb57aca3d5fa9d46a18815c47842e3ee862bd92ca85917577dff06723ac78"
+        }
+      }
+    },
+    {
+      "slug": "settings",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/settings.svg",
+          "sha256": "06dcc919983794e4b95d9c18561e075e368dc142a9c63529db8b1d2f5d74fb49",
+          "bytes": 6971,
+          "width": 24,
+          "cssVarSha256": "713357fa47b3909c7d79ea8c0d633f88f4de5f779a77bbcebf9c4e9ee6f93b5f"
+        }
+      }
+    },
+    {
+      "slug": "user",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/user.svg",
+          "sha256": "dc363900750386bf7f8ee667111496ca9e31f48946bf35ea980ac2588cbe13dc",
+          "bytes": 2839,
+          "width": 24,
+          "cssVarSha256": "179207f98b457a3761f5cb1c833993b8f3cec00cf765d6359aef9a9842b66056"
+        }
+      }
+    },
+    {
+      "slug": "users",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/users.svg",
+          "sha256": "8d4d44458dbe3cfeaa2b8bbec9130c64e5f2c5c556e23dfc6a0e33dfc9d28d3f",
+          "bytes": 3887,
+          "width": 24,
+          "cssVarSha256": "0d61244a40243658a082af3f0d264828cc442519b7086743527c31e6c6947bfb"
+        }
+      }
+    },
+    {
+      "slug": "bell",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/bell.svg",
+          "sha256": "8786a0333a7d60e7a6e7e51dfd4d1a0ad1cbcc7532287f4c50cd69dd044508f0",
+          "bytes": 3816,
+          "width": 24,
+          "cssVarSha256": "1bc2f00eef510261168ff5089d775f2176b511718078129a22a9627e80107cbb"
+        }
+      }
+    }
+  ]
+}

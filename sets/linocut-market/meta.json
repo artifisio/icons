@@ -1,0 +1,909 @@
+{
+  "slug": "linocut-market",
+  "name": "Linocut Market",
+  "description": "A farmers'-market family carved from lino — bold black silhouettes cut through with tapered white gouge marks and hand-cut edges.",
+  "tags": [
+    "linocut",
+    "food",
+    "handmade",
+    "solid"
+  ],
+  "count": 62,
+  "kind": "icon",
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "attributionRequired": true,
+    "attribution": "Icons by Artifisio (https://artifisio.com)",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "provenance": {
+    "source": "generated",
+    "model": "gemini-3.1-flash-image-preview"
+  },
+  "grid": 24,
+  "stroke": 2,
+  "palette": [
+    {
+      "slot": "ink",
+      "label": "Ink",
+      "hex": "#090b0e",
+      "role": "themeable"
+    }
+  ],
+  "preview": "preview.svg",
+  "sprite": {
+    "file": "sprite.svg",
+    "sha256": "95587e6563f619c4e1532f99476d4326c86861925b3ff54655687ed7b6108d5f",
+    "bytes": 337547
+  },
+  "icons": [
+    {
+      "slug": "carrot",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/carrot.svg",
+          "sha256": "8a006ce29baf6363c683fd422a3723b0a96f07536d2b0e2fbe179eb1e02ee716",
+          "bytes": 4574,
+          "width": 24,
+          "cssVarSha256": "37bd9b0d7daf27f82c4be256f81ada0e52a05308c2a54b673fdc83b2ca856ae8"
+        }
+      }
+    },
+    {
+      "slug": "tomato",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/tomato.svg",
+          "sha256": "829d03d0fb690ef0650ec776118b04eacb78a78ed1d09fb03f1622c8dd2fdd64",
+          "bytes": 3909,
+          "width": 24,
+          "cssVarSha256": "05b98a013938b1a3cfb82ed616b9cf8e4b95819f35c854aa644da27198bd1d21"
+        }
+      }
+    },
+    {
+      "slug": "onion",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/onion.svg",
+          "sha256": "f8bfa4f26557f3f0dc4f14061a793a4302b4b9d7e4c254db6ab918d26a5ec5f2",
+          "bytes": 4484,
+          "width": 24,
+          "cssVarSha256": "3d47d702e4e06206b265e52ec66961eda3df5dd670416c34f7cf74998373a174"
+        }
+      }
+    },
+    {
+      "slug": "garlic",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/garlic.svg",
+          "sha256": "47407d846d476f6824a4ec591b369addfbe23addfcae7585d9dd9ed4ed363449",
+          "bytes": 6368,
+          "width": 24,
+          "cssVarSha256": "1012cdd3ccf7f44bdb55506631366071d769776489333790887a1365f455d554"
+        }
+      }
+    },
+    {
+      "slug": "chili",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/chili.svg",
+          "sha256": "a5cf1eeaf48a52b13fba3e36592a00135f546fb1a03c528bab2ae337e72488e8",
+          "bytes": 2548,
+          "width": 24,
+          "cssVarSha256": "3854a4f3aca5eeb9520b7b5b44b04ac242a6edce9cae089fae2244d1205661f4"
+        }
+      }
+    },
+    {
+      "slug": "eggplant",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/eggplant.svg",
+          "sha256": "9e1a533d898a66db4085dc9a0517d19cf3fedd95615beab3c56ffd70c2418b7c",
+          "bytes": 3491,
+          "width": 24,
+          "cssVarSha256": "1aa9f9c26355ed19b79321e3340952144dc9094e983bf4fafa9d3591371c0e44"
+        }
+      }
+    },
+    {
+      "slug": "corn",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/corn.svg",
+          "sha256": "dc5d606e000e948856b3b1aee21ba205ccdbe086acb9536284a7ccc244f2d9d9",
+          "bytes": 9338,
+          "width": 24,
+          "cssVarSha256": "5cb0b97d4058c4d33bb1681325f98dad5013d0bdfba009d9319debb4bc063657"
+        }
+      }
+    },
+    {
+      "slug": "broccoli",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/broccoli.svg",
+          "sha256": "ae82f7aee79c14881aed0b3e64b733e061a4a4d89ffb94c0c4ed18b36ca1e2cc",
+          "bytes": 5604,
+          "width": 24,
+          "cssVarSha256": "c3c1b0ab5cc323ca280fa172ac3638de4f32519f26b481e88db6e00acd01b0e6"
+        }
+      }
+    },
+    {
+      "slug": "mushroom",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/mushroom.svg",
+          "sha256": "732a55bf3cdbab69a6e2b01638f31338d4cf1593bcbb24b6467cada7f8509e4d",
+          "bytes": 5120,
+          "width": 24,
+          "cssVarSha256": "796f70f165a7e89657c71f744b78598a31df47055f9d05e7056b2a9b3c6bb68a"
+        }
+      }
+    },
+    {
+      "slug": "pumpkin",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/pumpkin.svg",
+          "sha256": "9dea6a2ec4a9323cafa467dc8fdb5825c292cf0c2ea8ecea76ae80f4edde241d",
+          "bytes": 6591,
+          "width": 24,
+          "cssVarSha256": "fc42e2f88bf1ec2d8880d2be0c497aa5beae18de5cf3620355c4d9093afc725f"
+        }
+      }
+    },
+    {
+      "slug": "lemon",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/lemon.svg",
+          "sha256": "35f47720b04f2cecf0501307c3e653fb77d5ee70a3799426e6bf102dc029d7a8",
+          "bytes": 3878,
+          "width": 24,
+          "cssVarSha256": "b4d4579ee316cd787abf51e9c6957ef457f3e8b0d73d98b030b60866434d1ba9"
+        }
+      }
+    },
+    {
+      "slug": "apple",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/apple.svg",
+          "sha256": "4140cb4a622425e7e1908ddb8efa10671952afd62d9d667db785ebf1811b6c49",
+          "bytes": 2966,
+          "width": 24,
+          "cssVarSha256": "5ff51b60802a3ecc33a1409eb2a0e581cb6ac1e9d7111a475eaaa08b759169e8"
+        }
+      }
+    },
+    {
+      "slug": "pear",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/pear.svg",
+          "sha256": "ef39723bc3939080fa394335892432b23ddb9382f8f84f89062bea6e95772c1b",
+          "bytes": 2830,
+          "width": 24,
+          "cssVarSha256": "503511cd11c0e170897c39e03036df44ea59843a4503e966682e5f002b197dcb"
+        }
+      }
+    },
+    {
+      "slug": "strawberry",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/strawberry.svg",
+          "sha256": "6952ccb2d8428e349c06b3b7a1d1c46f79de81ffc3329bd816deb4452abfbe62",
+          "bytes": 5701,
+          "width": 24,
+          "cssVarSha256": "ccb2457fe6f5d98f4f45b84cb327dac6694f67e8518891b3d9432b4cfe860acd"
+        }
+      }
+    },
+    {
+      "slug": "grapes",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/grapes.svg",
+          "sha256": "af6de2687c198cdc964d89e63ec63c6200cebe4d80c491bfa70d695f112bfc9d",
+          "bytes": 8572,
+          "width": 24,
+          "cssVarSha256": "16d2604b115eb7504069cded792b54089967fdba4508425f6fecf4adf1c4bf64"
+        }
+      }
+    },
+    {
+      "slug": "avocado",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/avocado.svg",
+          "sha256": "0ab2d51483f5aa5658ed6ed5deb22f038d0f6af0b4c3efd9e5b715797af3f51a",
+          "bytes": 3580,
+          "width": 24,
+          "cssVarSha256": "bcf8b47ee3355fd1539b88cfb268b524d6ad91c460cf38243ae836b4630e998b"
+        }
+      }
+    },
+    {
+      "slug": "watermelon",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/watermelon.svg",
+          "sha256": "b7fe1a2b707767f30bf88617aaf13cc7e3e83ffca1f2bdc2c8bbf3d80efe411f",
+          "bytes": 4535,
+          "width": 24,
+          "cssVarSha256": "31e61d5df078b59e6380d69a2ec31ea76528848981ad9e489a843e1f8b9df016"
+        }
+      }
+    },
+    {
+      "slug": "peach",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/peach.svg",
+          "sha256": "3f31998ff9373e35f32c0dd36deb21fe119ab73d4101b5e4fedfa5a0aba1b181",
+          "bytes": 3456,
+          "width": 24,
+          "cssVarSha256": "9ea482ed3a1ef3c3d243714365d2d65c68d69a8f52b05b6928e18af7a1f83924"
+        }
+      }
+    },
+    {
+      "slug": "fish",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/fish.svg",
+          "sha256": "d4357dffac6230b9ca964cb0a1bd3a9122120970a3ed92bf2daab1f152ca4283",
+          "bytes": 5171,
+          "width": 24,
+          "cssVarSha256": "05dab792ce9a53dd1163124948e529bb14f9b02822e0e51c07e17d84e4c0fc80"
+        }
+      }
+    },
+    {
+      "slug": "shrimp",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/shrimp.svg",
+          "sha256": "4319ebde89df71f567002621bd73cbc8b86b9c464c850ad35092d931b205ce64",
+          "bytes": 9168,
+          "width": 24,
+          "cssVarSha256": "3d99e1ba7e7642af0a7d78f411e7abb00343ceead3a7801bf62472503415f425"
+        }
+      }
+    },
+    {
+      "slug": "crab",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/crab.svg",
+          "sha256": "be2c62f9dc9679eccf0495f765b973161add7f458361b71765da3845b3a2bc75",
+          "bytes": 10039,
+          "width": 24,
+          "cssVarSha256": "3d55748170011cdb8871bb534e6dd2e028301c08ffc5e757f600e8de43a02818"
+        }
+      }
+    },
+    {
+      "slug": "octopus",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/octopus.svg",
+          "sha256": "ee9743690f5ba1f03b278ecac6a046d9d37869ca5ece80c566c8a22d97e9233d",
+          "bytes": 11455,
+          "width": 24,
+          "cssVarSha256": "0ad7aeed32e99f375763b45e6587ac78314bb08624986f0b3fa3f66b0bee6e48"
+        }
+      }
+    },
+    {
+      "slug": "hen",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/hen.svg",
+          "sha256": "d531fb970bdd0e2b16ac0c09e2c1fe8d356def73275e95223dbefb213792cd0a",
+          "bytes": 6104,
+          "width": 24,
+          "cssVarSha256": "73404e9334c0bd7ad8eb36418c9e374e30fe811de6d69cf0b683d226f715d154"
+        }
+      }
+    },
+    {
+      "slug": "egg",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/egg.svg",
+          "sha256": "b421aa9efb574d0d39884c29eb55dcdccbe92635ff60451ba8c19d8fa127d3b1",
+          "bytes": 1870,
+          "width": 24,
+          "cssVarSha256": "b8efaf2c48cce25d141d105b034fc653ae86e27926aee3e26aaabbd3d1ebab19"
+        }
+      }
+    },
+    {
+      "slug": "cheese",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/cheese.svg",
+          "sha256": "a0a40fa0f38b4508236bee0bdf4d3b52e291c287dbbc542e8874cbc6a7816a79",
+          "bytes": 4677,
+          "width": 24,
+          "cssVarSha256": "bd6304778c7029d3e64ef63bb11e8129989c6fafa64431be7cc7f91a950ae0df"
+        }
+      }
+    },
+    {
+      "slug": "milk-bottle",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/milk-bottle.svg",
+          "sha256": "9a32bcc232cc747e7dc4d3d561382a50294519c4004ce8448f3ca3d21cf561c0",
+          "bytes": 2730,
+          "width": 24,
+          "cssVarSha256": "366ed0d2e46d25fe18707c3e821f7bd2b820106081c5ea933c6f188a0fcd9d02"
+        }
+      }
+    },
+    {
+      "slug": "bread",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/bread.svg",
+          "sha256": "34cfe9aa2fad1cfa461826e3bdb39e4294cae34e5743d96ff2bb837c702de5f3",
+          "bytes": 6640,
+          "width": 24,
+          "cssVarSha256": "28326c27bc42ffaabb2c853b971c37642f99cf32284e66c896988e50edf901f2"
+        }
+      }
+    },
+    {
+      "slug": "baguette",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/baguette.svg",
+          "sha256": "b9f65634441a4297edf0efcf3e42b517cbd9da03e0094724536c2e74941a54f4",
+          "bytes": 4114,
+          "width": 24,
+          "cssVarSha256": "ec072301be921b9b1af20c275eb7ac821daaa2bf363c57f2215ad7b58cce3e33"
+        }
+      }
+    },
+    {
+      "slug": "croissant",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/croissant.svg",
+          "sha256": "edc7892e4a7ae06dfc7847078a5cefa962567e5e1d21b2822048bcf1d30de781",
+          "bytes": 6502,
+          "width": 24,
+          "cssVarSha256": "d13c5ce67a85ff4fe6ef81646fde1c9d2067b1b0c2004e6567803387fc145ec8"
+        }
+      }
+    },
+    {
+      "slug": "pretzel",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/pretzel.svg",
+          "sha256": "299bb1d797903574e96955daac8a27902b70241d037a1f7262078a06390298f9",
+          "bytes": 7141,
+          "width": 24,
+          "cssVarSha256": "f1f9d14b6de7991e932db81164bb7dadf35e7b40f41af404f0ff99cd59c66c85"
+        }
+      }
+    },
+    {
+      "slug": "wheat",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/wheat.svg",
+          "sha256": "440e54802eedb208b5550785acd6580d6d57d8b497c9d4477cde9fe036f2e613",
+          "bytes": 8850,
+          "width": 24,
+          "cssVarSha256": "e3317c425a94682876193b0ffdb23fec562d480de58b72d0d9f0b594648797e7"
+        }
+      }
+    },
+    {
+      "slug": "honey-jar",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/honey-jar.svg",
+          "sha256": "44a17590da0ee2f4acc51712161f518416a890425a7403d12a4f16a0b2f014f7",
+          "bytes": 7299,
+          "width": 24,
+          "cssVarSha256": "d2b57e6817591c20bf06aa99585243f23b80ec9b576760863ba0e90441e3db1f"
+        }
+      }
+    },
+    {
+      "slug": "bee",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/bee.svg",
+          "sha256": "63de5c3b8e14ceed6e7b6ed5cff4b41969712b6ae0e022d29f08b2b7bc84fa92",
+          "bytes": 5647,
+          "width": 24,
+          "cssVarSha256": "222755f2f4e5414d3cdd1f84a62241cd5531f794c26817503528934247c7b00b"
+        }
+      }
+    },
+    {
+      "slug": "jam-jar",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/jam-jar.svg",
+          "sha256": "ce2b1cb50273e6c3c77ad2511435b910c053980c6f857a223f72336c555dc55e",
+          "bytes": 6370,
+          "width": 24,
+          "cssVarSha256": "7ff7c220548d808af80379be2d878c4f4a16fe81ae70b0b828f885ea26f999e8"
+        }
+      }
+    },
+    {
+      "slug": "olive-branch",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/olive-branch.svg",
+          "sha256": "a108cc4130ec6a82fac2275981a82ab6781a428ccd82f0dc1260356fddc7103d",
+          "bytes": 5562,
+          "width": 24,
+          "cssVarSha256": "301a8e5c6ae6c258c57af83269887d378ab57603a501c372194070a1827c3881"
+        }
+      }
+    },
+    {
+      "slug": "olive-oil",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/olive-oil.svg",
+          "sha256": "4d164ff3de8e19f237f27e987289199ca889b198d6d55f227ec84d82f2a97316",
+          "bytes": 4823,
+          "width": 24,
+          "cssVarSha256": "b25428f3b5d11aed51f3b744a65a01fe68dda31a36c3e5610037fa426ca69db0"
+        }
+      }
+    },
+    {
+      "slug": "wine-bottle",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/wine-bottle.svg",
+          "sha256": "82ade2a994f477e2bf2cc493540141bb5f6e2345d2ad6358d67fe8df581ccffe",
+          "bytes": 2208,
+          "width": 24,
+          "cssVarSha256": "8a01687b3d0f7ee67683879f1bfd22564eb629fce5e63248428edb3ad0c5ba9b"
+        }
+      }
+    },
+    {
+      "slug": "coffee-beans",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/coffee-beans.svg",
+          "sha256": "d43fe3929c59b535f9074aa7fb9dacce3dc8965d5950debd2d6f535cf44b503c",
+          "bytes": 4180,
+          "width": 24,
+          "cssVarSha256": "297611c0c9f4a5754ac9722b3cc9876ab428503eb912c0ab2386e1b576e04498"
+        }
+      }
+    },
+    {
+      "slug": "teacup",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/teacup.svg",
+          "sha256": "6d215013a6d9bfbf1b5a86d89f8abffc075161aadff57865d2c302b8a223d884",
+          "bytes": 3782,
+          "width": 24,
+          "cssVarSha256": "d7f6e0c16eb481ba41d0bb89e7b0f7e0f495378b4848a82388c3cd52c339cdc6"
+        }
+      }
+    },
+    {
+      "slug": "mortar-pestle",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/mortar-pestle.svg",
+          "sha256": "03003da811a749c82aebbdcab37cf884740e4d3ed4044d0b8714b2c9d9749571",
+          "bytes": 3244,
+          "width": 24,
+          "cssVarSha256": "ae5848e3a79e122cbeda8b1025dc08f87f23aec59b5199ec01b8ef8a249d4cb1"
+        }
+      }
+    },
+    {
+      "slug": "rolling-pin",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/rolling-pin.svg",
+          "sha256": "9b76f6fbb6e451086a235fa5bb49e95101917dedf3392af62f55133b13f55493",
+          "bytes": 2291,
+          "width": 24,
+          "cssVarSha256": "7e969838a829822d0071485106c63f66f3ed18383a7941261dd8483a46bebddf"
+        }
+      }
+    },
+    {
+      "slug": "whisk",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/whisk.svg",
+          "sha256": "6c506d6b6c95eddb15ed95e3638d5924a823136abf687ba2639948fc647011b9",
+          "bytes": 3606,
+          "width": 24,
+          "cssVarSha256": "c003526731547c80748fa82832ee48353fc9d7c9bc91375801c2469931c278d4"
+        }
+      }
+    },
+    {
+      "slug": "chef-knife",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/chef-knife.svg",
+          "sha256": "05672af227522371131d7853a5d853d397fafa676afe0717a0a84b96438c4596",
+          "bytes": 2551,
+          "width": 24,
+          "cssVarSha256": "f61bab4c9cbb9ec5bdb97db4afa085bdaa089882550c5c064b974397df327fce"
+        }
+      }
+    },
+    {
+      "slug": "cutting-board",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/cutting-board.svg",
+          "sha256": "a6cbf45bb45f24fa32e37ee05a0db0f500920cb2c43a00968c9730a852850247",
+          "bytes": 2718,
+          "width": 24,
+          "cssVarSha256": "6260b5cf26b36db883a2da591bb7dba622bdd1973472f3a1ef3cca77adffe359"
+        }
+      }
+    },
+    {
+      "slug": "ladle",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/ladle.svg",
+          "sha256": "27088216298df6a4c174a9dd44a9b6993aef6afad024f9f732e12b03f6c19242",
+          "bytes": 2407,
+          "width": 24,
+          "cssVarSha256": "14895da7ed7867acaf1c671d8d8b655b41c43e290c1f410723126cd8b96675c8"
+        }
+      }
+    },
+    {
+      "slug": "stew-pot",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/stew-pot.svg",
+          "sha256": "e1205ccd3c91e79bbe82c673231712d149506db11f59f3bff8f0670003bedd42",
+          "bytes": 4531,
+          "width": 24,
+          "cssVarSha256": "f6d11a4193b7c9ea880e71d81258b06be3a00f9cdba201d3c56e0eb049dadead"
+        }
+      }
+    },
+    {
+      "slug": "salt-shaker",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/salt-shaker.svg",
+          "sha256": "0a435a6dfb57d555ca61dff61fc29d93e3f53a06485e88b2c698bfe6b2018f95",
+          "bytes": 6025,
+          "width": 24,
+          "cssVarSha256": "a7012a1b5a0bde9d3fc37b233a4217e523c7590e90a04bcf7c4fd240809aa664"
+        }
+      }
+    },
+    {
+      "slug": "pepper-mill",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/pepper-mill.svg",
+          "sha256": "8a25c10b75b5e43e2959273ad45883f62f46bb306800405836639cae9f1f5f33",
+          "bytes": 3184,
+          "width": 24,
+          "cssVarSha256": "17a3bfd32b1b946962656bff06e412f6bf4ccd734ae4e50396e0bbe43103eef1"
+        }
+      }
+    },
+    {
+      "slug": "basil",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/basil.svg",
+          "sha256": "d9ad3e25cf68be45c5fdb59345f6154068d2615dc1946757e6a870c82a776e2b",
+          "bytes": 14027,
+          "width": 24,
+          "cssVarSha256": "68c8142877d2e1953d2e369c429e62ef927ea95e7b0330ced87927f3a1615f8b"
+        }
+      }
+    },
+    {
+      "slug": "market-basket",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/market-basket.svg",
+          "sha256": "39333302a37a2dc3d327826cb91e2790df6e11b0d5191f0dc76407a002a2a9a4",
+          "bytes": 9389,
+          "width": 24,
+          "cssVarSha256": "32a8b3857cf59fea2a8bdeb8ad75f5a17135ebf77e69fb127ff80fd179c9987e"
+        }
+      }
+    },
+    {
+      "slug": "market-stall",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/market-stall.svg",
+          "sha256": "fdb02835eac2af0343dad5f8b11d45b0aba52cd5f7bf139553d9fb2e0f86f045",
+          "bytes": 8935,
+          "width": 24,
+          "cssVarSha256": "eb32a016fca9e7c2c32efe70f005e9d8bf8059fee77fbb70158f7a5ffcdf5d7a"
+        }
+      }
+    },
+    {
+      "slug": "hanging-scale",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/hanging-scale.svg",
+          "sha256": "98b369d7a642289233790c760fe5aa23dcd3c8e33ceb2abe0372615b864d1e7e",
+          "bytes": 4869,
+          "width": 24,
+          "cssVarSha256": "ed85d5450e48509e8c75719a5ccb84a73ee0956d1ad51c335ceebecf5049d940"
+        }
+      }
+    },
+    {
+      "slug": "apron",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/apron.svg",
+          "sha256": "0cb66aa4204c3bd2702200fd2a10515a2696cc57a3ba466bf13835ae77580da9",
+          "bytes": 4514,
+          "width": 24,
+          "cssVarSha256": "c15f60c9a7cefd0a486e57a491dfa527b501c1c9e8f7fbe131026df81246ab71"
+        }
+      }
+    },
+    {
+      "slug": "chef-hat",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/chef-hat.svg",
+          "sha256": "caf8911199ee5c2169f6e354937b9b6e0747d85891c20121d2e61231e3e09775",
+          "bytes": 4609,
+          "width": 24,
+          "cssVarSha256": "2a1b31b8e5cc92276ea52410d229b2f6f83f31f6b9de92a8e83a065c96b45a15"
+        }
+      }
+    },
+    {
+      "slug": "oven-mitt",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/oven-mitt.svg",
+          "sha256": "a12a4dc18c05e74482b4b0f301e4ecf9ad5a6cefcca29aa4ef0e097dda342a6f",
+          "bytes": 6571,
+          "width": 24,
+          "cssVarSha256": "75f1f80631203c46e97ceecf84ebb18cf190e93adbf16df14f04c7fd01b6c71d"
+        }
+      }
+    },
+    {
+      "slug": "pie",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/pie.svg",
+          "sha256": "ce578b2de12d988af396eaa539b44ffc4d2ac21b78f3167911ccdd999b31f349",
+          "bytes": 5959,
+          "width": 24,
+          "cssVarSha256": "f2401fbd9ac20830423d95b960f668d50dedc2f0d2dc36f4340e7984945647d9"
+        }
+      }
+    },
+    {
+      "slug": "sausage",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/sausage.svg",
+          "sha256": "d28bb9926ecd429efe46d8e8e06a593cb476b55f5ea5fd1cf7f570f34ce0f40b",
+          "bytes": 3912,
+          "width": 24,
+          "cssVarSha256": "43868757c9bc88480357abdec448441dcf5a9f08ec21a02c485acaffce32b812"
+        }
+      }
+    },
+    {
+      "slug": "ham",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/ham.svg",
+          "sha256": "cef3adbf272d22cd84532cc218d0b620c0cf0a327171a0126d4cc41f9b2f9dc3",
+          "bytes": 5488,
+          "width": 24,
+          "cssVarSha256": "57ef1983177a72f9c97143a62fd07f9eee1670987613ad8073cbe7e59e93e06b"
+        }
+      }
+    },
+    {
+      "slug": "radish",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/radish.svg",
+          "sha256": "8da95f104cbadee85e70b801d126abd5d152a1b58581eec24f324c8078667695",
+          "bytes": 7346,
+          "width": 24,
+          "cssVarSha256": "a737abab873c680901683684b1e1e300edb51810f00c8e0d465eddbe8d36bcd3"
+        }
+      }
+    },
+    {
+      "slug": "lettuce",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/lettuce.svg",
+          "sha256": "374228c8c4911e3eaf3f673ed08c52d9100314def92c43de7084491722bde4ae",
+          "bytes": 7492,
+          "width": 24,
+          "cssVarSha256": "503cf70eb600a173680840f8ae2b2a371b876455ac87fadf97ad10e549cea85f"
+        }
+      }
+    },
+    {
+      "slug": "pineapple",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/pineapple.svg",
+          "sha256": "c633104324c073020c6ed6f7173725aa45b5014c6e180caa479ab0e7f36dfd84",
+          "bytes": 8209,
+          "width": 24,
+          "cssVarSha256": "ca317dcaaca614607fbfb13b183384aeed2efc27fccf82e28f82b57bad275d25"
+        }
+      }
+    },
+    {
+      "slug": "lobster",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/lobster.svg",
+          "sha256": "d1f27bfd68558a151d4947c96e603cb604010008f13bf415ba2d97f7766f0794",
+          "bytes": 8044,
+          "width": 24,
+          "cssVarSha256": "0f813bb74694236423b6318b0ebf3a03897ca2f932e027d685c485aab143a2fd"
+        }
+      }
+    }
+  ]
+}

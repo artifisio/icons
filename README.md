@@ -6,6 +6,36 @@ This repository is the **open-source icon registry** for [Artifisio](https://art
 
 ---
 
+## ✨ Featured sets
+
+Every icon is a themeable SVG on a consistent grid — click any set to browse the full collection.
+
+<p align="center">
+<a href="sets/petroglyph-trail"><img src="sets/petroglyph-trail/preview.svg" width="640" alt="Petroglyph Trail" /></a>
+<br />
+<strong><a href="sets/petroglyph-trail">Petroglyph Trail</a></strong><br />
+<sub>62 icons · 24px grid · petroglyph · outdoors · primitive · solid</sub><br /><br />
+<code>npx artifisio add petroglyph-trail --kind icon</code>
+</p>
+
+<p align="center">
+<a href="sets/linocut-market"><img src="sets/linocut-market/preview.svg" width="640" alt="Linocut Market" /></a>
+<br />
+<strong><a href="sets/linocut-market">Linocut Market</a></strong><br />
+<sub>62 icons · 24px grid · linocut · food · handmade · solid</sub><br /><br />
+<code>npx artifisio add linocut-market --kind icon</code>
+</p>
+
+<p align="center">
+<a href="sets/housemates"><img src="sets/housemates/preview.svg" width="640" alt="Housemates" /></a>
+<br />
+<strong><a href="sets/housemates">Housemates</a></strong><br />
+<sub>62 icons · 24px grid · kawaii · home · cute · outline</sub><br /><br />
+<code>npx artifisio add housemates --kind icon</code>
+</p>
+
+---
+
 ## Install via CLI
 
 ```bash
@@ -29,7 +59,7 @@ Icons land in `./public/icons/<set-slug>/`. The CLI writes a `.artifisiorc.json`
 <img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/<set-slug>/svg/<icon>.svg" width="24" />
 ```
 
-Pin to a registry release for reproducible builds: `https://cdn.jsdelivr.net/gh/artifisio/icons@v2026.10.05-1119-cbf8220/sets/<set-slug>/svg/<icon>.svg`.
+Pin to a registry release for reproducible builds: `https://cdn.jsdelivr.net/gh/artifisio/icons@v2026.10.05-1735-cbf8220/sets/<set-slug>/svg/<icon>.svg`.
 
 ---
 
@@ -46,10 +76,14 @@ Duotone sets expose `ink` plus measured `accent-*` slots; every slot is listed i
 
 ---
 
-## Available sets (11 sets · 760 icons)
+## Available sets (15 sets · 960 icons)
 
 | Name | Slug | Icons | Grid | Stroke | Themeable slots | Tags |
 | ---- | ---- | ----- | ---- | ------ | --------------- | ---- |
+| [Petroglyph Trail](sets/petroglyph-trail) | `petroglyph-trail` | 62 | 24px | 2 | ink | petroglyph, outdoors, primitive, solid |
+| [Linocut Market](sets/linocut-market) | `linocut-market` | 62 | 24px | 2 | ink | linocut, food, handmade, solid |
+| [Housemates](sets/housemates) | `housemates` | 62 | 24px | 2 | ink | kawaii, home, cute, outline |
+| [Kitchen Alchemy](sets/kitchen-alchemy-ii) | `kitchen-alchemy-ii` | 14 | 24px | 2 | ink, accent | kitchen, cooking, whimsical, duotone |
 | [Bitmap](sets/bitmap-3) | `bitmap-3` | 34 | 24px | 2 | ink | pixel, retro, lo-fi, solid |
 | [Gaffer](sets/gaffer-2) | `gaffer-2` | 33 | 24px | 2 | ink, accent-1, accent-2 | tape, collage, handmade, duotone |
 | [Bitmap](sets/bitmap-2) | `bitmap-2` | 34 | 24px | 2 | ink | pixel, retro, lo-fi, solid |
@@ -76,7 +110,7 @@ All icons here are licensed under [CC BY 4.0](LICENSE): use them commercially, m
 
 | Field | Value |
 | --- | --- |
-| Registry version | `2026.10.05-1119-cbf8220` |
+| Registry version | `2026.10.05-1735-cbf8220` |
 | CLI | [`artifisio`](https://www.npmjs.com/package/artifisio) |
 | License | [CC BY 4.0](LICENSE) |
 | Other kinds | [`index.json`](index.json) lists every per-kind registry (illustrations, fonts) |

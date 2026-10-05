@@ -2,15 +2,19 @@
 
 > Free, open-licensed icons (CC-BY-4.0) as plain files plus a versioned manifest. Install with the `artifisio` CLI or fetch files straight from the CDN. No account, no runtime dependency.
 
-- Manifest: https://raw.githubusercontent.com/artifisio/icons/main/manifest.json (schemaVersion 2, registryVersion 2026.10.05-1119-cbf8220)
+- Manifest: https://raw.githubusercontent.com/artifisio/icons/main/manifest.json (schemaVersion 2, registryVersion 2026.10.05-1735-cbf8220)
 - Registry index across kinds: https://raw.githubusercontent.com/artifisio/icons/main/index.json
 - CDN file pattern: https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/<set>/<file>
 - Install: `npx artifisio add <set> --kind icon` (writes files + ATTRIBUTION.md)
 - Search: `npx artifisio search "<query>" --kind icon --json`
 - License: LICENSE in this repo; attribution string is in every set's `license.attribution`.
 
-## Sets (11)
+## Sets (15)
 
+- [Petroglyph Trail](https://github.com/artifisio/icons/tree/main/sets/petroglyph-trail): An outdoors family pecked into stone — rock-art stick figures, side-profile animals, spirals and chipped edges, even on a compass or backpack. (62 icons; tags: petroglyph, outdoors, primitive, solid)
+- [Linocut Market](https://github.com/artifisio/icons/tree/main/sets/linocut-market): A farmers'-market family carved from lino — bold black silhouettes cut through with tapered white gouge marks and hand-cut edges. (62 icons; tags: linocut, food, handmade, solid)
+- [Housemates](https://github.com/artifisio/icons/tree/main/sets/housemates): A kawaii household icon family — chubby rounded outlines, and every object wears a tiny face that smiles, winks or blushes. (62 icons; tags: kawaii, home, cute, outline)
+- [Kitchen Alchemy](https://github.com/artifisio/icons/tree/main/sets/kitchen-alchemy-ii): Cooking tools drawn as an alchemist's apparatus — a dark line drawing with one warm accent on the liquid, flame or spark. (14 icons; tags: kitchen, cooking, whimsical, duotone)
 - [Bitmap](https://github.com/artifisio/icons/tree/main/sets/bitmap-3): The core UI set rendered on a coarse pixel lattice — whole square pixels only, staircase diagonals, not one curve in the family. (34 icons; tags: pixel, retro, lo-fi, solid)
 - [Gaffer](https://github.com/artifisio/icons/tree/main/sets/gaffer-2): Every icon torn from tape and pressed down by hand — straight strips at crooked angles, ragged ends and honest overlaps. (33 icons; tags: tape, collage, handmade, duotone)
 - [Bitmap](https://github.com/artifisio/icons/tree/main/sets/bitmap-2): The core UI set rendered on a coarse pixel lattice — whole square pixels only, staircase diagonals, not one curve in the family. (34 icons; tags: pixel, retro, lo-fi, solid)
@@ -25,6 +29,10 @@
 
 ## Preview URLs
 
+- petroglyph-trail: https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/petroglyph-trail/preview.svg
+- linocut-market: https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/linocut-market/preview.svg
+- housemates: https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/housemates/preview.svg
+- kitchen-alchemy-ii: https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/kitchen-alchemy-ii/preview.svg
 - bitmap-3: https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-3/preview.svg
 - gaffer-2: https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/gaffer-2/preview.svg
 - bitmap-2: https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/bitmap-2/preview.svg

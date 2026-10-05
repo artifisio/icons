@@ -1,0 +1,909 @@
+{
+  "slug": "housemates",
+  "name": "Housemates",
+  "description": "A kawaii household icon family — chubby rounded outlines, and every object wears a tiny face that smiles, winks or blushes.",
+  "tags": [
+    "kawaii",
+    "home",
+    "cute",
+    "outline"
+  ],
+  "count": 62,
+  "kind": "icon",
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "attributionRequired": true,
+    "attribution": "Icons by Artifisio (https://artifisio.com)",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "provenance": {
+    "source": "generated",
+    "model": "gpt-image-2.5-flare"
+  },
+  "grid": 24,
+  "stroke": 2,
+  "palette": [
+    {
+      "slot": "ink",
+      "label": "Ink",
+      "hex": "#070707",
+      "role": "themeable"
+    }
+  ],
+  "preview": "preview.svg",
+  "sprite": {
+    "file": "sprite.svg",
+    "sha256": "12036f8fae97a66dc15c9c5bc698d2da22286d999133d864e430a50cdbe15ae9",
+    "bytes": 299611
+  },
+  "icons": [
+    {
+      "slug": "house",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/house.svg",
+          "sha256": "f1581580dd31e18f144a631ae38786dbd96363f7d14980d017213ddc988b74d3",
+          "bytes": 3662,
+          "width": 24,
+          "cssVarSha256": "4a6381bc5b13d48f7ef7d3113683d7a39d2316ee57c08b72020a081699a09fd9"
+        }
+      }
+    },
+    {
+      "slug": "sofa",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/sofa.svg",
+          "sha256": "a1144f99f8d123aec35b18b975cfc7a0bbe2f4e73381daad7055dc5a99798239",
+          "bytes": 4245,
+          "width": 24,
+          "cssVarSha256": "01a85060cadd01f9f67961e9a0d06bb197e0bfc27787c07b13410032e3ff6b17"
+        }
+      }
+    },
+    {
+      "slug": "armchair",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/armchair.svg",
+          "sha256": "395a9b9a1f7375d8af0347d69f4080788bcb617ff77c9875bc3a0790a50ed880",
+          "bytes": 4996,
+          "width": 24,
+          "cssVarSha256": "cde96dffa45f154aaae5f90f9698d9d78a558d6791ffb7ff65253f9bb7aa941c"
+        }
+      }
+    },
+    {
+      "slug": "bed",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/bed.svg",
+          "sha256": "f59cbda705567971d1ba009953a74dd03e94e1328ee7d6bb26861d7c5bfc62b3",
+          "bytes": 4032,
+          "width": 24,
+          "cssVarSha256": "43f52d399d83f5c858cf269472863e764e41883f92f9bd82594988a66898f344"
+        }
+      }
+    },
+    {
+      "slug": "pillow",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/pillow.svg",
+          "sha256": "a09b3cd596ad8e9c2dc31c8462228fcdac6fe6c1b1527fb711e395ac8d9608a9",
+          "bytes": 5319,
+          "width": 24,
+          "cssVarSha256": "2abac2e97c5a28b24742e8b86f7f79d3ded6b5d31d00de4dd99342010a625565"
+        }
+      }
+    },
+    {
+      "slug": "floor-lamp",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/floor-lamp.svg",
+          "sha256": "c3eb8244f924c2b8ce66b8b941e551c0b67a43662be147886ae3a5f391640ef4",
+          "bytes": 4285,
+          "width": 24,
+          "cssVarSha256": "e431668214f44a0326f41cf2bd91e5171fdc91e42936904e55a949f69b71e439"
+        }
+      }
+    },
+    {
+      "slug": "potted-plant",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/potted-plant.svg",
+          "sha256": "26bccfa096f95a86fe76452ced48da125e702f3933a28b9777d5182c837e85fe",
+          "bytes": 5609,
+          "width": 24,
+          "cssVarSha256": "e0fd8d09db3334ecf8346ffcff00885360edee7d4cd03e846bd5fc76eaf6a366"
+        }
+      }
+    },
+    {
+      "slug": "wall-clock",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/wall-clock.svg",
+          "sha256": "73715101e8ebb16346d9b8a3203b90d5080582455cacee30939682f485782c54",
+          "bytes": 5804,
+          "width": 24,
+          "cssVarSha256": "40bb1f4f51752b6d158c20baaf4e0531e5fa454cec8f513362c2e0dc14d98666"
+        }
+      }
+    },
+    {
+      "slug": "mirror",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/mirror.svg",
+          "sha256": "0aa61f04eb088a3b4388b1b26ec4df3ff5a2d9061d1490541e8ba5b70b80d8a3",
+          "bytes": 5427,
+          "width": 24,
+          "cssVarSha256": "e33f3e404f1d16f374ed88af888790f63d27684cbd391951fa31a2382c275307"
+        }
+      }
+    },
+    {
+      "slug": "window",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/window.svg",
+          "sha256": "f5149ebb06e19c10f410bf91ffd62c64e7387cebc9024713a0a9ef4b7f05f3d7",
+          "bytes": 4071,
+          "width": 24,
+          "cssVarSha256": "1dab5fb73a15b0187ea1a2aa06da78d9cc1b8abf0e734be20b6e79e506347e17"
+        }
+      }
+    },
+    {
+      "slug": "door",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/door.svg",
+          "sha256": "01cb111d42a87a10aa81d6237dd869a9271f13db4f8474530d692cf74cd4df26",
+          "bytes": 3487,
+          "width": 24,
+          "cssVarSha256": "98bce12f437c0f89e300830b1dacca6364479f3c90b08e60bbaac51ea1ce1e13"
+        }
+      }
+    },
+    {
+      "slug": "key",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/key.svg",
+          "sha256": "d9de61d76e9bb7299bbcd292bc78c9bf8965af44bd739b225e22a0ab102026e1",
+          "bytes": 3021,
+          "width": 24,
+          "cssVarSha256": "cfe4737c030a93f1e0b1f044bb57eff221bacef449f164d83aca07c19d68607e"
+        }
+      }
+    },
+    {
+      "slug": "bathtub",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/bathtub.svg",
+          "sha256": "be2ee5cb04c49bdf1871f92251e4381a8d6e64ff6ae37a9323ffe3884b973ade",
+          "bytes": 5026,
+          "width": 24,
+          "cssVarSha256": "46ace86d1605d24e87fea9a7162b56be186158c37e590483f4c302c2390560ba"
+        }
+      }
+    },
+    {
+      "slug": "toilet",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/toilet.svg",
+          "sha256": "c46e11e5309a1ab3f72d76f81e4d4f0e534384cd85e0d9004f53d8fcef105b73",
+          "bytes": 4101,
+          "width": 24,
+          "cssVarSha256": "50054f30ed141e13dc73223d7116e9c6b3403481df17686e44251e25accf57ed"
+        }
+      }
+    },
+    {
+      "slug": "toothbrush",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/toothbrush.svg",
+          "sha256": "3de3895dff1b164dcf58adda63a83770dfa18ca07a4d2fab3afd090eae4c142e",
+          "bytes": 4947,
+          "width": 24,
+          "cssVarSha256": "b5c72e53f54631374f824dec62865fb0b75fcaf4a8f4d120396a2938bf412259"
+        }
+      }
+    },
+    {
+      "slug": "soap",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/soap.svg",
+          "sha256": "6900bc3a7bf8bf14d4912121ad0c1ed9e9d8bdda5c74a79dfa19b89c8743bd69",
+          "bytes": 4496,
+          "width": 24,
+          "cssVarSha256": "7d0d01549f167c03d5d76db1a7cb3b2ca4c4ff82040941f6fc316a97ab580a20"
+        }
+      }
+    },
+    {
+      "slug": "shower",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/shower.svg",
+          "sha256": "8093805ea1517c9f027dedb26c9557d11c886f2e56dc4faf76c6345b006d8f17",
+          "bytes": 4850,
+          "width": 24,
+          "cssVarSha256": "70be268c3492976402c20a67acec60cbd26f91a5e6e745e46a50b7da20c11628"
+        }
+      }
+    },
+    {
+      "slug": "washing-machine",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/washing-machine.svg",
+          "sha256": "6a797464d4d4c85ac8eab0c7e4d74aadf9b46b5c991db1ee0f0f99b7092a7dfa",
+          "bytes": 5733,
+          "width": 24,
+          "cssVarSha256": "6d77cb4b9cc1c2887a4978061bb38580abd50cc40254375cf43e89511463eacd"
+        }
+      }
+    },
+    {
+      "slug": "iron",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/iron.svg",
+          "sha256": "60080ee9779bd6c3feab56b9e796f61efbdfb9bcbc29db929d888485aa18c10b",
+          "bytes": 4716,
+          "width": 24,
+          "cssVarSha256": "99472a2e2380c795acea4bc3511a02d96e006c7d94e7d1c6341d0389b6f78482"
+        }
+      }
+    },
+    {
+      "slug": "laundry-basket",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/laundry-basket.svg",
+          "sha256": "27940ae44d1f4b45531eec9e2718a60d06b9d609df75677abfafc610d5ad409e",
+          "bytes": 6205,
+          "width": 24,
+          "cssVarSha256": "4217f4754504353a2dc46767df85b7541071a00e60d91178287dfde74753044b"
+        }
+      }
+    },
+    {
+      "slug": "broom",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/broom.svg",
+          "sha256": "8ca5cd2c6e8f7b7e8c202e1cee7298263729491f39012e444e8ab5ea2c45fc1a",
+          "bytes": 5441,
+          "width": 24,
+          "cssVarSha256": "ac849eb549212f58452421827793ffb9aaa6e30e04e295000c7656484d94f8c6"
+        }
+      }
+    },
+    {
+      "slug": "vacuum",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/vacuum.svg",
+          "sha256": "de5303aa44f948e047173b8f2eb1c3cc37f72ad27ca34aee13ab2896a1a8a30e",
+          "bytes": 6136,
+          "width": 24,
+          "cssVarSha256": "9dc4483593947c6d2d85f59a4b81d04e50c67fc0db9b0153ee578685ab4cb003"
+        }
+      }
+    },
+    {
+      "slug": "bucket",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/bucket.svg",
+          "sha256": "d317a285d0a37067dda0a639cc91c0dd19598dabe01b73e9c765a3ee11c6fd1b",
+          "bytes": 5214,
+          "width": 24,
+          "cssVarSha256": "75815051017bf4c9c1111502fa4862a2e63e9e7cf548c20101b2688b0eaf92eb"
+        }
+      }
+    },
+    {
+      "slug": "spray-bottle",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/spray-bottle.svg",
+          "sha256": "95a1fe91a03cc78db5b9f76a2c617992d6661e80f7c1e245a09d1a6957ebb7eb",
+          "bytes": 4196,
+          "width": 24,
+          "cssVarSha256": "566839ad52ed6cb659ef0f730c656d138ef987b5e2eabefd0412ad63a88e26a6"
+        }
+      }
+    },
+    {
+      "slug": "sponge",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/sponge.svg",
+          "sha256": "855e327b78b296519bc628b5f4a7fb8d0559d9e96daed3df7d9381ac5cd5af67",
+          "bytes": 5181,
+          "width": 24,
+          "cssVarSha256": "1a7a8b5994a3028a5920b8d3b9ee9ac80919dc9654b077d55447456444913fb9"
+        }
+      }
+    },
+    {
+      "slug": "trash-can",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/trash-can.svg",
+          "sha256": "05a2163b649155a1af684fddd7d5f4420715b47603120f917a58f1d30b179e51",
+          "bytes": 4567,
+          "width": 24,
+          "cssVarSha256": "a2ac7f150a524977afbae6edebaa67c4000f008a987ea0ded42244a18ec6001f"
+        }
+      }
+    },
+    {
+      "slug": "fridge",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/fridge.svg",
+          "sha256": "3097c41a14d596ce7cfd1ae465331d0512ab7ec07d8f70e260599007e5cba701",
+          "bytes": 3172,
+          "width": 24,
+          "cssVarSha256": "5a0392fef12821fe7c3fe2e6271aec3c01d9f8a04cb9ef8390940e4a27215808"
+        }
+      }
+    },
+    {
+      "slug": "oven",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/oven.svg",
+          "sha256": "ae1c54395a9e6a714cca145a309e157a1c969b016d85c3d844485126814f67a6",
+          "bytes": 4779,
+          "width": 24,
+          "cssVarSha256": "643646eeaf94c38868629c2a16ed7daca376169ef75fb6010a921e7e48acdfc2"
+        }
+      }
+    },
+    {
+      "slug": "microwave",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/microwave.svg",
+          "sha256": "68320db39353ce8200555544a41d2c4e9d2289608d305735c70c738f90b09959",
+          "bytes": 4120,
+          "width": 24,
+          "cssVarSha256": "601843e11f1eaeb1e3258fa77a34f8b4e9acf9ed858f28000ce820ee20a8504f"
+        }
+      }
+    },
+    {
+      "slug": "toaster",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/toaster.svg",
+          "sha256": "df233190cbdaeda659a81c1f237708bcfe2611f9f6455953b89ee3e625564c42",
+          "bytes": 5211,
+          "width": 24,
+          "cssVarSha256": "099584217ce605503cfb61c6dba0b92b0c644335a14eb893c9eaed99ad3395b3"
+        }
+      }
+    },
+    {
+      "slug": "kettle",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/kettle.svg",
+          "sha256": "7d05e6f27504ed9fa5d7fd915f403afb3405c4d277661e8ce199188f8b9c7e5e",
+          "bytes": 5275,
+          "width": 24,
+          "cssVarSha256": "f0bc09813cb64b5c38992d2d4b38704b2ab3a1a56921835647b4b0ab99c56cb9"
+        }
+      }
+    },
+    {
+      "slug": "teapot",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/teapot.svg",
+          "sha256": "6e563691ac3c2bbe0380e6fdc262134618eeacbeadd2d983089bc3d3a8ffb42b",
+          "bytes": 4780,
+          "width": 24,
+          "cssVarSha256": "6adf66b5d92ece6742633ced68deab2a67028c53aac57c4e0da99dea182c7c5f"
+        }
+      }
+    },
+    {
+      "slug": "mug",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/mug.svg",
+          "sha256": "b9d1d4124d9a1ac592ad1a1369a7a05e316d0c34d0cc3d414cd2d3219b57f00e",
+          "bytes": 4208,
+          "width": 24,
+          "cssVarSha256": "f3271462c36902db6ce05d3079f9eb47ca4226bec80890f9d89f84fcba0e0376"
+        }
+      }
+    },
+    {
+      "slug": "frying-pan",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/frying-pan.svg",
+          "sha256": "fbc5716b192adfbd24335dce6fd2285d15a01b3ab1471c246f5e8b8716214664",
+          "bytes": 4490,
+          "width": 24,
+          "cssVarSha256": "77f8c87de30ed9133913e09b4dc5b40cde885628da8217bdfb3accb0087250d6"
+        }
+      }
+    },
+    {
+      "slug": "cooking-pot",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/cooking-pot.svg",
+          "sha256": "23e6dd38399ccb81085d7017b919bf3fec50959c4a368f1ef5baab6837fbecb5",
+          "bytes": 4438,
+          "width": 24,
+          "cssVarSha256": "e84caa6dd6b8f8f38df87dbaba05304dea85a56b064835b9d434800122830c41"
+        }
+      }
+    },
+    {
+      "slug": "blender",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/blender.svg",
+          "sha256": "25f5951a07a03be38e749e1d122e90a697dc298a81f67dfb3f34f38418e354fa",
+          "bytes": 5590,
+          "width": 24,
+          "cssVarSha256": "3db1971a61149759d41e66135b5249b134d51ae6e0a818e879b345c866bd1502"
+        }
+      }
+    },
+    {
+      "slug": "coffee-maker",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/coffee-maker.svg",
+          "sha256": "b75fed8bd23a8cd2b7fd887308427ff28d0fb0ba0be3f2a66b619cb0a8fd8d56",
+          "bytes": 5297,
+          "width": 24,
+          "cssVarSha256": "6c556272689b321e97ea33575f4b3e8841146e913a139b4f55da48ab0b81439b"
+        }
+      }
+    },
+    {
+      "slug": "fan",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/fan.svg",
+          "sha256": "743a883a79cdfa0a8ee7f1f77e5d3142dde8b5536e598ec464a9c55bea1ccd83",
+          "bytes": 7395,
+          "width": 24,
+          "cssVarSha256": "662d81d54121beb637073e17aeb5e1cf85a2861e6aaecd46cfb8b77da50deac9"
+        }
+      }
+    },
+    {
+      "slug": "radiator",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/radiator.svg",
+          "sha256": "c2027bd2f2c2b94051c9780f14817f446c3ef7d76fa06ea8fff2f19cc573e2b5",
+          "bytes": 6422,
+          "width": 24,
+          "cssVarSha256": "5876d494644e732a6bbce1c347d1b5222d426ecd966f96f1a854abe0808f75a3"
+        }
+      }
+    },
+    {
+      "slug": "thermostat",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/thermostat.svg",
+          "sha256": "3486a42c8fe4b6c89e32e9057cbd83fb2f251064fc1ddb748b48aa85debc3642",
+          "bytes": 7240,
+          "width": 24,
+          "cssVarSha256": "8c21ca5248fad79229974fb3941bd4378dc4bd895e8452be6b85bb9730567c37"
+        }
+      }
+    },
+    {
+      "slug": "light-bulb",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/light-bulb.svg",
+          "sha256": "76d8701b817274b7a3caf3fff06c9d0fb8da1fa8c6651cf3bcfbcc3154351f1d",
+          "bytes": 3896,
+          "width": 24,
+          "cssVarSha256": "ee1f67c6fea2ea60a04787a0cf30c3afa36fcc84430b6f04838cf421b435f85b"
+        }
+      }
+    },
+    {
+      "slug": "candle",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/candle.svg",
+          "sha256": "f854fdf45b549b231ad0916aef20c6cef188192e1348b31e898ae4e99ac13d49",
+          "bytes": 2642,
+          "width": 24,
+          "cssVarSha256": "0e363df974749eda3031ec0ef820b66714295644d8366134e35d58cc29637fec"
+        }
+      }
+    },
+    {
+      "slug": "tv",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/tv.svg",
+          "sha256": "774795bd18f997119da9a9fd490bfe18942418a653cc48a5c6009e546afa07e1",
+          "bytes": 3327,
+          "width": 24,
+          "cssVarSha256": "4f3a7ddaff5b0c0039ca5854113690503f10c611829c794c3663c97dc59e9843"
+        }
+      }
+    },
+    {
+      "slug": "remote",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/remote.svg",
+          "sha256": "3eed14575c3fddc4742ae85f157a5d8902ec94699cbea3e49e0288bdfb82ccad",
+          "bytes": 6679,
+          "width": 24,
+          "cssVarSha256": "89cfb2f1cc139779b995ba8e0883b1522f1d5c4984481e87b5c61e47e3d3cdb7"
+        }
+      }
+    },
+    {
+      "slug": "speaker",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/speaker.svg",
+          "sha256": "b4fa876530ecb4c68a5a3ed3e29dc77f124ddb20201ee186f93d1ab9c8218382",
+          "bytes": 3958,
+          "width": 24,
+          "cssVarSha256": "1e289ec89d649fbf99893a463964a265e130fb66f948a98c3acad01de402e2e2"
+        }
+      }
+    },
+    {
+      "slug": "laptop",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/laptop.svg",
+          "sha256": "1829b9636809552f70ee942d5bf7183dfc86d4f1d4230c88d5096b75b4eff445",
+          "bytes": 3436,
+          "width": 24,
+          "cssVarSha256": "c96f949445cdb6fef17f4c6df8163bfa463629fb8db3bfb964ff57be0303d301"
+        }
+      }
+    },
+    {
+      "slug": "phone",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/phone.svg",
+          "sha256": "ec02e5833bfcb80a5dd6d8ae8f95c430b1c5fc70f77da297fed9531e7d427611",
+          "bytes": 2188,
+          "width": 24,
+          "cssVarSha256": "121025fe6f4311b4c349f5bfb0f7dddd10e6571e9fda57085cf2e8b4dcafbf59"
+        }
+      }
+    },
+    {
+      "slug": "book",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/book.svg",
+          "sha256": "60cf8fac57170e129c0de69880e4807caccf10b345a9c7fac85e2cdd3aea64ea",
+          "bytes": 4919,
+          "width": 24,
+          "cssVarSha256": "9a32a548ebf5dc1e7d2fc3bae545d0dba319876195c0bf81b09c1f5d205eab1a"
+        }
+      }
+    },
+    {
+      "slug": "bookshelf",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/bookshelf.svg",
+          "sha256": "c66d2b9462dd9826044868199ab0f7afe06d75dbbfe071534d4c56cccc64a3e5",
+          "bytes": 7077,
+          "width": 24,
+          "cssVarSha256": "19d3285941b6a8101997052f4e7265c3c98b2b1cbeeec7648985e3de983dc72d"
+        }
+      }
+    },
+    {
+      "slug": "picture-frame",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/picture-frame.svg",
+          "sha256": "808d147a189c50182ec0ad62974dd02f8f03991ca4748db032b2843475aaf247",
+          "bytes": 3870,
+          "width": 24,
+          "cssVarSha256": "abe7bde41e772938c4cb501141e18dd1561c99f37222a3140869731be9f2b11f"
+        }
+      }
+    },
+    {
+      "slug": "rug",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/rug.svg",
+          "sha256": "8ccccdfa46ef55bfaf094761c3b50aea90d7c6f869bb786b8abeaf3ae90a4953",
+          "bytes": 9476,
+          "width": 24,
+          "cssVarSha256": "2d3c5db4f7d14bcc0fa3f3970649a5f03e4cee6949cd9bf63c6e07517aef7f8f"
+        }
+      }
+    },
+    {
+      "slug": "cat",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/cat.svg",
+          "sha256": "43af75c7621684ad4185c9eeaa4aa20dd248339f98b735e0736a58c1d9abef42",
+          "bytes": 6674,
+          "width": 24,
+          "cssVarSha256": "2183b1bb78ae32cef7aa74e012375f5d6f0135d1bbe7add6272e92b391c8cfc0"
+        }
+      }
+    },
+    {
+      "slug": "dog",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/dog.svg",
+          "sha256": "6c02c9b69eb7f754e0535f70ff537f7d7838b94fd6de30f5717820f20ccdeed6",
+          "bytes": 6526,
+          "width": 24,
+          "cssVarSha256": "4b4558ff5bbba426349ea3fa5c36e60bf1e21abe9d0f715ee698f9dbd2aee727"
+        }
+      }
+    },
+    {
+      "slug": "fishbowl",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/fishbowl.svg",
+          "sha256": "a2d3f28ea72fa509ede10d0a5879ec2fc6e74851896ca384a37511516d01fa40",
+          "bytes": 5648,
+          "width": 24,
+          "cssVarSha256": "5726f0e8cc374dda737b951d3eb8037c87b1fd683d75d8b9d170630a5814a32d"
+        }
+      }
+    },
+    {
+      "slug": "umbrella",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/umbrella.svg",
+          "sha256": "d00a02bb6dfa30b4763f9ce4348dd980294a11e4526dce66c5efa6ef7d4cfdbb",
+          "bytes": 4236,
+          "width": 24,
+          "cssVarSha256": "a62accde1544640989c801df81553f877de53730069b0882b1dc73e1fc0ab3d0"
+        }
+      }
+    },
+    {
+      "slug": "coat-hanger",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/coat-hanger.svg",
+          "sha256": "233a3846a72826046b14ea1602aba5d302897e58245a2e3c97e6ba5f6eb64d26",
+          "bytes": 2887,
+          "width": 24,
+          "cssVarSha256": "aa52ba15953f113f0e05c9c1390e117caf3bd42006a4a5e4b10be5703e27cbd9"
+        }
+      }
+    },
+    {
+      "slug": "slippers",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/slippers.svg",
+          "sha256": "36dbcd83277ece06550c6c80fb530505a0401747d50faa18ab8344285aa48c6c",
+          "bytes": 4421,
+          "width": 24,
+          "cssVarSha256": "13e8fc8e1f65c2b1a7c6aac4690c4f24bb0d64e99dcc5a0bc06544c53479f300"
+        }
+      }
+    },
+    {
+      "slug": "alarm-clock",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/alarm-clock.svg",
+          "sha256": "237a66d9e51bbdf5d2493956f963935136adebfd91733a3a03bf746cdc700709",
+          "bytes": 7770,
+          "width": 24,
+          "cssVarSha256": "03c5a4e2d3cb5b2b908f62d11c71bfc3a46e48bfb860723c642be95dd11f59ec"
+        }
+      }
+    },
+    {
+      "slug": "battery",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/battery.svg",
+          "sha256": "3a0ef5127f0defaa83ddabe1db5c2ffb92948e3feb8c28f0dc40094d96fcc433",
+          "bytes": 3116,
+          "width": 24,
+          "cssVarSha256": "4c717ecbb2cf6a4014fc2dd2305b176289a93ec2c29c511a8659a84e567582d4"
+        }
+      }
+    },
+    {
+      "slug": "plug",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/plug.svg",
+          "sha256": "2ca7d45b86e2e11b01374ae31c6b3db50181fffba801732db76f422e93f537e6",
+          "bytes": 4307,
+          "width": 24,
+          "cssVarSha256": "b5fdc31226686cd047fc4a9334e37e4e7114899ed4afe694a4cf4d1b5f918bd5"
+        }
+      }
+    },
+    {
+      "slug": "router",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/router.svg",
+          "sha256": "e49fa8229d2f20a628a673a69e633ea1372d2fecc5af72702af91aa8bf3c79f3",
+          "bytes": 5698,
+          "width": 24,
+          "cssVarSha256": "33a171c9b2083ff2594d530d37fe10c3e7cb99186a895211c18a84cbea9cca55"
+        }
+      }
+    },
+    {
+      "slug": "doorbell",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/doorbell.svg",
+          "sha256": "b74e214f001e7b043b5395d67104a8fe07d4b8b8c0bc2376fe42376598a955d9",
+          "bytes": 3946,
+          "width": 24,
+          "cssVarSha256": "d638ab4ca6d767b16ac4229f5de838e262396ba85b58a015b65445deb83711ef"
+        }
+      }
+    }
+  ]
+}

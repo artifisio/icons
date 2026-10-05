@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026.10.05-1735-cbf8220  _(2026-10-05)_
+
+### Added
+
+- `petroglyph-trail` (62 icons)
+- `linocut-market` (62 icons)
+- `housemates` (62 icons)
+- `kitchen-alchemy-ii` (14 icons)
+
+---
+
 ## 2026.10.05-1119-cbf8220  _(2026-10-05)_
 
 ### Added
