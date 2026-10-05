@@ -1,0 +1,518 @@
+{
+  "slug": "cross-stitch-gpt2",
+  "name": "Cross Stitch · GPT Image 2",
+  "description": "A cosy home icon family sewn rather than drawn — every contour is a running line of stitches on an implied fabric weave.",
+  "tags": [
+    "embroidery",
+    "stitch",
+    "cosy",
+    "outline",
+    "gpt2"
+  ],
+  "count": 34,
+  "kind": "icon",
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "attributionRequired": true,
+    "attribution": "Icons by Artifisio (https://artifisio.com)",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "provenance": {
+    "source": "generated",
+    "model": "gpt-image-2"
+  },
+  "grid": 24,
+  "stroke": 2,
+  "palette": [
+    {
+      "slot": "ink",
+      "label": "Ink",
+      "hex": "#090909",
+      "role": "themeable"
+    }
+  ],
+  "preview": "preview.svg",
+  "sprite": {
+    "file": "sprite.svg",
+    "sha256": "0eff8a23ba28a3ab244435397d127bc3f8f6ab9cf4816989ae7d93a3458b788a",
+    "bytes": 553575
+  },
+  "icons": [
+    {
+      "slug": "house",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/house.svg",
+          "sha256": "4d40b755d18c9e5897e167f892d52bd3df47a0ea322bb7a6db3cc29ac94d525d",
+          "bytes": 17730,
+          "width": 24,
+          "cssVarSha256": "04d2b7863b5edb1cd1172c7e2bbcf1978ec5799cba7ef538ac740027724333c5"
+        }
+      }
+    },
+    {
+      "slug": "teapot",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/teapot.svg",
+          "sha256": "e7956c231d34bdc5485adac037ac8ee1be90fb83cc5180dd7761fa5474eb67c4",
+          "bytes": 16262,
+          "width": 24,
+          "cssVarSha256": "8f45ed82bb1048664bdb5150c9a4b4a4e93ab5c9fe26fb940716125bbdb0e6a6"
+        }
+      }
+    },
+    {
+      "slug": "mug",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/mug.svg",
+          "sha256": "aeab970882fd424b4ada018e280e564771dfb0bed5d709077596209f90c9f5e8",
+          "bytes": 13087,
+          "width": 24,
+          "cssVarSha256": "b65efa95ab4d5a69c8e46c4a1c9aa72e362e72201e477081736c3abb0b630ff3"
+        }
+      }
+    },
+    {
+      "slug": "cake",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/cake.svg",
+          "sha256": "0cb3433dd3e4811cafee0f64b79e009a8239b7840d2e62f86cedff99a238c23b",
+          "bytes": 16134,
+          "width": 24,
+          "cssVarSha256": "7a9f10f4b0e8b99b02576ca9fba8fc9b6d8d162136b183ee0f47acb649919710"
+        }
+      }
+    },
+    {
+      "slug": "cookie",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/cookie.svg",
+          "sha256": "83ec5ad671b18486580f6bb68947493b2047722dfe5ddaf0e53f95fe8ed484f9",
+          "bytes": 14060,
+          "width": 24,
+          "cssVarSha256": "a04143f35f1e66f730ccbdc1c3bd91315fc7aac27d2098362003141e9716c9a9"
+        }
+      }
+    },
+    {
+      "slug": "candle",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/candle.svg",
+          "sha256": "8ba9e82ed21726e2ce4d4dba64793d12040bfcd8f65624fd5d3d6f51a56e782a",
+          "bytes": 12773,
+          "width": 24,
+          "cssVarSha256": "1fc81784b5f916d7d3445789e44a0cc8f46712e5d681d1940a31822131a22675"
+        }
+      }
+    },
+    {
+      "slug": "lamp",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/lamp.svg",
+          "sha256": "0eefda082ccad583bc43e557f8af1945f810869e5ee77b0f45a800d4f860bad2",
+          "bytes": 13320,
+          "width": 24,
+          "cssVarSha256": "665401c3c9f48945e78065088526c6ca56703dd41e4a8189348e02ad4acb688c"
+        }
+      }
+    },
+    {
+      "slug": "chair",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/chair.svg",
+          "sha256": "b1076b9f56875fc1ee872dc6b01ecd801c09a267d9f0e8a6eb9b0b53dd951ccd",
+          "bytes": 14785,
+          "width": 24,
+          "cssVarSha256": "419c26f347019444119d95bb08b6890dddf60f4d3705252ca75beb66ac00645c"
+        }
+      }
+    },
+    {
+      "slug": "sofa",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/sofa.svg",
+          "sha256": "fa6ba08cba8274735034201cf353af0ab9c6c721ddfc8e1a864f2dadb0aa3487",
+          "bytes": 20921,
+          "width": 24,
+          "cssVarSha256": "c449dc5e7035b9411c88f4e4708951223e9a762d9ac584c1c1c4c456cb7132c4"
+        }
+      }
+    },
+    {
+      "slug": "bed",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/bed.svg",
+          "sha256": "2d5f5c06d0947a25c06dd6d8d9faebac1564c65593b98a85a451c0e2ed00e089",
+          "bytes": 19607,
+          "width": 24,
+          "cssVarSha256": "96b88fab6500cf3fb8a0470f510985348f326ce75e0e2248337b379a370fd7b7"
+        }
+      }
+    },
+    {
+      "slug": "clock",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/clock.svg",
+          "sha256": "bf86a3ee01ea7470a5ffede9f11bf6aecab78697c1f55401199af66f886b1bd2",
+          "bytes": 12282,
+          "width": 24,
+          "cssVarSha256": "17056e4609675c658034364fafb7661ecc5c977594c9d89b2385a852db14388a"
+        }
+      }
+    },
+    {
+      "slug": "window",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/window.svg",
+          "sha256": "3c5bf2a147812993d7a90bc282891031abfdecada7e9ca6afa12605312808d63",
+          "bytes": 26203,
+          "width": 24,
+          "cssVarSha256": "9d860a24cc17549a2d52f2f42cf65cb9bc70924445b9cbf94215b65e7c6452b9"
+        }
+      }
+    },
+    {
+      "slug": "door",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/door.svg",
+          "sha256": "7b99050164f973a2426d456050f47838742bf24f35fc07f7ba15b26abe26c58f",
+          "bytes": 21189,
+          "width": 24,
+          "cssVarSha256": "bda72aa7711997b04d0d83affb835446219ecb8030e9c31745723552987e58ef"
+        }
+      }
+    },
+    {
+      "slug": "plant",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/plant.svg",
+          "sha256": "43d0cefc06f992e1aa4248a34016a62343f6818a960fc4a3b598e15f259dc77e",
+          "bytes": 17982,
+          "width": 24,
+          "cssVarSha256": "c4dc7034d63aec6bbd219c12b5122f8bd8aca950983874beb11b1710ad7b9dbc"
+        }
+      }
+    },
+    {
+      "slug": "flower",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/flower.svg",
+          "sha256": "e0e9f01eaba3a55c7d7aa24b5e7b040af6acc02b1919d59206c01cba555494be",
+          "bytes": 16597,
+          "width": 24,
+          "cssVarSha256": "6f42ae9a55078eef1fbd17ba708465ebe113c12eae6e9fd843303c704d7c5d7d"
+        }
+      }
+    },
+    {
+      "slug": "tree",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/tree.svg",
+          "sha256": "70a37b43419e7b585bbe6fab035ba2c8dd9831b565dca7105ea1a742822283b5",
+          "bytes": 14093,
+          "width": 24,
+          "cssVarSha256": "07f3da9ff2b24ecb2c6dd5626a47b998f22e5b69100cb6c132e909ee96ae1ca2"
+        }
+      }
+    },
+    {
+      "slug": "leaf",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/leaf.svg",
+          "sha256": "1abc50781fbfa998de2c2c23e6c3262127103de0d5c8efed71b6236e033a8051",
+          "bytes": 12975,
+          "width": 24,
+          "cssVarSha256": "602ca3e853aa53bbb9a35d1b147d7a45527da7a5741b35a86e29f13d341ace00"
+        }
+      }
+    },
+    {
+      "slug": "bird",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/bird.svg",
+          "sha256": "87859a37f510e627069eb5a0c4b7be2105a397919ef3a29c9ad0b40b303c0691",
+          "bytes": 14375,
+          "width": 24,
+          "cssVarSha256": "2270b033e9c008c651d538f0d06952ab074db47c00279b103f6c3b633c90c6c4"
+        }
+      }
+    },
+    {
+      "slug": "cat",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/cat.svg",
+          "sha256": "14078fcf0143efa24a596b885e770b9510cabb2ec1f3edb654228bf04ceac2af",
+          "bytes": 16922,
+          "width": 24,
+          "cssVarSha256": "e3700acfa32ab68b828db431dde257f978ac51eb5d5e82daff903c5c1b72180e"
+        }
+      }
+    },
+    {
+      "slug": "dog",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/dog.svg",
+          "sha256": "6ef4b96c3111332e690559fd7ee354e9c353296a9b5e21942c4e049edc79b2c1",
+          "bytes": 18414,
+          "width": 24,
+          "cssVarSha256": "087626b650bf52751039ac438b5b3911648ed8b4685c9a7c7771df5c043f4f31"
+        }
+      }
+    },
+    {
+      "slug": "sun",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/sun.svg",
+          "sha256": "73df1a4a0bcb1cc130fe722d2adf7b2bcbd95faf20bc09214ed6b1b9de4b2cef",
+          "bytes": 10999,
+          "width": 24,
+          "cssVarSha256": "248a15333ae769ccce27605248b36549d717955b89d64c9de60e28eb1027ae0a"
+        }
+      }
+    },
+    {
+      "slug": "moon",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/moon.svg",
+          "sha256": "7bc237415f9cd3e2bf0a0d58d96cb45b5c6671d2d68aa7226cb75633fde7948b",
+          "bytes": 13581,
+          "width": 24,
+          "cssVarSha256": "523f5d76d935a6ea32e70f3400fde75b112de7651dc6c510918bb89348a4237d"
+        }
+      }
+    },
+    {
+      "slug": "cloud",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/cloud.svg",
+          "sha256": "4bd505aaf79809315a719135cc3081d1a34b0bda20164fea49179b5b2ffe94f4",
+          "bytes": 10342,
+          "width": 24,
+          "cssVarSha256": "5e1891088a97f467702c7c1dc920b488aecd3e41d678cae0224c477ff87b877b"
+        }
+      }
+    },
+    {
+      "slug": "rain",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/rain.svg",
+          "sha256": "ae73cd5bc7e89ced1d8d8ed8fbfb416eb2ccc5cbbdb2c743790a172937e1f144",
+          "bytes": 14196,
+          "width": 24,
+          "cssVarSha256": "020a3cf820bacc4c53ad92418c043f29f599ee30c517968d2a2bc949203041bd"
+        }
+      }
+    },
+    {
+      "slug": "snowflake",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/snowflake.svg",
+          "sha256": "47abb1b33d79982661550796e2ea8ba5debeac3d9de718e466b2db76999f114e",
+          "bytes": 17449,
+          "width": 24,
+          "cssVarSha256": "af641e5410541e36ed6ab36eed9fddfbc3f560cde8b625b34092b34a42e394f0"
+        }
+      }
+    },
+    {
+      "slug": "umbrella",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/umbrella.svg",
+          "sha256": "2d8bda3d5a52f831c580ada8a08096f81ca503abc51e35fb17ec18902820b046",
+          "bytes": 14712,
+          "width": 24,
+          "cssVarSha256": "f675be2734f9080b1cdcefd73d044840555c70083995b2507d29f21a4b5d7a8b"
+        }
+      }
+    },
+    {
+      "slug": "boot",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/boot.svg",
+          "sha256": "d350f5a39f55af88f791acab419a805dcc3b9b674dd745824af3e1421907904c",
+          "bytes": 11906,
+          "width": 24,
+          "cssVarSha256": "dffb2a5eb6cbc2b9a9fda6c65b1db9b692b4530d6820f932022eb4102dc6de59"
+        }
+      }
+    },
+    {
+      "slug": "hat",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/hat.svg",
+          "sha256": "119b2ed296420ea369722cdfb7f3ce01b1664749ad9d4fb093b88d6f50116172",
+          "bytes": 15835,
+          "width": 24,
+          "cssVarSha256": "5d36fc03099928cde4f3a2663074148fea4e4c18b7b1bcdcf1b6c87da4bb5579"
+        }
+      }
+    },
+    {
+      "slug": "scarf",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/scarf.svg",
+          "sha256": "0b6d93ff7cc7a3378b761c72362a5b8878a243f2a6ec55f7a858b32f83c59af8",
+          "bytes": 18273,
+          "width": 24,
+          "cssVarSha256": "f0a4faf644ca8d6b6790fe30735776290a27a61a4ce7cff66cf68fc2284f5767"
+        }
+      }
+    },
+    {
+      "slug": "mitten",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/mitten.svg",
+          "sha256": "0377ce63ce32ca29282f1751d0cf2b6cc3786e5b71b29dec799a4ab0e62e2038",
+          "bytes": 13780,
+          "width": 24,
+          "cssVarSha256": "70af80f0d57bb1765b50158d987c3ac1ae30b28a7fce8bed5f7fcc1addc9ccd6"
+        }
+      }
+    },
+    {
+      "slug": "basket",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/basket.svg",
+          "sha256": "79513736adc415ea3213dc988bf5bf9400f33c9445221955165aca36e6903dd5",
+          "bytes": 29972,
+          "width": 24,
+          "cssVarSha256": "d0b143e529ec8cf3bfc599394c3f7eca4e191a32bbb89e7943294a3263159259"
+        }
+      }
+    },
+    {
+      "slug": "jar",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/jar.svg",
+          "sha256": "1d4dfac15fac5c4827a11396d9ceaa67ead40e6a2a17cc5c8306ac57d624555c",
+          "bytes": 18717,
+          "width": 24,
+          "cssVarSha256": "cb697c29529a3168692df253e4dec295c33963b419b0b27a0311a00e6bb5d9c3"
+        }
+      }
+    },
+    {
+      "slug": "spool",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/spool.svg",
+          "sha256": "ff75ad75e1d6f459da5d6dc5913eeb4e3cc0952bddcc7645e56f4aa006d2b4e7",
+          "bytes": 24813,
+          "width": 24,
+          "cssVarSha256": "63bed5daddc00a95fa102b035daff5e7a306512438204fc3784821ceb4383fc1"
+        }
+      }
+    },
+    {
+      "slug": "needle",
+      "premium": false,
+      "defaultVariant": "svg",
+      "variants": {
+        "svg": {
+          "file": "svg/needle.svg",
+          "sha256": "baea3efdc476f873cac910582cff5f67573d919ed4926862904f78783ec13651",
+          "bytes": 11679,
+          "width": 24,
+          "cssVarSha256": "5ff9035de5de53d202d0b3f61d85645cef82594db70447731bfa806a7713f6ae"
+        }
+      }
+    }
+  ]
+}
