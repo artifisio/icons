@@ -59,7 +59,7 @@ Icons land in `./public/icons/<set-slug>/`. The CLI writes a `.artifisiorc.json`
 <img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/<set-slug>/svg/<icon>.svg" width="24" />
 ```
 
-Pin to a registry release for reproducible builds: `https://cdn.jsdelivr.net/gh/artifisio/icons@v2026.10.05-1735-cbf8220/sets/<set-slug>/svg/<icon>.svg`.
+Pin to a registry release for reproducible builds: `https://cdn.jsdelivr.net/gh/artifisio/icons@v2026.10.12-1151-b71d4f2/sets/<set-slug>/svg/<icon>.svg`.
 
 ---
 
@@ -110,7 +110,7 @@ All icons here are licensed under [CC BY 4.0](LICENSE): use them commercially, m
 
 | Field | Value |
 | --- | --- |
-| Registry version | `2026.10.05-1735-cbf8220` |
+| Registry version | `2026.10.12-1151-b71d4f2` |
 | CLI | [`artifisio`](https://www.npmjs.com/package/artifisio) |
 | License | [CC BY 4.0](LICENSE) |
 | Other kinds | [`index.json`](index.json) lists every per-kind registry (illustrations, fonts) |
