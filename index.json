@@ -10,7 +10,7 @@
       "repo": "artifisio/icons",
       "manifest": "https://raw.githubusercontent.com/artifisio/icons/main/manifest.json",
       "cdn": "https://cdn.jsdelivr.net/gh/artifisio/icons@main",
-      "registryVersion": "2026.10.12-1151-b71d4f2",
+      "registryVersion": "2026.10.19-0952-9a492e3",
       "sets": 15
     },
     "font": {
