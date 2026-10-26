@@ -2,7 +2,7 @@
 
 > Free, open-licensed icons (CC-BY-4.0) as plain files plus a versioned manifest. Install with the `artifisio` CLI or fetch files straight from the CDN. No account, no runtime dependency.
 
-- Manifest: https://raw.githubusercontent.com/artifisio/icons/main/manifest.json (schemaVersion 2, registryVersion 2026.10.19-0952-9a492e3)
+- Manifest: https://raw.githubusercontent.com/artifisio/icons/main/manifest.json (schemaVersion 2, registryVersion 2026.10.26-0959-2d9a969)
 - Registry index across kinds: https://raw.githubusercontent.com/artifisio/icons/main/index.json
 - CDN file pattern: https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/<set>/<file>
 - Install: `npx artifisio add <set> --kind icon` (writes files + ATTRIBUTION.md)
