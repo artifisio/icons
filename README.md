@@ -78,7 +78,7 @@ npx artifisio update <set>
 <img src="https://cdn.jsdelivr.net/gh/artifisio/icons@main/sets/<set>/svg/<icon>.svg" width="24" />
 ```
 
-Swap `@main` for a release tag such as `@v2026.10.27-2125-36700ff` to pin it.
+Swap `@main` for a release tag such as `@v2026.11.02-1212-7f39092` to pin it.
 
 ## Theming
 
@@ -99,7 +99,7 @@ All icons here are licensed under [CC BY 4.0](LICENSE): use them commercially, m
 
 | Field | Value |
 | --- | --- |
-| Registry version | `2026.10.27-2125-36700ff` |
+| Registry version | `2026.11.02-1212-7f39092` |
 | CLI | [`artifisio`](https://www.npmjs.com/package/artifisio) |
 | License | [CC BY 4.0](LICENSE) |
 | Other kinds | [`index.json`](index.json) lists every per-kind registry (illustrations, fonts) |
